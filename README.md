@@ -18,7 +18,7 @@ Note some work still needs to done to clean this up - e.g. by removing files fro
 * Need to develop unit tests
 
 ## Extra features
-* Error messages. I am currently thinking having an abbreviated error message, but also having a ribbon function which you can press on it to explain the error
+* Error messages. I am currently thinking having an abbreviated error message, but also having a ribbon function which you can press on it to explain the error. (Basic version implemented 23.07.2021)
 * Error messages. Currently a very rudimentary return value to a cell. Perhaps better to make a pop-up tkinter box or something similar
 * Decision variables. Implement some sort of optimisation features. (e.g. stochastic gradient descent etc)
 * More complicated flow simulation
