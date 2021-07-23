@@ -2,10 +2,15 @@
 This is for variables we use across several scripts
 
 Also defines cell_data which retrieves the distribution info of a selected cell
+
+This script should *not* import others in the file, as it is imported into nearly all of them
+(circular dependency)
 """
+from sre_constants import error
 import scipy.stats
-from pyxll import xl_app, xl_func
+from pyxll import xl_app, xl_func, create_ctp, CTPDockPositionFloating
 import re
+import tkinter as tk
 
 distributions_dictionary = {"N":{"num_params":2, "scipy_handle":scipy.stats.norm, "params":"mean, variance","Name": "Normal Distribution"},
                             "C":{"num_params":2, "scipy_handle":scipy.stats.cauchy, "params": "mean, scaling","Name": "Cauchy"},
@@ -22,10 +27,24 @@ screen_freeze_disabled = True #for debugging, screen freezing often causes probl
 simulation_num = 15000
 
 #dictionary matching error codes to what the error is
-PNumEr_str = "This error means you entered the wrong number of parameters for the distribution selected"
-MultCellSelEr_str = "Multiple cells were selected and only one should have been"
+PNumEr_str = """Parameter Number Error.
+This error means you entered the wrong number of parameters\n for the distribution selected"""
+MultCellSelEr_str = """Multiple Cell Selection Error
+Multiple cells were selected and only one should have been"""
+ErrorButtonEr_str = "Oops - you selected multiple cells\n while using the error button"
+
+#oops is reserved for a user mistake using the error message button
 error_messages_dictionary = {"PNumEr":PNumEr_str,
-                            "MultCellSelEr":MultCellSelEr_str}
+                            "MultCellSelEr":MultCellSelEr_str,
+                            "Oops!": ErrorButtonEr_str}
+
+
+
+
+"""
+Returns cell distribution information
+
+"""
 
 
 def cell_data(control, cell_location, id_location=id_location, 
@@ -69,5 +88,56 @@ def cell_data(control, cell_location, id_location=id_location,
     return_dict["distribution_id"] = values[-1]
 
     return return_dict
-    
+
+
+"""
+Implementing error tkinter window for use elsewhere
+
+
+
+"""
+class ErrorFrame(tk.Frame):
+
+    def __init__(self, master, error_id, error_messages_dictionary=error_messages_dictionary):
+        super().__init__(master)
+        self.error_id = error_id
+        self.error_messages_dictionary = error_messages_dictionary
+        self.initUI()
+
+
+    def initUI(self):
+        # allow the widget to take the full space of the root window
+        self.pack(fill=tk.BOTH, expand=True)
+
+        # Create a tk.Label control and place it using the 'grid' method
+        self.label_value = tk.StringVar()
+        self.label = tk.Label(self, textvar=self.label_value)
+        self.label.grid(column=0, row=1, padx=10, pady=10, sticky="w")
+        self.label_value.set(self.error_messages_dictionary[self.error_id])
+
+
+        # Allow the first column in the grid to stretch horizontally
+        self.columnconfigure(0, weight=1)
+ 
+
+def explainError(control, error_id, error_messages_dictionary=error_messages_dictionary):
+    """
+    Given an error id pop up an explanation of what it means
+    """
+        # Create the top level Tk window and give it a title
+    window = tk.Toplevel()
+    window.title("Error id: "+error_id)
+
+    # Create our example frame from the code above and add
+    # it to the top level window.
+    frame = ErrorFrame(master=window, error_id=error_id)
+
+    # Use PyXLL's 'create_ctp' function to create the custom task pane.
+    # The width, height and position arguments are optional, but for this
+    # example we'll create the CTP as a floating window rather than the
+    # default of having it docked to the right.
+    create_ctp(window,
+               width=800,
+               height=400,
+               position=CTPDockPositionFloating)
 

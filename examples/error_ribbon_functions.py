@@ -1,14 +1,20 @@
 """
 This is for ribbon functions used for understanding error messages,
-for user feature requests
+for user feature requests. 
+
+This will be imported by other modules, and ideally should remain only having 
+a dependency on meta_variables.py
 """
 
 #helpful variables
 from meta_variables import distributions_dictionary, id_location, screen_freeze_disabled
 from meta_variables import error_messages_dictionary
 from meta_variables import cell_data
+from meta_variables import explainError
 
-from pyxll import xl_app
+from pyxll import xl_app, xl_menu
+
+import re
 
 def default_values(control, distribution_id, selection, params):
     """
@@ -46,4 +52,17 @@ def default_values_wrapper(control, id_location=id_location):
 
         default_values(control, distribution_id=distribution_id, selection=current_cell.Address, params=params)
 
+def explainErrorWrapper(control):
+    """
+    Given an error code, explains it
+    """
+    xl = xl_app()
 
+    if re.search("[:,]", xl.Selection.Address):
+        """the button should only be used on a single entry"""
+        explainError(control=control, error_id="Oops!", error_messages_dictionary=error_messages_dictionary)
+        return
+    else:
+        error_id = xl.Selection.Value
+        explainError(control=control, error_id=error_id, error_messages_dictionary=error_messages_dictionary)
+        return

@@ -21,7 +21,8 @@ import random
 import re
 
 #variables we will need
-from meta_variables import distributions_dictionary, id_location, screen_freeze_disabled, simulation_num
+from meta_variables import distributions_dictionary, id_location, screen_freeze_disabled
+from meta_variables import simulation_num, error_messages_dictionary
 
 
 #Custom user interface
@@ -210,7 +211,8 @@ PLOTTING DISTRIBUTIONS
 
 
 
-def display_distribution(control, screen_freeze_disabled=screen_freeze_disabled, id_location=id_location):
+def display_distribution(control, screen_freeze_disabled=screen_freeze_disabled, 
+                    id_location=id_location):
     """
     Input for this can be in two forms. Either
     (param1, param2,...) and (Dist_key) in a different cell
@@ -223,6 +225,17 @@ def display_distribution(control, screen_freeze_disabled=screen_freeze_disabled,
 
     user_sheet = xl.ActiveSheet.Name
     user_address = xl.Selection.Address
+
+    if re.search("[,:]", user_address):
+        """
+        checks for if the user's selection is a single cell. If not then returns an error
+        message
+        """
+        xl.Selection.Value = "MultCellSelEr"
+        return
+    else:
+        pass
+
     distribution_sheet = xl.Range(id_location).Value
     #TO-DO # NOTE that we will need to add either an error message here if the distribtuion sheet doesn't exist,
     #or create it

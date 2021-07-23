@@ -784,3 +784,490 @@ ModuleNotFoundError: spec not found for the module 'plotting_functions'
 2021-07-23 12:19:26,318 - INFO : This product is licensed to 
 2021-07-23 12:19:26,318 - INFO : The license will expire on 2021-08-21 (29 days left)
 2021-07-23 12:24:20,338 - INFO : callbacks.on_close: PyXLL is closing
+2021-07-23 12:34:02,426 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-23 12:34:02,426 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-23 12:34:04,145 - INFO : This product is licensed to 
+2021-07-23 12:34:04,145 - INFO : The license will expire on 2021-08-21 (29 days left)
+2021-07-23 12:34:18,125 - ERROR : Error calling ribbon function 'ribbon_functions.display_distribution'
+2021-07-23 12:34:19,396 - ERROR : Traceback (most recent call last):
+2021-07-23 12:34:19,396 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\ribbon_functions.py", line 237, in display_distribution
+2021-07-23 12:34:19,397 - ERROR :     vals = x.split(",")
+2021-07-23 12:34:19,397 - ERROR : AttributeError: 'tuple' object has no attribute 'split'
+2021-07-23 12:44:09,777 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-23 12:44:09,777 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-23 12:44:09,872 - INFO : This product is licensed to 
+2021-07-23 12:44:09,872 - INFO : The license will expire on 2021-08-21 (29 days left)
+2021-07-23 12:44:17,083 - ERROR : Error calling ribbon function 'ribbon_functions.display_distribution'
+2021-07-23 12:44:20,020 - ERROR : Traceback (most recent call last):
+2021-07-23 12:44:20,021 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\lib\site-packages\win32com\client\__init__.py", line 490, in __setattr__
+2021-07-23 12:44:20,021 - ERROR :     args, defArgs=self._prop_map_put_[attr]
+2021-07-23 12:44:20,021 - ERROR : KeyError: 'Address'
+2021-07-23 12:44:20,021 - ERROR : 
+2021-07-23 12:44:20,021 - ERROR : During handling of the above exception, another exception occurred:
+2021-07-23 12:44:20,021 - ERROR : 
+2021-07-23 12:44:20,021 - ERROR : Traceback (most recent call last):
+2021-07-23 12:44:20,022 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\ribbon_functions.py", line 234, in display_distribution
+2021-07-23 12:44:20,022 - ERROR :     xl.Selection.Address = "MultCellSelEr"
+2021-07-23 12:44:20,022 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\lib\site-packages\win32com\client\__init__.py", line 492, in __setattr__
+2021-07-23 12:44:20,022 - ERROR :     raise AttributeError("'%s' object has no attribute '%s'" % (repr(self), attr))
+2021-07-23 12:44:20,022 - ERROR : AttributeError: '<win32com.gen_py.Microsoft Excel 16.0 Object Library.Range instance at 0x2147549443792>' object has no attribute 'Address'
+2021-07-23 12:44:28,801 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-23 12:44:28,801 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-23 12:44:28,894 - INFO : This product is licensed to 
+2021-07-23 12:44:28,894 - INFO : The license will expire on 2021-08-21 (29 days left)
+2021-07-23 13:13:17,893 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-23 13:13:17,893 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-23 13:13:17,993 - INFO : This product is licensed to 
+2021-07-23 13:13:17,993 - INFO : The license will expire on 2021-08-21 (29 days left)
+2021-07-23 13:13:41,689 - ERROR : Error calling ribbon function 'error_ribbon_functions.explainErrorWrapper'
+2021-07-23 13:13:49,902 - ERROR : Traceback (most recent call last):
+2021-07-23 13:13:49,902 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\error_ribbon_functions.py", line 64, in explainErrorWrapper
+2021-07-23 13:13:49,902 - ERROR :     explainError(control=control, error_id="Oops!", 
+2021-07-23 13:13:49,902 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\meta_variables.py", line 126, in explainError
+2021-07-23 13:13:49,902 - ERROR :     frame = ErrorFrame(master=window)
+2021-07-23 13:13:49,902 - ERROR : TypeError: __init__() missing 1 required positional argument: 'error_id'
+2021-07-23 13:14:46,287 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-23 13:14:46,288 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-23 13:14:46,388 - INFO : This product is licensed to 
+2021-07-23 13:14:46,388 - INFO : The license will expire on 2021-08-21 (29 days left)
+2021-07-23 13:14:49,624 - ERROR : Error calling ribbon function 'error_ribbon_functions.explainErrorWrapper'
+2021-07-23 13:14:53,256 - ERROR : Traceback (most recent call last):
+2021-07-23 13:14:53,257 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\error_ribbon_functions.py", line 64, in explainErrorWrapper
+2021-07-23 13:14:53,257 - ERROR :     explainError(control=control, error_id="Oops!", 
+2021-07-23 13:14:53,257 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\meta_variables.py", line 126, in explainError
+2021-07-23 13:14:53,257 - ERROR :     frame = ErrorFrame(master=window, error_id=error_id)
+2021-07-23 13:14:53,258 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\meta_variables.py", line 103, in __init__
+2021-07-23 13:14:53,258 - ERROR :     self.initUI()
+2021-07-23 13:14:53,258 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\meta_variables.py", line 113, in initUI
+2021-07-23 13:14:53,258 - ERROR :     T.insert(tk.END, self.error_messages_dictionary[self.error_id])
+2021-07-23 13:14:53,258 - ERROR : AttributeError: 'ErrorFrame' object has no attribute 'error_messages_dictionary'
+2021-07-23 13:15:17,773 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-23 13:15:17,774 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-23 13:15:17,860 - INFO : This product is licensed to 
+2021-07-23 13:15:17,860 - INFO : The license will expire on 2021-08-21 (29 days left)
+2021-07-23 13:15:21,114 - ERROR : Error calling ribbon function 'error_ribbon_functions.explainErrorWrapper'
+2021-07-23 13:15:29,664 - ERROR : Traceback (most recent call last):
+2021-07-23 13:15:29,664 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\error_ribbon_functions.py", line 64, in explainErrorWrapper
+2021-07-23 13:15:29,665 - ERROR :     explainError(control=control, error_id="Oops!", 
+2021-07-23 13:15:29,665 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\meta_variables.py", line 127, in explainError
+2021-07-23 13:15:29,665 - ERROR :     frame = ErrorFrame(master=window, error_id=error_id)
+2021-07-23 13:15:29,665 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\meta_variables.py", line 103, in __init__
+2021-07-23 13:15:29,666 - ERROR :     self.initUI()
+2021-07-23 13:15:29,666 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\meta_variables.py", line 114, in initUI
+2021-07-23 13:15:29,666 - ERROR :     T.insert(tk.END, self.error_messages_dictionary[self.error_id])
+2021-07-23 13:15:29,666 - ERROR : AttributeError: 'ErrorFrame' object has no attribute 'error_messages_dictionary'
+2021-07-23 13:15:38,259 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-23 13:15:38,259 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-23 13:15:38,348 - INFO : This product is licensed to 
+2021-07-23 13:15:38,348 - INFO : The license will expire on 2021-08-21 (29 days left)
+2021-07-23 13:15:41,910 - ERROR : Error calling ribbon function 'error_ribbon_functions.explainErrorWrapper'
+2021-07-23 13:15:46,920 - ERROR : Traceback (most recent call last):
+2021-07-23 13:15:46,920 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\error_ribbon_functions.py", line 64, in explainErrorWrapper
+2021-07-23 13:15:46,921 - ERROR :     explainError(control=control, error_id="Oops!", 
+2021-07-23 13:15:46,921 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\meta_variables.py", line 127, in explainError
+2021-07-23 13:15:46,921 - ERROR :     frame = ErrorFrame(master=window, error_id=error_id)
+2021-07-23 13:15:46,921 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\meta_variables.py", line 103, in __init__
+2021-07-23 13:15:46,921 - ERROR :     self.initUI()
+2021-07-23 13:15:46,921 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\meta_variables.py", line 114, in initUI
+2021-07-23 13:15:46,922 - ERROR :     T.insert(tk.END, self.error_messages_dictionary[self.error_id])
+2021-07-23 13:15:46,922 - ERROR : AttributeError: 'ErrorFrame' object has no attribute 'error_messages_dictionary'
+2021-07-23 13:15:49,404 - INFO : callbacks.on_close: PyXLL is closing
+2021-07-23 13:16:43,960 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-23 13:16:43,960 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-23 13:16:45,659 - INFO : This product is licensed to 
+2021-07-23 13:16:45,659 - INFO : The license will expire on 2021-08-21 (29 days left)
+2021-07-23 13:17:00,629 - ERROR : Error calling ribbon function 'error_ribbon_functions.explainErrorWrapper'
+2021-07-23 13:17:15,166 - ERROR : Traceback (most recent call last):
+2021-07-23 13:17:15,166 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\error_ribbon_functions.py", line 67, in explainErrorWrapper
+2021-07-23 13:17:15,167 - ERROR :     explainError(control=control, error_id=control.Selection.Value, 
+2021-07-23 13:17:15,167 - ERROR : AttributeError: 'IRibbonControl' object has no attribute 'Selection'
+2021-07-23 13:17:19,118 - ERROR : Error calling ribbon function 'error_ribbon_functions.explainErrorWrapper'
+2021-07-23 13:17:31,697 - ERROR : Traceback (most recent call last):
+2021-07-23 13:17:31,697 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\error_ribbon_functions.py", line 64, in explainErrorWrapper
+2021-07-23 13:17:31,697 - ERROR :     explainError(control=control, error_id="Oops!", 
+2021-07-23 13:17:31,697 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\meta_variables.py", line 127, in explainError
+2021-07-23 13:17:31,698 - ERROR :     frame = ErrorFrame(master=window, error_id=error_id)
+2021-07-23 13:17:31,698 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\meta_variables.py", line 103, in __init__
+2021-07-23 13:17:31,698 - ERROR :     self.initUI()
+2021-07-23 13:17:31,698 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\meta_variables.py", line 114, in initUI
+2021-07-23 13:17:31,698 - ERROR :     T.insert(tk.END, self.error_messages_dictionary[self.error_id])
+2021-07-23 13:17:31,698 - ERROR : AttributeError: 'ErrorFrame' object has no attribute 'error_messages_dictionary'
+2021-07-23 13:17:49,349 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-23 13:17:49,349 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-23 13:17:49,445 - INFO : This product is licensed to 
+2021-07-23 13:17:49,445 - INFO : The license will expire on 2021-08-21 (29 days left)
+2021-07-23 13:18:09,274 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-23 13:18:09,274 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-23 13:18:09,361 - INFO : This product is licensed to 
+2021-07-23 13:18:09,361 - INFO : The license will expire on 2021-08-21 (29 days left)
+2021-07-23 13:19:22,570 - ERROR : Error calling ribbon function 'error_ribbon_functions.explainErrorWrapper'
+2021-07-23 13:19:25,041 - ERROR : Traceback (most recent call last):
+2021-07-23 13:19:25,042 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\error_ribbon_functions.py", line 67, in explainErrorWrapper
+2021-07-23 13:19:25,042 - ERROR :     explainError(control=control, error_id=control.Selection.Value, 
+2021-07-23 13:19:25,042 - ERROR : AttributeError: 'IRibbonControl' object has no attribute 'Selection'
+2021-07-23 13:25:34,240 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-23 13:25:34,240 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-23 13:25:34,331 - INFO : This product is licensed to 
+2021-07-23 13:25:34,331 - INFO : The license will expire on 2021-08-21 (29 days left)
+2021-07-23 13:25:54,605 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-23 13:25:54,605 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-23 13:25:54,706 - INFO : This product is licensed to 
+2021-07-23 13:25:54,706 - INFO : The license will expire on 2021-08-21 (29 days left)
+2021-07-23 13:26:11,658 - ERROR : Error calling ribbon function 'error_ribbon_functions.explainErrorWrapper'
+2021-07-23 13:26:37,165 - ERROR : Error calling ribbon function 'error_ribbon_functions.explainErrorWrapper'
+2021-07-23 13:26:38,297 - ERROR : Traceback (most recent call last):
+2021-07-23 13:26:38,297 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\error_ribbon_functions.py", line 67, in explainErrorWrapper
+2021-07-23 13:26:38,298 - ERROR :     explainError(control=control, error_id=xl.Selection.Value, 
+2021-07-23 13:26:38,298 - ERROR : AttributeError: 'IRibbonControl' object has no attribute 'Selection'
+2021-07-23 13:26:41,267 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-23 13:26:41,267 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-23 13:26:41,355 - INFO : This product is licensed to 
+2021-07-23 13:26:41,355 - INFO : The license will expire on 2021-08-21 (29 days left)
+2021-07-23 13:26:46,046 - ERROR : Error calling ribbon function 'error_ribbon_functions.explainErrorWrapper'
+2021-07-23 13:26:59,735 - ERROR : Traceback (most recent call last):
+2021-07-23 13:26:59,735 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\error_ribbon_functions.py", line 67, in explainErrorWrapper
+2021-07-23 13:26:59,735 - ERROR :     explainError(control=control, error_id=xl.Selection.Value, 
+2021-07-23 13:26:59,735 - ERROR : AttributeError: 'IRibbonControl' object has no attribute 'Selection'
+2021-07-23 13:29:11,691 - ERROR : Error calling ribbon function 'error_ribbon_functions.explainErrorWrapper'
+2021-07-23 13:29:12,982 - ERROR : Traceback (most recent call last):
+2021-07-23 13:29:12,982 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\error_ribbon_functions.py", line 67, in explainErrorWrapper
+2021-07-23 13:29:12,982 - ERROR :     explainError(control=control, error_id=xl.Selection.Value, 
+2021-07-23 13:29:12,982 - ERROR : AttributeError: 'IRibbonControl' object has no attribute 'Selection'
+2021-07-23 13:30:42,452 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-23 13:30:42,452 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-23 13:30:42,553 - INFO : This product is licensed to 
+2021-07-23 13:30:42,553 - INFO : The license will expire on 2021-08-21 (29 days left)
+2021-07-23 13:30:48,488 - ERROR : Error calling ribbon function 'error_ribbon_functions.explainErrorWrapper'
+2021-07-23 13:30:56,790 - ERROR : Traceback (most recent call last):
+2021-07-23 13:30:56,790 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\error_ribbon_functions.py", line 67, in explainErrorWrapper
+2021-07-23 13:30:56,790 - ERROR :     error_id = xl.Selection.Value
+2021-07-23 13:30:56,790 - ERROR : AttributeError: 'IRibbonControl' object has no attribute 'Selection'
+2021-07-23 13:32:17,548 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-23 13:32:17,548 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-23 13:32:17,634 - INFO : This product is licensed to 
+2021-07-23 13:32:17,634 - INFO : The license will expire on 2021-08-21 (29 days left)
+2021-07-23 13:32:21,481 - ERROR : Error calling ribbon function 'error_ribbon_functions.explainErrorWrapper'
+2021-07-23 13:32:23,864 - ERROR : Traceback (most recent call last):
+2021-07-23 13:32:23,864 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\error_ribbon_functions.py", line 67, in explainErrorWrapper
+2021-07-23 13:32:23,864 - ERROR :     error_id = xl.Selection.Value
+2021-07-23 13:32:23,864 - ERROR : AttributeError: 'IRibbonControl' object has no attribute 'Selection'
+2021-07-23 13:32:38,323 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-23 13:32:38,323 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-23 13:32:38,407 - INFO : This product is licensed to 
+2021-07-23 13:32:38,407 - INFO : The license will expire on 2021-08-21 (29 days left)
+2021-07-23 13:32:42,433 - ERROR : Error calling ribbon function 'error_ribbon_functions.explainErrorWrapper'
+2021-07-23 13:32:44,310 - ERROR : Traceback (most recent call last):
+2021-07-23 13:32:44,310 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\error_ribbon_functions.py", line 67, in explainErrorWrapper
+2021-07-23 13:32:44,310 - ERROR :     else:
+2021-07-23 13:32:44,310 - ERROR : AttributeError: 'IRibbonControl' object has no attribute 'Selection'
+2021-07-23 13:32:46,214 - ERROR : Error calling ribbon function 'error_ribbon_functions.explainErrorWrapper'
+2021-07-23 13:32:55,847 - ERROR : Traceback (most recent call last):
+2021-07-23 13:32:55,847 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\error_ribbon_functions.py", line 67, in explainErrorWrapper
+2021-07-23 13:32:55,847 - ERROR :     else:
+2021-07-23 13:32:55,847 - ERROR : AttributeError: 'IRibbonControl' object has no attribute 'Selection'
+2021-07-23 13:34:14,662 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-23 13:34:14,662 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-23 13:34:14,755 - INFO : This product is licensed to 
+2021-07-23 13:34:14,755 - INFO : The license will expire on 2021-08-21 (29 days left)
+2021-07-23 13:34:18,060 - ERROR : Error calling ribbon function 'error_ribbon_functions.explainErrorWrapper'
+2021-07-23 13:34:29,865 - ERROR : Traceback (most recent call last):
+2021-07-23 13:34:29,865 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\error_ribbon_functions.py", line 67, in explainErrorWrapper
+2021-07-23 13:34:29,865 - ERROR :     error_id = xl.ActiveSheet.Range(xl.Selection).Value
+2021-07-23 13:34:29,865 - ERROR : AttributeError: 'IRibbonControl' object has no attribute 'Selection'
+2021-07-23 13:36:02,378 - ERROR : Error calling ribbon function 'error_ribbon_functions.explainErrorWrapper'
+2021-07-23 13:36:07,247 - ERROR : Traceback (most recent call last):
+2021-07-23 13:36:07,247 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\error_ribbon_functions.py", line 67, in explainErrorWrapper
+2021-07-23 13:36:07,247 - ERROR :     error_id = xl.ActiveSheet.Range(xl.Selection).Value
+2021-07-23 13:36:07,247 - ERROR : AttributeError: 'IRibbonControl' object has no attribute 'Selection'
+2021-07-23 13:37:02,556 - ERROR : Error calling ribbon function 'error_ribbon_functions.explainErrorWrapper'
+2021-07-23 13:37:05,283 - ERROR : Traceback (most recent call last):
+2021-07-23 13:37:05,284 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\error_ribbon_functions.py", line 67, in explainErrorWrapper
+2021-07-23 13:37:05,284 - ERROR :     error_id = xl.ActiveSheet.Range(xl.Selection).Value
+2021-07-23 13:37:05,284 - ERROR : AttributeError: 'IRibbonControl' object has no attribute 'Selection'
+2021-07-23 13:38:53,992 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-23 13:38:53,992 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-23 13:38:54,076 - INFO : This product is licensed to 
+2021-07-23 13:38:54,076 - INFO : The license will expire on 2021-08-21 (29 days left)
+2021-07-23 13:38:58,740 - ERROR : Error calling ribbon function 'error_ribbon_functions.explainErrorWrapper'
+2021-07-23 13:39:01,935 - ERROR : Traceback (most recent call last):
+2021-07-23 13:39:01,935 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\error_ribbon_functions.py", line 67, in explainErrorWrapper
+2021-07-23 13:39:01,935 - ERROR :     explainError(control=control, error_id=error_id,
+2021-07-23 13:39:01,935 - ERROR : AttributeError: 'IRibbonControl' object has no attribute 'Selection'
+2021-07-23 13:39:30,861 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-23 13:39:30,861 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-23 13:39:30,948 - INFO : This product is licensed to 
+2021-07-23 13:39:30,948 - INFO : The license will expire on 2021-08-21 (29 days left)
+2021-07-23 13:39:35,593 - ERROR : Error calling ribbon function 'error_ribbon_functions.explainErrorWrapper'
+2021-07-23 13:39:39,658 - ERROR : Traceback (most recent call last):
+2021-07-23 13:39:39,658 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\error_ribbon_functions.py", line 67, in explainErrorWrapper
+2021-07-23 13:39:39,659 - ERROR : AttributeError: 'IRibbonControl' object has no attribute 'Selection'
+2021-07-23 13:40:44,095 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-23 13:40:44,095 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-23 13:40:44,199 - INFO : This product is licensed to 
+2021-07-23 13:40:44,199 - INFO : The license will expire on 2021-08-21 (29 days left)
+2021-07-23 13:40:48,485 - ERROR : Error calling ribbon function 'error_ribbon_functions.explainErrorWrapper'
+2021-07-23 13:40:50,751 - ERROR : Traceback (most recent call last):
+2021-07-23 13:40:50,751 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\error_ribbon_functions.py", line 67, in explainErrorWrapper
+2021-07-23 13:40:50,751 - ERROR : AttributeError: 'IRibbonControl' object has no attribute 'Selection'
+2021-07-23 13:40:58,359 - INFO : callbacks.on_close: PyXLL is closing
+2021-07-23 13:41:03,513 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-23 13:41:03,513 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-23 13:41:05,257 - INFO : This product is licensed to 
+2021-07-23 13:41:05,257 - INFO : The license will expire on 2021-08-21 (29 days left)
+2021-07-23 13:41:17,713 - ERROR : Error calling ribbon function 'error_ribbon_functions.explainErrorWrapper'
+2021-07-23 13:41:24,062 - ERROR : Traceback (most recent call last):
+2021-07-23 13:41:24,062 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\error_ribbon_functions.py", line 65, in explainErrorWrapper
+2021-07-23 13:41:24,063 - ERROR :     error_id = xl.ActiveSheet.Range(xl.Selection).Value
+2021-07-23 13:41:24,063 - ERROR :   File "C:\Users\ethan\AppData\Local\Temp\gen_py\3.8\00020813-0000-0000-C000-000000000046x0x1x9\_Worksheet.py", line 239, in Range
+2021-07-23 13:41:24,063 - ERROR :     ret = self._oleobj_.InvokeTypes(197, LCID, 2, (9, 0), ((12, 1), (12, 17)),Cell1
+2021-07-23 13:41:24,063 - ERROR : pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, None, None, None, 0, -2146827284), None)
+2021-07-23 13:41:50,811 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-23 13:41:50,811 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-23 13:41:50,895 - INFO : This product is licensed to 
+2021-07-23 13:41:50,895 - INFO : The license will expire on 2021-08-21 (29 days left)
+2021-07-23 13:42:41,593 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-23 13:42:41,593 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-23 13:42:41,678 - INFO : This product is licensed to 
+2021-07-23 13:42:41,678 - INFO : The license will expire on 2021-08-21 (29 days left)
+2021-07-23 13:44:43,728 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-23 13:44:43,728 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
