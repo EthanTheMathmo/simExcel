@@ -7,6 +7,7 @@ This script should *not* import others in the file, as it is imported into nearl
 (circular dependency)
 """
 from sre_constants import error
+from tkinter.constants import BOTH
 import scipy.stats
 from pyxll import xl_app, xl_func, create_ctp, CTPDockPositionFloating
 import re
@@ -31,7 +32,7 @@ PNumEr_str = """Parameter Number Error.
 This error means you entered the wrong number of parameters\n for the distribution selected"""
 MultCellSelEr_str = """Multiple Cell Selection Error
 Multiple cells were selected and only one should have been"""
-ErrorButtonEr_str = "Oops - you selected multiple cells\n while using the error button"
+ErrorButtonEr_str = "Oops - you selected multiple cells while using the error button"
 
 #oops is reserved for a user mistake using the error message button
 error_messages_dictionary = {"PNumEr":PNumEr_str,
@@ -102,6 +103,7 @@ class ErrorFrame(tk.Frame):
         super().__init__(master)
         self.error_id = error_id
         self.error_messages_dictionary = error_messages_dictionary
+
         self.initUI()
 
 
@@ -112,7 +114,7 @@ class ErrorFrame(tk.Frame):
         # Create a tk.Label control and place it using the 'grid' method
         self.label_value = tk.StringVar()
         self.label = tk.Label(self, textvar=self.label_value)
-        self.label.grid(column=0, row=1, padx=10, pady=10, sticky="w")
+        self.label.grid(column=0, row=1, sticky="w")
         self.label_value.set(self.error_messages_dictionary[self.error_id])
 
 

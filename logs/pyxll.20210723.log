@@ -1273,3 +1273,124 @@ ModuleNotFoundError: spec not found for the module 'plotting_functions'
 2021-07-23 13:44:43,728 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
 2021-07-23 13:44:43,824 - INFO : This product is licensed to 
 2021-07-23 13:44:43,824 - INFO : The license will expire on 2021-08-21 (29 days left)
+2021-07-23 14:07:54,336 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-23 14:07:54,336 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-23 14:07:54,378 - ERROR : Error reloading 'meta_variables'
+Traceback (most recent call last):
+  File "build/x64/py38/res/release/pyxll.py", line 835, in _open
+  File "build/x64/py38/res/release/pyxll.py", line 8047, in reload
+  File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\Lib\imp.py", line 314, in reload
+    return importlib.reload(module)
+  File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\Lib\importlib\__init__.py", line 169, in reload
+    _bootstrap._exec(spec, module)
+  File "<frozen importlib._bootstrap>", line 604, in _exec
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\ethan\Documents\simExcel\examples\meta_variables.py", line 110
+    text =
+          ^
+SyntaxError: invalid syntax
+2021-07-23 14:07:54,394 - ERROR : Not reloading dependency error_ribbon_functions because of previous failure to reload meta_variables
+2021-07-23 14:07:54,394 - ERROR : Not reloading dependency tkinter_frames because of previous failure to reload meta_variables
+2021-07-23 14:07:54,394 - ERROR : Not reloading dependency examples.tkinter_frames because of previous failure to reload meta_variables
+2021-07-23 14:07:54,395 - ERROR : Not reloading ribbon_functions because of previous failure to reload meta_variables
+2021-07-23 14:07:57,615 - INFO : This product is licensed to 
+2021-07-23 14:07:57,615 - INFO : The license will expire on 2021-08-21 (29 days left)
+2021-07-23 14:07:57,621 - ERROR : Error loading 'meta_variables' : invalid syntax (meta_variables.py, line 110)
+2021-07-23 14:08:17,048 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-23 14:08:17,048 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-23 14:08:17,140 - INFO : This product is licensed to 
+2021-07-23 14:08:17,140 - INFO : The license will expire on 2021-08-21 (29 days left)
+2021-07-23 14:09:58,196 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-23 14:09:58,197 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-23 14:09:58,285 - INFO : This product is licensed to 
+2021-07-23 14:09:58,285 - INFO : The license will expire on 2021-08-21 (29 days left)
+2021-07-23 14:10:16,841 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-23 14:10:16,841 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-23 14:10:16,933 - INFO : This product is licensed to 
+2021-07-23 14:10:16,933 - INFO : The license will expire on 2021-08-21 (29 days left)
+2021-07-23 14:10:28,883 - INFO : callbacks.on_close: PyXLL is closing
+2021-07-23 14:10:46,802 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-23 14:10:46,803 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-23 14:10:48,597 - INFO : This product is licensed to 
+2021-07-23 14:10:48,597 - INFO : The license will expire on 2021-08-21 (29 days left)
+2021-07-23 14:12:00,283 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-23 14:12:00,283 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-23 14:12:00,367 - INFO : This product is licensed to 
+2021-07-23 14:12:00,367 - INFO : The license will expire on 2021-08-21 (29 days left)
+2021-07-23 14:13:26,039 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-23 14:13:26,039 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-23 14:13:26,141 - INFO : This product is licensed to 
+2021-07-23 14:13:26,141 - INFO : The license will expire on 2021-08-21 (29 days left)
