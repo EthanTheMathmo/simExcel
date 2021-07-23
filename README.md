@@ -21,3 +21,5 @@ Note some work still needs to done to clean this up - e.g. by removing files fro
 * Error messages. I am currently thinking having an abbreviated error message, but also having a ribbon function which you can press on it to explain the error
 * Decision variables. Implement some sort of optimisation features. (e.g. stochastic gradient descent etc)
 * More complicated flow simulation
+* request a feature button 
+* Default value ribbon for the cell values ribbon.
