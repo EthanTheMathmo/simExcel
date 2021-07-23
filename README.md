@@ -22,3 +22,4 @@ Note some work still needs to done to clean this up - e.g. by removing files fro
 * Decision variables. Implement some sort of optimisation features. (e.g. stochastic gradient descent etc)
 * More complicated flow simulation
 * request a feature button 
+* Default value ribbon for the cell values ribbon.
