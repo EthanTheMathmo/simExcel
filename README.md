@@ -25,3 +25,4 @@ Note some work still needs to done to clean this up - e.g. by removing files fro
 * request a feature button 
 * Default value ribbon for the cell values ribbon. (done 23.07.21)
 * Plotting. Have a dot on the pdf to show the mean and the median
+* Default values. For the triangular distribution it is currently the mode. But this leads to silly values being displayed for some cases. E.g. for a triangular distribution with the end points at 0 and 100, with peak at 3. Displaying 3 is somewhat silly when the average will be waaaay higher than that
