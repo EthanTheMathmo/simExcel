@@ -171,3 +171,247 @@ Traceback (most recent call last):
 ModuleNotFoundError: No module named 'aiohttp'
 2021-07-23 09:41:05,047 - INFO : This product is licensed to 
 2021-07-23 09:41:05,047 - INFO : The license will expire on 2021-08-21 (29 days left)
+2021-07-23 09:58:19,807 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-23 09:58:19,807 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-23 09:58:19,852 - WARNING : aiohttp could not be imported. Async example will not work
+Traceback (most recent call last):
+  File "C:\Users\ethan\Documents\simExcel\examples\asyncfunc.py", line 24, in <module>
+    import aiohttp
+  File "build/x64/py38/res/release/pyxll.py", line 8206, in __import_hook
+ModuleNotFoundError: No module named 'aiohttp'
+2021-07-23 09:58:19,920 - INFO : This product is licensed to 
+2021-07-23 09:58:19,920 - INFO : The license will expire on 2021-08-21 (29 days left)
+2021-07-23 10:05:49,044 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-23 10:05:49,044 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-23 10:05:49,079 - ERROR : Error reloading 'arrayfunctions'
+Traceback (most recent call last):
+  File "build/x64/py38/res/release/pyxll.py", line 835, in _open
+  File "build/x64/py38/res/release/pyxll.py", line 8047, in reload
+  File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\Lib\imp.py", line 314, in reload
+    return importlib.reload(module)
+  File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\Lib\importlib\__init__.py", line 168, in reload
+    raise ModuleNotFoundError(f"spec not found for the module {name!r}", name=name)
+ModuleNotFoundError: spec not found for the module 'arrayfunctions'
+2021-07-23 10:05:49,103 - ERROR : Error reloading 'asyncfunc'
+Traceback (most recent call last):
+  File "build/x64/py38/res/release/pyxll.py", line 835, in _open
+  File "build/x64/py38/res/release/pyxll.py", line 8047, in reload
+  File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\Lib\imp.py", line 314, in reload
+    return importlib.reload(module)
+  File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\Lib\importlib\__init__.py", line 168, in reload
+    raise ModuleNotFoundError(f"spec not found for the module {name!r}", name=name)
+ModuleNotFoundError: spec not found for the module 'asyncfunc'
+2021-07-23 10:05:49,105 - ERROR : Error reloading 'automation'
+Traceback (most recent call last):
+  File "build/x64/py38/res/release/pyxll.py", line 835, in _open
+  File "build/x64/py38/res/release/pyxll.py", line 8047, in reload
+  File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\Lib\imp.py", line 314, in reload
+    return importlib.reload(module)
+  File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\Lib\importlib\__init__.py", line 168, in reload
+    raise ModuleNotFoundError(f"spec not found for the module {name!r}", name=name)
+ModuleNotFoundError: spec not found for the module 'automation'
+2021-07-23 10:05:53,332 - INFO : This product is licensed to 
+2021-07-23 10:05:53,332 - INFO : The license will expire on 2021-08-21 (29 days left)
+2021-07-23 10:05:53,338 - ERROR : Error loading 'arrayfunctions' : spec not found for the module 'arrayfunctions'
+2021-07-23 10:05:53,338 - ERROR : Error loading 'asyncfunc' : spec not found for the module 'asyncfunc'
+2021-07-23 10:05:53,339 - ERROR : Error loading 'automation' : spec not found for the module 'automation'
+2021-07-23 10:06:06,286 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-23 10:06:06,287 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-23 10:06:06,332 - ERROR : Error reloading 'arrayfunctions'
+Traceback (most recent call last):
+  File "build/x64/py38/res/release/pyxll.py", line 835, in _open
+  File "build/x64/py38/res/release/pyxll.py", line 8047, in reload
+  File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\Lib\imp.py", line 314, in reload
+    return importlib.reload(module)
+  File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\Lib\importlib\__init__.py", line 168, in reload
+    raise ModuleNotFoundError(f"spec not found for the module {name!r}", name=name)
+ModuleNotFoundError: spec not found for the module 'arrayfunctions'
+2021-07-23 10:06:06,336 - ERROR : Error reloading 'asyncfunc'
+Traceback (most recent call last):
+  File "build/x64/py38/res/release/pyxll.py", line 835, in _open
+  File "build/x64/py38/res/release/pyxll.py", line 8047, in reload
+  File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\Lib\imp.py", line 314, in reload
+    return importlib.reload(module)
+  File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\Lib\importlib\__init__.py", line 168, in reload
+    raise ModuleNotFoundError(f"spec not found for the module {name!r}", name=name)
+ModuleNotFoundError: spec not found for the module 'asyncfunc'
+2021-07-23 10:06:06,338 - ERROR : Error reloading 'automation'
+Traceback (most recent call last):
+  File "build/x64/py38/res/release/pyxll.py", line 835, in _open
+  File "build/x64/py38/res/release/pyxll.py", line 8047, in reload
+  File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\Lib\imp.py", line 314, in reload
+    return importlib.reload(module)
+  File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\Lib\importlib\__init__.py", line 168, in reload
+    raise ModuleNotFoundError(f"spec not found for the module {name!r}", name=name)
+ModuleNotFoundError: spec not found for the module 'automation'
+2021-07-23 10:06:32,550 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-23 10:06:32,550 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-23 10:06:32,631 - INFO : This product is licensed to 
+2021-07-23 10:06:32,631 - INFO : The license will expire on 2021-08-21 (29 days left)
+2021-07-23 10:07:23,166 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-23 10:07:23,166 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-23 10:07:23,201 - ERROR : Error reloading 'customtypes'
+Traceback (most recent call last):
+  File "build/x64/py38/res/release/pyxll.py", line 835, in _open
+  File "build/x64/py38/res/release/pyxll.py", line 8047, in reload
+  File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\Lib\imp.py", line 314, in reload
+    return importlib.reload(module)
+  File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\Lib\importlib\__init__.py", line 168, in reload
+    raise ModuleNotFoundError(f"spec not found for the module {name!r}", name=name)
+ModuleNotFoundError: spec not found for the module 'customtypes'
+2021-07-23 10:07:33,570 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-23 10:07:33,570 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-23 10:07:33,651 - INFO : This product is licensed to 
+2021-07-23 10:07:33,651 - INFO : The license will expire on 2021-08-21 (29 days left)
+2021-07-23 10:08:27,632 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-23 10:08:27,632 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-23 10:08:29,444 - INFO : This product is licensed to 
+2021-07-23 10:08:29,444 - INFO : The license will expire on 2021-08-21 (29 days left)
+2021-07-23 10:10:46,493 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-23 10:10:46,493 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-23 10:10:46,529 - ERROR : Error reloading 'objectcache'
+Traceback (most recent call last):
+  File "build/x64/py38/res/release/pyxll.py", line 835, in _open
+  File "build/x64/py38/res/release/pyxll.py", line 8047, in reload
+  File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\Lib\imp.py", line 314, in reload
+    return importlib.reload(module)
+  File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\Lib\importlib\__init__.py", line 168, in reload
+    raise ModuleNotFoundError(f"spec not found for the module {name!r}", name=name)
+ModuleNotFoundError: spec not found for the module 'objectcache'
+2021-07-23 10:10:46,535 - ERROR : Error reloading 'plotting_functions'
+Traceback (most recent call last):
+  File "build/x64/py38/res/release/pyxll.py", line 835, in _open
+  File "build/x64/py38/res/release/pyxll.py", line 8047, in reload
+  File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\Lib\imp.py", line 314, in reload
+    return importlib.reload(module)
+  File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\Lib\importlib\__init__.py", line 168, in reload
+    raise ModuleNotFoundError(f"spec not found for the module {name!r}", name=name)
+ModuleNotFoundError: spec not found for the module 'plotting_functions'
+2021-07-23 10:10:48,027 - INFO : This product is licensed to 
+2021-07-23 10:10:48,027 - INFO : The license will expire on 2021-08-21 (29 days left)
+2021-07-23 10:10:48,033 - ERROR : Error loading 'objectcache' : spec not found for the module 'objectcache'
+2021-07-23 10:10:48,034 - ERROR : Error loading 'plotting_functions' : spec not found for the module 'plotting_functions'
+2021-07-23 10:10:50,195 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-23 10:10:50,196 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-23 10:10:50,229 - ERROR : Error reloading 'objectcache'
+Traceback (most recent call last):
+  File "build/x64/py38/res/release/pyxll.py", line 835, in _open
+  File "build/x64/py38/res/release/pyxll.py", line 8047, in reload
+  File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\Lib\imp.py", line 314, in reload
+    return importlib.reload(module)
+  File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\Lib\importlib\__init__.py", line 168, in reload
+    raise ModuleNotFoundError(f"spec not found for the module {name!r}", name=name)
+ModuleNotFoundError: spec not found for the module 'objectcache'
+2021-07-23 10:10:50,234 - ERROR : Error reloading 'plotting_functions'
+Traceback (most recent call last):
+  File "build/x64/py38/res/release/pyxll.py", line 835, in _open
+  File "build/x64/py38/res/release/pyxll.py", line 8047, in reload
+  File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\Lib\imp.py", line 314, in reload
+    return importlib.reload(module)
+  File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\Lib\importlib\__init__.py", line 168, in reload
+    raise ModuleNotFoundError(f"spec not found for the module {name!r}", name=name)
+ModuleNotFoundError: spec not found for the module 'plotting_functions'
+2021-07-23 10:11:19,618 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-23 10:11:19,618 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-23 10:11:19,694 - INFO : This product is licensed to 
+2021-07-23 10:11:19,694 - INFO : The license will expire on 2021-08-21 (29 days left)

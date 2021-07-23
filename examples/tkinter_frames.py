@@ -3,7 +3,7 @@ from pyxll import xl_app
 
 #helpful variables
 from meta_variables import distributions_dictionary, id_location, screen_freeze_disabled
-
+from meta_variables import error_messages_dictionary
 
 class DistributionData(tk.Frame):
 
@@ -96,7 +96,7 @@ class DistributionData(tk.Frame):
     
     def check_params(self, param_array):
         if len(param_array) != self.distributions_dictionary[self.distribution_id]["num_params"]:
-            self.xl.ActiveSheet.Range(self.user_selection).Value = "wrong number of parameters"
+            self.xl.ActiveSheet.Range(self.user_selection).Value = "PNumEr"
             return True
         else:
             """
@@ -106,72 +106,5 @@ class DistributionData(tk.Frame):
             pass
 
         return
-
-
-
-# class NormalData(tk.Frame):
-
-#     def __init__(self, master, control, id_location, distribution_id="N"):
-#         super().__init__(master)
-#         self.control=control
-#         self.xl = xl_app()
-#         #the current selection of the user
-#         self.user_selection = self.xl.Selection.Range
-
-#         #where the name of the sheet containing distribution input is
-#         self.id_location = id_location
-
-#         #where we'll store the result
-#         self.form_result = "0,1" #default mean 0, s.d. 1
-
-#         #name of the page where we'll store the distribution info
-#         self.distrInfoPageName = self.xl.ActiveSheet.Range(self.id_location).Value
-
-#         #name of user's current page
-#         self.userCurrentPageName = self.xl.ActiveSheet.Name
-
-#         #distribution id
-#         self.distribution_id = distribution_id
-
-#         self.initUI()
-
-#     def initUI(self):
-#         # allow the widget to take the full space of the root window
-#         self.pack(fill=tk.BOTH, expand=True)
-
-#         # Create a tk.Entry control and place it using the 'pack' method
-#         #adds the mean of the normal distribution
-#         #add a button underneath for submitting
-#         self.entry_value = tk.StringVar()
-#         self.entry = tk.Entry(self, textvar=self.entry_value)
-#         self.entry.pack()
-#         self.button1 = tk.Button(self, text="Input mean and standard deviation", command=self.on_button1)
-#         self.button1.pack()
-
-
-#         # Allow the first column in the grid to stretch horizontally
-#         self.columnconfigure(0, weight=1)
-
-#     def updateDistrSheet(self):
-#         #change the active sheet to the distribution info sheet for the user's page
-#         self.xl.Worksheets(self.distrInfoPageName).Activate()
-
-#         #set the relevant values on the distrInfoSheet
-#         self.xl.ActiveSheet.Range(self.user_selection).Value = 1
-#         # "".join([self.form_result["Mean"],self.form_result["Standard deviation"], "N"])
-#         #return the active sheet to the user's original page
-#         self.xl.Worksheets(self.userCurrentPageName).Activate()
-
-#         self.quit()
-
-
-
-#     def on_button1(self):
-#         self.value = self.mean_entry.get()
-
-#         #below is code so we look like we pressed the button
-#         self.button1.config(relief=tk.SUNKEN)
-#         self.button1.after(150, lambda: self.button1.config(relief=tk.RAISED))
-#         self.updateDistrSheet()
 
 
