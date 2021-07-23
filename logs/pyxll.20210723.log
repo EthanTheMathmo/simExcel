@@ -1,0 +1,173 @@
+2021-07-23 09:24:08,949 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-23 09:24:08,950 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-23 09:24:10,564 - WARNING : aiohttp could not be imported. Async example will not work
+Traceback (most recent call last):
+  File "C:\Users\ethan\Documents\simExcel\examples\asyncfunc.py", line 24, in <module>
+    import aiohttp
+  File "build/x64/py38/res/release/pyxll.py", line 8206, in __import_hook
+ModuleNotFoundError: No module named 'aiohttp'
+2021-07-23 09:24:18,104 - INFO : This product is licensed to 
+2021-07-23 09:24:18,104 - INFO : The license will expire on 2021-08-21 (29 days left)
+2021-07-23 09:24:29,291 - WARNING : Delay in processing scheduled callbacks: Error getting Excel Window instance
+2021-07-23 09:24:52,713 - ERROR : Exception in Tkinter callback
+2021-07-23 09:24:52,732 - ERROR : Traceback (most recent call last):
+2021-07-23 09:24:52,733 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\Lib\tkinter\__init__.py", line 1883, in __call__
+2021-07-23 09:24:52,733 - ERROR :     return self.func(*args)
+2021-07-23 09:24:52,733 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\tkinter_frames.py", line 84, in on_button1
+2021-07-23 09:24:52,733 - ERROR :     self.button1.config(relief=tk.SUNKEN)
+2021-07-23 09:24:52,733 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\Lib\tkinter\__init__.py", line 1637, in configure
+2021-07-23 09:24:52,733 - ERROR :     return self._configure('configure', cnf, kw)
+2021-07-23 09:24:52,733 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\Lib\tkinter\__init__.py", line 1627, in _configure
+2021-07-23 09:24:52,733 - ERROR :     self.tk.call(_flatten((self._w, cmd)) + self._options(cnf))
+2021-07-23 09:24:52,733 - ERROR : _tkinter.TclError: invalid command name ".!toplevel2.!distributiondata.!button"
+2021-07-23 09:25:00,656 - INFO : callbacks.on_close: PyXLL is closing
+2021-07-23 09:27:44,437 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-23 09:27:44,438 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-23 09:27:44,497 - WARNING : aiohttp could not be imported. Async example will not work
+Traceback (most recent call last):
+  File "C:\Users\ethan\Documents\simExcel\examples\asyncfunc.py", line 24, in <module>
+    import aiohttp
+  File "build/x64/py38/res/release/pyxll.py", line 8206, in __import_hook
+ModuleNotFoundError: No module named 'aiohttp'
+2021-07-23 09:27:44,551 - INFO : This product is licensed to 
+2021-07-23 09:27:44,551 - INFO : The license will expire on 2021-08-21 (29 days left)
+2021-07-23 09:27:51,523 - ERROR : Exception in Tkinter callback
+2021-07-23 09:27:51,523 - ERROR : Traceback (most recent call last):
+2021-07-23 09:27:51,523 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\Lib\tkinter\__init__.py", line 1883, in __call__
+2021-07-23 09:27:51,523 - ERROR :     return self.func(*args)
+2021-07-23 09:27:51,523 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\tkinter_frames.py", line 84, in on_button1
+2021-07-23 09:27:51,523 - ERROR :     self.button1.config(relief=tk.SUNKEN)
+2021-07-23 09:27:51,523 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\Lib\tkinter\__init__.py", line 1637, in configure
+2021-07-23 09:27:51,523 - ERROR :     return self._configure('configure', cnf, kw)
+2021-07-23 09:27:51,523 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\Lib\tkinter\__init__.py", line 1627, in _configure
+2021-07-23 09:27:51,524 - ERROR :     self.tk.call(_flatten((self._w, cmd)) + self._options(cnf))
+2021-07-23 09:27:51,524 - ERROR : _tkinter.TclError: invalid command name ".!toplevel3.!distributiondata.!button"
+2021-07-23 09:28:15,309 - ERROR : Exception in Tkinter callback
+2021-07-23 09:28:15,310 - ERROR : Traceback (most recent call last):
+2021-07-23 09:28:15,310 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\Lib\tkinter\__init__.py", line 1883, in __call__
+2021-07-23 09:28:15,310 - ERROR :     return self.func(*args)
+2021-07-23 09:28:15,310 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\tkinter_frames.py", line 84, in on_button1
+2021-07-23 09:28:15,310 - ERROR :     self.button1.config(relief=tk.SUNKEN)
+2021-07-23 09:28:15,310 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\Lib\tkinter\__init__.py", line 1637, in configure
+2021-07-23 09:28:15,310 - ERROR :     return self._configure('configure', cnf, kw)
+2021-07-23 09:28:15,310 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\Lib\tkinter\__init__.py", line 1627, in _configure
+2021-07-23 09:28:15,310 - ERROR :     self.tk.call(_flatten((self._w, cmd)) + self._options(cnf))
+2021-07-23 09:28:15,310 - ERROR : _tkinter.TclError: invalid command name ".!toplevel4.!distributiondata.!button"
+2021-07-23 09:30:03,691 - ERROR : Exception in Tkinter callback
+2021-07-23 09:30:03,692 - ERROR : Traceback (most recent call last):
+2021-07-23 09:30:03,692 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\Lib\tkinter\__init__.py", line 1883, in __call__
+2021-07-23 09:30:03,692 - ERROR :     return self.func(*args)
+2021-07-23 09:30:03,692 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\tkinter_frames.py", line 80, in on_button1
+2021-07-23 09:30:03,692 - ERROR :     self.xl.ActiveSheet.Range(self.user_selection).Value = float(params[0])+float(params[1])
+2021-07-23 09:30:03,692 - ERROR : IndexError: list index out of range
+2021-07-23 09:38:02,251 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-23 09:38:02,252 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-23 09:38:02,302 - WARNING : aiohttp could not be imported. Async example will not work
+Traceback (most recent call last):
+  File "C:\Users\ethan\Documents\simExcel\examples\asyncfunc.py", line 24, in <module>
+    import aiohttp
+  File "build/x64/py38/res/release/pyxll.py", line 8206, in __import_hook
+ModuleNotFoundError: No module named 'aiohttp'
+2021-07-23 09:38:02,374 - INFO : This product is licensed to 
+2021-07-23 09:38:02,374 - INFO : The license will expire on 2021-08-21 (29 days left)
+2021-07-23 09:38:12,337 - ERROR : Exception in Tkinter callback
+2021-07-23 09:38:12,350 - ERROR : Traceback (most recent call last):
+2021-07-23 09:38:12,350 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\Lib\tkinter\__init__.py", line 1883, in __call__
+2021-07-23 09:38:12,350 - ERROR :     return self.func(*args)
+2021-07-23 09:38:12,350 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\tkinter_frames.py", line 65, in on_button1
+2021-07-23 09:38:12,350 - ERROR :     self.xl.Worksheets(self.distrInfoPageName).Activate()
+2021-07-23 09:38:12,350 - ERROR :   File "C:\Users\ethan\AppData\Local\Temp\gen_py\3.8\00020813-0000-0000-C000-000000000046x0x1x9\Sheets.py", line 120, in __call__
+2021-07-23 09:38:12,350 - ERROR :     ret = self._oleobj_.InvokeTypes(0, LCID, 2, (9, 0), ((12, 1),),Index
+2021-07-23 09:38:12,351 - ERROR : pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, None, None, None, 0, -2147352565), None)
+2021-07-23 09:38:22,109 - ERROR : Exception in Tkinter callback
+2021-07-23 09:38:22,109 - ERROR : Traceback (most recent call last):
+2021-07-23 09:38:22,109 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\Lib\tkinter\__init__.py", line 1883, in __call__
+2021-07-23 09:38:22,109 - ERROR :     return self.func(*args)
+2021-07-23 09:38:22,109 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\tkinter_frames.py", line 86, in on_button1
+2021-07-23 09:38:22,109 - ERROR :     self.button1.config(relief=tk.SUNKEN)
+2021-07-23 09:38:22,110 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\Lib\tkinter\__init__.py", line 1637, in configure
+2021-07-23 09:38:22,110 - ERROR :     return self._configure('configure', cnf, kw)
+2021-07-23 09:38:22,110 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\Lib\tkinter\__init__.py", line 1627, in _configure
+2021-07-23 09:38:22,110 - ERROR :     self.tk.call(_flatten((self._w, cmd)) + self._options(cnf))
+2021-07-23 09:38:22,110 - ERROR : _tkinter.TclError: invalid command name ".!toplevel8.!distributiondata.!button"
+2021-07-23 09:40:00,471 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-23 09:40:00,471 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-23 09:40:00,511 - WARNING : aiohttp could not be imported. Async example will not work
+Traceback (most recent call last):
+  File "C:\Users\ethan\Documents\simExcel\examples\asyncfunc.py", line 24, in <module>
+    import aiohttp
+  File "build/x64/py38/res/release/pyxll.py", line 8206, in __import_hook
+ModuleNotFoundError: No module named 'aiohttp'
+2021-07-23 09:40:00,572 - INFO : This product is licensed to 
+2021-07-23 09:40:00,572 - INFO : The license will expire on 2021-08-21 (29 days left)
+2021-07-23 09:40:05,638 - ERROR : Exception in Tkinter callback
+2021-07-23 09:40:05,638 - ERROR : Traceback (most recent call last):
+2021-07-23 09:40:05,638 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\Lib\tkinter\__init__.py", line 1883, in __call__
+2021-07-23 09:40:05,638 - ERROR :     return self.func(*args)
+2021-07-23 09:40:05,638 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\tkinter_frames.py", line 90, in on_button1
+2021-07-23 09:40:05,638 - ERROR :     self.button1.config(relief=tk.SUNKEN)
+2021-07-23 09:40:05,638 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\Lib\tkinter\__init__.py", line 1637, in configure
+2021-07-23 09:40:05,638 - ERROR :     return self._configure('configure', cnf, kw)
+2021-07-23 09:40:05,639 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\Lib\tkinter\__init__.py", line 1627, in _configure
+2021-07-23 09:40:05,639 - ERROR :     self.tk.call(_flatten((self._w, cmd)) + self._options(cnf))
+2021-07-23 09:40:05,639 - ERROR : _tkinter.TclError: invalid command name ".!toplevel9.!distributiondata.!button"
+2021-07-23 09:41:04,937 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-23 09:41:04,937 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-23 09:41:04,984 - WARNING : aiohttp could not be imported. Async example will not work
+Traceback (most recent call last):
+  File "C:\Users\ethan\Documents\simExcel\examples\asyncfunc.py", line 24, in <module>
+    import aiohttp
+  File "build/x64/py38/res/release/pyxll.py", line 8206, in __import_hook
+ModuleNotFoundError: No module named 'aiohttp'
+2021-07-23 09:41:05,047 - INFO : This product is licensed to 
+2021-07-23 09:41:05,047 - INFO : The license will expire on 2021-08-21 (29 days left)

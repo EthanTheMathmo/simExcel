@@ -56,45 +56,53 @@ class DistributionData(tk.Frame):
     def on_button1(self, *args):
         """Called when the tk.Entry's text is changed"""
 
-
-        self.xl.ScreenUpdating = self.screen_freeze_disabled #this ensures no screen flickering from switching the active sheet
-
-        self.xl.Worksheets(self.distrInfoPageName).Activate()
-
-        #set the relevant values on the distrInfoSheet
-        self.xl.ActiveSheet.Range(self.user_selection).Value = self.entry_value.get() + "," + self.distribution_id
-
-        # "".join([self.form_result["Mean"],self.form_result["Standard deviation"], "N"])
-        #return the active sheet to the user's original page
-        self.xl.Worksheets(self.userCurrentPageName).Activate()
-        
-        #set the user's selected cells to have a numerical value equal to the mean
-       #set the user's selected cells to have a numerical value equal to the mean
+        #this checks if the input distribution info has the right number of parameters
+        #should update check_params to test info such as if std > 0 etc
         params = self.entry_value.get().split(",")
-        self.check_params(param_array=params)
-        if self.distribution_id == "N":
-            self.xl.ActiveSheet.Range(self.user_selection).Value = float(self.entry_value.get().split(",")[0])
-        elif self.distribution_id == "T":
-            self.xl.ActiveSheet.Range(self.user_selection).Value = float(self.entry_value.get().split(",")[0])*float(self.entry_value.get().split(",")[2])
-        elif self.distribution_id == "E":
-            self.xl.ActiveSheet.Range(self.user_selection).Value = float(params[0])+float(params[1]) 
+        if self.check_params(param_array=params):
+            self.master.destroy() #ends the process if the wrong number of parameters are entered
         else:
-            self.xl.ActiveSheet.Range(self.user_selection).Value = "<Need to add default value for this distribution. Search for this error in tkinter_frames.py>"
+            self.xl.ScreenUpdating = self.screen_freeze_disabled #this ensures no screen flickering from switching the active sheet
 
-        self.button1.config(relief=tk.SUNKEN)
-        self.button1.after(150, lambda: self.button1.config(relief=tk.RAISED))
-        
+            self.xl.Worksheets(self.distrInfoPageName).Activate()
 
-        self.xl.ScreenUpdating = True #so that the screen updates once this operation is performed
+            #set the relevant values on the distrInfoSheet
+            self.xl.ActiveSheet.Range(self.user_selection).Value = self.entry_value.get() + "," + self.distribution_id
 
-        #shuts the tk window
-        self.master.destroy()
+            # "".join([self.form_result["Mean"],self.form_result["Standard deviation"], "N"])
+            #return the active sheet to the user's original page
+            self.xl.Worksheets(self.userCurrentPageName).Activate()
+            
+            #set the user's selected cells to have a numerical value equal to the mean
+        #set the user's selected cells to have a numerical value equal to the mean
+
+            if self.distribution_id == "N":
+                self.xl.ActiveSheet.Range(self.user_selection).Value = float(self.entry_value.get().split(",")[0])
+            elif self.distribution_id == "T":
+                self.xl.ActiveSheet.Range(self.user_selection).Value = float(self.entry_value.get().split(",")[0])*float(self.entry_value.get().split(",")[2])
+            elif self.distribution_id == "E":
+                self.xl.ActiveSheet.Range(self.user_selection).Value = float(params[0])+float(params[1]) 
+            else:
+                self.xl.ActiveSheet.Range(self.user_selection).Value = "<Need to add default value for this distribution. Search for this error in tkinter_frames.py>"
+
+            self.button1.config(relief=tk.SUNKEN)
+            self.button1.after(150, lambda: self.button1.config(relief=tk.RAISED))
+            
+
+            self.xl.ScreenUpdating = True #so that the screen updates once this operation is performed
+
+            #shuts the tk window
+            self.master.destroy()
     
     def check_params(self, param_array):
         if len(param_array) != self.distributions_dictionary[self.distribution_id]["num_params"]:
             self.xl.ActiveSheet.Range(self.user_selection).Value = "wrong number of parameters"
-            self.master.destroy()
+            return True
         else:
+            """
+            TO-DO. Implement tests for inputs (e.g.: standard deviation should be greater 
+            than zero)
+            """
             pass
 
         return
