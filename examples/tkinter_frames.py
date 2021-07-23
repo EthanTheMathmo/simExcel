@@ -1,9 +1,24 @@
+"""
+Implements tkinter frames
+
+
+Relevant info for avoiding circular dependencies:
+imports from meta_variables and error_ribbon_functions
+
+is imported by ribbon_functions.py
+"""
+
+
 import tkinter as tk
 from pyxll import xl_app
+from error_ribbon_functions import default_values
+
 
 #helpful variables
 from meta_variables import distributions_dictionary, id_location, screen_freeze_disabled
 from meta_variables import error_messages_dictionary
+
+
 
 class DistributionData(tk.Frame):
 
@@ -19,8 +34,6 @@ class DistributionData(tk.Frame):
         #where the name of the sheet containing distribution input is
         self.id_location = id_location
 
-        #where we'll store the result
-        self.form_result = "0,1" #default mean 0, s.d. 1
 
         #name of the page where we'll store the distribution info
         self.distrInfoPageName = self.xl.ActiveSheet.Range(self.id_location).Value
@@ -37,6 +50,8 @@ class DistributionData(tk.Frame):
         #for distribution information
         self.distributions_dictionary = distributions_dictionary
 
+        #control variable
+        self.control = control
 
     def initUI(self):
         # allow the widget to take the full space of the root window
@@ -75,15 +90,9 @@ class DistributionData(tk.Frame):
             
             #set the user's selected cells to have a numerical value equal to the mean
         #set the user's selected cells to have a numerical value equal to the mean
-
-            if self.distribution_id == "N":
-                self.xl.ActiveSheet.Range(self.user_selection).Value = float(self.entry_value.get().split(",")[0])
-            elif self.distribution_id == "T":
-                self.xl.ActiveSheet.Range(self.user_selection).Value = float(self.entry_value.get().split(",")[0])*float(self.entry_value.get().split(",")[2])
-            elif self.distribution_id == "E":
-                self.xl.ActiveSheet.Range(self.user_selection).Value = float(params[0])+float(params[1]) 
-            else:
-                self.xl.ActiveSheet.Range(self.user_selection).Value = "<Need to add default value for this distribution. Search for this error in tkinter_frames.py>"
+            default_values(control=self.control, selection=self.user_selection,
+                        distribution_id=self.distribution_id,
+                        params = params)
 
             self.button1.config(relief=tk.SUNKEN)
             self.button1.after(150, lambda: self.button1.config(relief=tk.RAISED))

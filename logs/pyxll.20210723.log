@@ -415,3 +415,372 @@ ModuleNotFoundError: spec not found for the module 'plotting_functions'
 2021-07-23 10:11:19,618 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
 2021-07-23 10:11:19,694 - INFO : This product is licensed to 
 2021-07-23 10:11:19,694 - INFO : The license will expire on 2021-08-21 (29 days left)
+2021-07-23 10:30:32,839 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-23 10:30:32,839 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-23 10:30:32,951 - INFO : This product is licensed to 
+2021-07-23 10:30:32,951 - INFO : The license will expire on 2021-08-21 (29 days left)
+2021-07-23 10:31:36,930 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-23 10:31:36,930 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-23 10:31:37,014 - INFO : This product is licensed to 
+2021-07-23 10:31:37,014 - INFO : The license will expire on 2021-08-21 (29 days left)
+2021-07-23 10:33:41,230 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-23 10:33:41,230 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-23 10:33:41,324 - INFO : This product is licensed to 
+2021-07-23 10:33:41,324 - INFO : The license will expire on 2021-08-21 (29 days left)
+2021-07-23 10:34:41,985 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-23 10:34:41,986 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-23 10:34:43,833 - INFO : This product is licensed to 
+2021-07-23 10:34:43,833 - INFO : The license will expire on 2021-08-21 (29 days left)
+2021-07-23 10:34:54,662 - ERROR : Exception in Tkinter callback
+2021-07-23 10:34:54,664 - ERROR : Traceback (most recent call last):
+2021-07-23 10:34:54,664 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\Lib\tkinter\__init__.py", line 1883, in __call__
+2021-07-23 10:34:54,664 - ERROR :     return self.func(*args)
+2021-07-23 10:34:54,664 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\tkinter_frames.py", line 91, in on_button1
+2021-07-23 10:34:54,664 - ERROR :     default_values(control=self.control, user_selection=self.user_selection,
+2021-07-23 10:34:54,664 - ERROR : AttributeError: 'DistributionData' object has no attribute 'control'
+2021-07-23 10:34:56,082 - ERROR : Exception in Tkinter callback
+2021-07-23 10:34:56,082 - ERROR : Traceback (most recent call last):
+2021-07-23 10:34:56,083 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\Lib\tkinter\__init__.py", line 1883, in __call__
+2021-07-23 10:34:56,083 - ERROR :     return self.func(*args)
+2021-07-23 10:34:56,083 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\tkinter_frames.py", line 91, in on_button1
+2021-07-23 10:34:56,083 - ERROR :     default_values(control=self.control, user_selection=self.user_selection,
+2021-07-23 10:34:56,083 - ERROR : AttributeError: 'DistributionData' object has no attribute 'control'
+2021-07-23 10:34:57,291 - ERROR : Exception in Tkinter callback
+2021-07-23 10:34:57,291 - ERROR : Traceback (most recent call last):
+2021-07-23 10:34:57,291 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\Lib\tkinter\__init__.py", line 1883, in __call__
+2021-07-23 10:34:57,291 - ERROR :     return self.func(*args)
+2021-07-23 10:34:57,291 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\tkinter_frames.py", line 91, in on_button1
+2021-07-23 10:34:57,291 - ERROR :     default_values(control=self.control, user_selection=self.user_selection,
+2021-07-23 10:34:57,291 - ERROR : AttributeError: 'DistributionData' object has no attribute 'control'
+2021-07-23 10:34:58,061 - ERROR : Exception in Tkinter callback
+2021-07-23 10:34:58,061 - ERROR : Traceback (most recent call last):
+2021-07-23 10:34:58,061 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\Lib\tkinter\__init__.py", line 1883, in __call__
+2021-07-23 10:34:58,062 - ERROR :     return self.func(*args)
+2021-07-23 10:34:58,062 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\tkinter_frames.py", line 91, in on_button1
+2021-07-23 10:34:58,062 - ERROR :     default_values(control=self.control, user_selection=self.user_selection,
+2021-07-23 10:34:58,062 - ERROR : AttributeError: 'DistributionData' object has no attribute 'control'
+2021-07-23 10:35:43,222 - ERROR : Exception in Tkinter callback
+2021-07-23 10:35:43,222 - ERROR : Traceback (most recent call last):
+2021-07-23 10:35:43,222 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\Lib\tkinter\__init__.py", line 1883, in __call__
+2021-07-23 10:35:43,222 - ERROR :     return self.func(*args)
+2021-07-23 10:35:43,222 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\tkinter_frames.py", line 91, in on_button1
+2021-07-23 10:35:43,223 - ERROR :     default_values(control=self.control, user_selection=self.user_selection,
+2021-07-23 10:35:43,223 - ERROR : AttributeError: 'DistributionData' object has no attribute 'control'
+2021-07-23 10:36:44,423 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-23 10:36:44,423 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-23 10:36:44,531 - INFO : This product is licensed to 
+2021-07-23 10:36:44,531 - INFO : The license will expire on 2021-08-21 (29 days left)
+2021-07-23 10:37:07,198 - ERROR : Exception in Tkinter callback
+2021-07-23 10:37:07,199 - ERROR : Traceback (most recent call last):
+2021-07-23 10:37:07,199 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\Lib\tkinter\__init__.py", line 1883, in __call__
+2021-07-23 10:37:07,199 - ERROR :     return self.func(*args)
+2021-07-23 10:37:07,199 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\tkinter_frames.py", line 93, in on_button1
+2021-07-23 10:37:07,199 - ERROR :     default_values(control=self.control, user_selection=self.user_selection,
+2021-07-23 10:37:07,199 - ERROR : TypeError: default_values() got an unexpected keyword argument 'distrInfoPageName'
+2021-07-23 10:37:13,250 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-23 10:37:13,251 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-23 10:37:13,332 - INFO : This product is licensed to 
+2021-07-23 10:37:13,332 - INFO : The license will expire on 2021-08-21 (29 days left)
+2021-07-23 10:37:20,646 - ERROR : Exception in Tkinter callback
+2021-07-23 10:37:20,646 - ERROR : Traceback (most recent call last):
+2021-07-23 10:37:20,647 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\Lib\tkinter\__init__.py", line 1883, in __call__
+2021-07-23 10:37:20,647 - ERROR :     return self.func(*args)
+2021-07-23 10:37:20,647 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\tkinter_frames.py", line 93, in on_button1
+2021-07-23 10:37:20,647 - ERROR :     default_values(control=self.control, user_selection=self.user_selection,
+2021-07-23 10:37:20,647 - ERROR : TypeError: default_values() got an unexpected keyword argument 'distrInfoPageName'
+2021-07-23 10:38:26,773 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-23 10:38:26,773 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-23 10:38:26,860 - INFO : This product is licensed to 
+2021-07-23 10:38:26,860 - INFO : The license will expire on 2021-08-21 (29 days left)
+2021-07-23 10:38:32,872 - ERROR : Exception in Tkinter callback
+2021-07-23 10:38:32,873 - ERROR : Traceback (most recent call last):
+2021-07-23 10:38:32,873 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\Lib\tkinter\__init__.py", line 1883, in __call__
+2021-07-23 10:38:32,873 - ERROR :     return self.func(*args)
+2021-07-23 10:38:32,873 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\tkinter_frames.py", line 93, in on_button1
+2021-07-23 10:38:32,873 - ERROR :     default_values(control=self.control, user_selection=self.user_selection,
+2021-07-23 10:38:32,873 - ERROR : TypeError: default_values() missing 1 required positional argument: 'distribution_id'
+2021-07-23 10:38:33,970 - ERROR : Exception in Tkinter callback
+2021-07-23 10:38:33,971 - ERROR : Traceback (most recent call last):
+2021-07-23 10:38:33,971 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\Lib\tkinter\__init__.py", line 1883, in __call__
+2021-07-23 10:38:33,971 - ERROR :     return self.func(*args)
+2021-07-23 10:38:33,971 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\tkinter_frames.py", line 93, in on_button1
+2021-07-23 10:38:33,971 - ERROR :     default_values(control=self.control, user_selection=self.user_selection,
+2021-07-23 10:38:33,971 - ERROR : TypeError: default_values() missing 1 required positional argument: 'distribution_id'
+2021-07-23 10:39:25,506 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-23 10:39:25,506 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-23 10:39:25,596 - INFO : This product is licensed to 
+2021-07-23 10:39:25,596 - INFO : The license will expire on 2021-08-21 (29 days left)
+2021-07-23 10:39:36,127 - ERROR : Error calling ribbon function 'error_ribbon_functions.default_values'
+2021-07-23 10:39:37,528 - ERROR : TypeError: default_values() missing 3 required positional arguments: 'distribution_id', 'user_selection', and 'params'
+2021-07-23 11:50:39,239 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-23 11:50:39,239 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-23 11:50:39,455 - INFO : This product is licensed to 
+2021-07-23 11:50:39,455 - INFO : The license will expire on 2021-08-21 (29 days left)
+2021-07-23 11:50:56,006 - ERROR : Error calling function cell_data
+2021-07-23 11:50:56,021 - ERROR : Traceback (most recent call last):
+2021-07-23 11:50:56,021 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\meta_variables.py", line 61, in cell_data
+2021-07-23 11:50:56,021 - ERROR :     values = xl.ActiveSheet.Range(user_selection).Value.split(",")
+2021-07-23 11:50:56,021 - ERROR : AttributeError: 'NoneType' object has no attribute 'split'
+2021-07-23 11:51:05,056 - ERROR : Error calling function cell_data
+2021-07-23 11:51:05,056 - ERROR : Traceback (most recent call last):
+2021-07-23 11:51:05,056 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\meta_variables.py", line 49, in cell_data
+2021-07-23 11:51:05,056 - ERROR :     xl.Selection.Value = "MultCellSelEr"
+2021-07-23 11:51:05,056 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\lib\site-packages\win32com\client\__init__.py", line 493, in __setattr__
+2021-07-23 11:51:05,071 - ERROR :     self._oleobj_.Invoke(*(args + (value,) + defArgs))
+2021-07-23 11:51:05,071 - ERROR : pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, None, None, None, 0, -2146827284), None)
+2021-07-23 11:51:11,979 - ERROR : Error calling function cell_data
+2021-07-23 11:51:11,979 - ERROR : Traceback (most recent call last):
+2021-07-23 11:51:11,979 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\meta_variables.py", line 49, in cell_data
+2021-07-23 11:51:11,979 - ERROR :     xl.Selection.Value = "MultCellSelEr"
+2021-07-23 11:51:11,979 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\lib\site-packages\win32com\client\__init__.py", line 493, in __setattr__
+2021-07-23 11:51:11,979 - ERROR :     self._oleobj_.Invoke(*(args + (value,) + defArgs))
+2021-07-23 11:51:11,979 - ERROR : pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, None, None, None, 0, -2146827284), None)
+2021-07-23 12:00:10,176 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-23 12:00:10,176 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-23 12:00:11,896 - INFO : This product is licensed to 
+2021-07-23 12:00:11,896 - INFO : The license will expire on 2021-08-21 (29 days left)
+2021-07-23 12:00:36,226 - ERROR : Error calling function cell_data
+2021-07-23 12:00:36,226 - ERROR : Traceback (most recent call last):
+2021-07-23 12:00:36,226 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\meta_variables.py", line 61, in cell_data
+2021-07-23 12:00:36,226 - ERROR :     values = xl.ActiveSheet.Range(user_selection).Value.split(",")
+2021-07-23 12:00:36,226 - ERROR : AttributeError: 'NoneType' object has no attribute 'split'
+2021-07-23 12:01:30,131 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-23 12:01:30,131 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-23 12:01:30,224 - INFO : This product is licensed to 
+2021-07-23 12:01:30,224 - INFO : The license will expire on 2021-08-21 (29 days left)
+2021-07-23 12:01:31,150 - ERROR : Error calling function cell_data
+2021-07-23 12:01:31,150 - ERROR : Traceback (most recent call last):
+2021-07-23 12:01:31,150 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\meta_variables.py", line 61, in cell_data
+2021-07-23 12:01:31,150 - ERROR :     values = xl.ActiveSheet.Range(user_selection).Value.split(",")
+2021-07-23 12:01:31,150 - ERROR : AttributeError: 'float' object has no attribute 'split'
+2021-07-23 12:02:16,211 - ERROR : Error calling ribbon function 'error_ribbon_functions.default_values'
+2021-07-23 12:02:27,687 - ERROR : TypeError: default_values() missing 3 required positional arguments: 'distribution_id', 'user_selection', and 'params'
+2021-07-23 12:06:09,288 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-23 12:06:09,288 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-23 12:06:09,373 - INFO : This product is licensed to 
+2021-07-23 12:06:09,373 - INFO : The license will expire on 2021-08-21 (29 days left)
+2021-07-23 12:06:14,991 - ERROR : Error calling ribbon function 'error_ribbon_functions.default_values'
+2021-07-23 12:06:18,634 - ERROR : TypeError: default_values() missing 3 required positional arguments: 'distribution_id', 'user_selection', and 'params'
+2021-07-23 12:06:55,121 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-23 12:06:55,121 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-23 12:06:55,225 - INFO : This product is licensed to 
+2021-07-23 12:06:55,225 - INFO : The license will expire on 2021-08-21 (29 days left)
+2021-07-23 12:06:57,991 - ERROR : Error calling ribbon function 'error_ribbon_functions.default_values_wrapper'
+2021-07-23 12:07:06,970 - ERROR : Traceback (most recent call last):
+2021-07-23 12:07:06,970 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\error_ribbon_functions.py", line 39, in default_values_wrapper
+2021-07-23 12:07:06,970 - ERROR :     distribution_id = data["distribution_id"]
+2021-07-23 12:07:06,971 - ERROR : TypeError: 'NoneType' object is not subscriptable
+2021-07-23 12:07:42,515 - ERROR : Error calling ribbon function 'error_ribbon_functions.default_values_wrapper'
+2021-07-23 12:07:43,896 - ERROR : Traceback (most recent call last):
+2021-07-23 12:07:43,896 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\error_ribbon_functions.py", line 39, in default_values_wrapper
+2021-07-23 12:07:43,897 - ERROR :     distribution_id = data["distribution_id"]
+2021-07-23 12:07:43,897 - ERROR : TypeError: 'NoneType' object is not subscriptable
+2021-07-23 12:15:42,130 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-23 12:15:42,131 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-23 12:15:42,229 - INFO : This product is licensed to 
+2021-07-23 12:15:42,229 - INFO : The license will expire on 2021-08-21 (29 days left)
+2021-07-23 12:15:45,968 - ERROR : Error calling ribbon function 'error_ribbon_functions.default_values_wrapper'
+2021-07-23 12:15:52,417 - ERROR : Traceback (most recent call last):
+2021-07-23 12:15:52,417 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\error_ribbon_functions.py", line 44, in default_values_wrapper
+2021-07-23 12:15:52,417 - ERROR :     distribution_id = data["distribution_id"]
+2021-07-23 12:15:52,417 - ERROR : TypeError: 'NoneType' object is not subscriptable
+2021-07-23 12:18:02,607 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-23 12:18:02,607 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-23 12:18:02,694 - INFO : This product is licensed to 
+2021-07-23 12:18:02,694 - INFO : The license will expire on 2021-08-21 (29 days left)
+2021-07-23 12:18:07,802 - ERROR : Error calling ribbon function 'error_ribbon_functions.default_values_wrapper'
+2021-07-23 12:18:09,034 - ERROR : Traceback (most recent call last):
+2021-07-23 12:18:09,034 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\error_ribbon_functions.py", line 42, in default_values_wrapper
+2021-07-23 12:18:09,035 - ERROR :     data = cell_data(control=control)
+2021-07-23 12:18:09,035 - ERROR : TypeError: cell_data() missing 1 required positional argument: 'cell_location'
+2021-07-23 12:18:14,878 - ERROR : Error calling ribbon function 'error_ribbon_functions.default_values_wrapper'
+2021-07-23 12:18:22,266 - ERROR : Traceback (most recent call last):
+2021-07-23 12:18:22,266 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\error_ribbon_functions.py", line 42, in default_values_wrapper
+2021-07-23 12:18:22,266 - ERROR :     data = cell_data(control=control)
+2021-07-23 12:18:22,266 - ERROR : TypeError: cell_data() missing 1 required positional argument: 'cell_location'
+2021-07-23 12:18:58,684 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-23 12:18:58,684 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-23 12:18:58,783 - INFO : This product is licensed to 
+2021-07-23 12:18:58,783 - INFO : The license will expire on 2021-08-21 (29 days left)
+2021-07-23 12:19:02,533 - ERROR : Error calling ribbon function 'error_ribbon_functions.default_values_wrapper'
+2021-07-23 12:19:09,927 - ERROR : Traceback (most recent call last):
+2021-07-23 12:19:09,927 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\error_ribbon_functions.py", line 42, in default_values_wrapper
+2021-07-23 12:19:09,927 - ERROR :     data = cell_data(control=control, cell_location=current_cell.Address)
+2021-07-23 12:19:09,927 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\meta_variables.py", line 59, in cell_data
+2021-07-23 12:19:09,927 - ERROR :     values = xl.ActiveSheet.Range(selection).Value.split(",")
+2021-07-23 12:19:09,927 - ERROR : NameError: name 'selection' is not defined
+2021-07-23 12:19:26,222 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-23 12:19:26,222 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-23 12:19:26,318 - INFO : This product is licensed to 
+2021-07-23 12:19:26,318 - INFO : The license will expire on 2021-08-21 (29 days left)
+2021-07-23 12:24:20,338 - INFO : callbacks.on_close: PyXLL is closing

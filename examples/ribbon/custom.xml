@@ -49,6 +49,9 @@
                     <button id="sim_value"
                             label="Sample spreadsheet"
                             onAction="ribbon_functions.cell_value_simulate"/>
+                    <button id="default_value"
+                            label="Default values"
+                            onAction="error_ribbon_functions.default_values_wrapper"/>
                 </group>                
             </tab>
         </tabs>
