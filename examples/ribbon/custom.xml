@@ -1,0 +1,59 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui"
+            loadImage="pyxll.load_image">
+    <ribbon>
+        <tabs>
+            <tab id="CustomTab" label="Custom Tab">
+                <group id="ContentGroup" label="Content">
+                    <button id="addOne" label="Add one"
+                        onAction="ribbon_functions.on_text_button"/>
+                        <!-- NOTE this file broke when button id="addOne" was changed to id="add One"-->
+                    
+                    <button id="plotDistribution" label="Visualize distribution"
+                        onAction="ribbon_functions.display_distribution"/>
+
+                    <button id="distributionInfo" label="Distribution info"
+                        onAction="ribbon_functions.distribution_info"/>
+                </group>
+                
+                <group id="Tools" label="Tools">
+                    <button id="Reload"
+                            size="large"
+                            label="Reload PyXLL"
+                            onAction="pyxll.reload"
+                            image="icons/reload.png"/>
+                </group>
+
+                <group id="DistributionData" label="input distribution">
+                    <button id="NormalDistribution"
+                            label="Normal"
+                            onAction="ribbon_functions.inputNormal"/>
+                    <button id="TriangularDistribution"
+                            label="Triangular"
+                            onAction="ribbon_functions.inputTriangular"/>
+                    <button id="ExponentialDistribution"
+                            label="Exponential"
+                            onAction="ribbon_functions.inputExponential"/>
+                </group>
+                <group id="block_simulate" label="Simulate">
+                    <!-- <button id="simulate_1000"
+                            label="Simulate 1000"
+                            onAction="ribbon_functions.simulate_1000"/> -->
+                    <button id="simulate_regular"
+                            label="Simulate (regular shape)"
+                            onAction="ribbon_functions.regular_simulate"/>
+                    <button id="simulate_irregular"
+                            label="Simulate (irregular shape)"
+                            onAction="ribbon_functions.irregular_simulate"/>
+                </group>
+                <group id="cell_values" label="Cell values">
+                    <button id="sim_value"
+                            label="Sample spreadsheet"
+                            onAction="ribbon_functions.cell_value_simulate"/>
+                </group>                
+            </tab>
+        </tabs>
+    </ribbon>
+</customUI>
+<!-- comment -->
+
+

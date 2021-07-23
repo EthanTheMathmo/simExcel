@@ -1,0 +1,2286 @@
+2021-07-20 08:56:30,122 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 08:56:38,860 - INFO : This product is licensed to 
+2021-07-20 08:56:38,860 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 08:56:39,570 - WARNING : Circular dependency found between 'ribbon_functions' and 'examples.tkinter_frames'
+2021-07-20 08:56:39,571 - WARNING : Circular dependency found between 'ribbon_functions' and 'tkinter_frames'
+2021-07-20 08:56:39,724 - INFO : This product is licensed to 
+2021-07-20 08:56:39,724 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 09:00:32,785 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 09:00:32,865 - WARNING : Circular dependency found between 'ribbon_functions' and 'examples.tkinter_frames'
+2021-07-20 09:00:32,865 - WARNING : Circular dependency found between 'ribbon_functions' and 'tkinter_frames'
+2021-07-20 09:00:33,104 - INFO : This product is licensed to 
+2021-07-20 09:00:33,104 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 09:00:42,848 - ERROR : Error calling ribbon function 'ribbon_functions.test_interface'
+2021-07-20 09:00:47,918 - ERROR : Traceback (most recent call last):
+2021-07-20 09:00:47,919 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 47, in test_interface
+2021-07-20 09:00:47,920 - ERROR :     example_tk_ctp()
+2021-07-20 09:00:47,920 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 31, in example_tk_ctp
+2021-07-20 09:00:47,921 - ERROR :     frame = DistributionData(master=window, cell_distribution_data=cell_distribution_data)
+2021-07-20 09:00:47,921 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\tkinter_frames.py", line 11, in __init__
+2021-07-20 09:00:47,921 - ERROR :     self.initUI()
+2021-07-20 09:00:47,921 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\tkinter_frames.py", line 26, in initUI
+2021-07-20 09:00:47,921 - ERROR :     self.button1.pack()
+2021-07-20 09:00:47,921 - ERROR :   File "C:\Program Files\Python38\lib\tkinter\__init__.py", line 2387, in pack_configure
+2021-07-20 09:00:47,923 - ERROR :     self.tk.call(
+2021-07-20 09:00:47,923 - ERROR : _tkinter.TclError: cannot use geometry manager pack inside .!distributiondata which already has slaves managed by grid
+2021-07-20 09:04:00,380 - ERROR : Error calling ribbon function 'ribbon_functions.test_interface'
+2021-07-20 09:04:02,015 - ERROR : Traceback (most recent call last):
+2021-07-20 09:04:02,015 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 47, in test_interface
+2021-07-20 09:04:02,016 - ERROR :     
+2021-07-20 09:04:02,016 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 31, in example_tk_ctp
+2021-07-20 09:04:02,016 - ERROR :     #Use PyXLL's 'create_ctp' function to create the custom task plane/
+2021-07-20 09:04:02,016 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\tkinter_frames.py", line 11, in __init__
+2021-07-20 09:04:02,017 - ERROR :     self.button1.pack()
+2021-07-20 09:04:02,017 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\tkinter_frames.py", line 26, in initUI
+2021-07-20 09:04:02,017 - ERROR :     root.title("Tk Example")
+2021-07-20 09:04:02,017 - ERROR :   File "C:\Program Files\Python38\lib\tkinter\__init__.py", line 2387, in pack_configure
+2021-07-20 09:04:02,018 - ERROR :     self.tk.call(
+2021-07-20 09:04:02,018 - ERROR : _tkinter.TclError: cannot use geometry manager pack inside .!distributiondata which already has slaves managed by grid
+2021-07-20 09:04:02,856 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 09:04:02,930 - WARNING : Circular dependency found between 'ribbon_functions' and 'examples.tkinter_frames'
+2021-07-20 09:04:02,930 - WARNING : Circular dependency found between 'ribbon_functions' and 'tkinter_frames'
+2021-07-20 09:04:03,096 - INFO : This product is licensed to 
+2021-07-20 09:04:03,096 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 09:04:06,116 - ERROR : Error calling ribbon function 'ribbon_functions.test_interface'
+2021-07-20 09:04:08,784 - ERROR : Traceback (most recent call last):
+2021-07-20 09:04:08,785 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 45, in test_interface
+2021-07-20 09:04:08,785 - ERROR :     example_tk_ctp()
+2021-07-20 09:04:08,785 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 29, in example_tk_ctp
+2021-07-20 09:04:08,785 - ERROR :     frame = DistributionData(cell_distribution_data=cell_distribution_data)
+2021-07-20 09:04:08,786 - ERROR : TypeError: __init__() missing 1 required positional argument: 'master'
+2021-07-20 09:04:23,899 - ERROR : Error calling ribbon function 'ribbon_functions.test_interface'
+2021-07-20 09:06:42,012 - ERROR : Error calling ribbon function 'ribbon_functions.test_interface'
+2021-07-20 09:07:33,531 - ERROR : Error calling ribbon function 'ribbon_functions.test_interface'
+2021-07-20 09:07:34,954 - ERROR : Traceback (most recent call last):
+2021-07-20 09:07:34,955 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 45, in test_interface
+2021-07-20 09:07:34,955 - ERROR :     example_tk_ctp()
+2021-07-20 09:07:34,955 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 29, in example_tk_ctp
+2021-07-20 09:07:34,956 - ERROR :     frame = DistributionData(cell_distribution_data=cell_distribution_data)
+2021-07-20 09:07:34,956 - ERROR : TypeError: __init__() missing 1 required positional argument: 'master'
+2021-07-20 09:07:36,318 - INFO : callbacks.on_close: PyXLL is closing
+2021-07-20 09:07:43,138 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 09:07:46,921 - ERROR : Error importing 'ribbon_functions'
+Traceback (most recent call last):
+  File "build/x64/py38/res/release/pyxll.py", line 839, in _open
+  File "build/x64/py38/res/release/pyxll.py", line 8206, in __import_hook
+  File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 8, in <module>
+    from examples.tkinter_frames import DistributionData
+  File "build/x64/py38/res/release/pyxll.py", line 8206, in __import_hook
+  File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\tkinter_frames.py", line 4, in <module>
+    class DistributionData(tk.Tk):
+  File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\tkinter_frames.py", line 5, in DistributionData
+    def __init__(self, a_dict=ribbon_functions.cell_distribution_data):
+AttributeError: partially initialized module 'ribbon_functions' has no attribute 'cell_distribution_data' (most likely due to a circular import)
+2021-07-20 09:07:55,409 - INFO : This product is licensed to 
+2021-07-20 09:07:55,410 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 09:07:55,595 - ERROR : Error loading 'ribbon_functions' : partially initialized module 'ribbon_functions' has no attribute 'cell_distribution_data' (most likely due to a circular import)
+2021-07-20 09:07:55,964 - ERROR : Error importing 'ribbon_functions'
+Traceback (most recent call last):
+  File "build/x64/py38/res/release/pyxll.py", line 839, in _open
+  File "build/x64/py38/res/release/pyxll.py", line 8206, in __import_hook
+  File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 8, in <module>
+    from examples.tkinter_frames import DistributionData
+  File "build/x64/py38/res/release/pyxll.py", line 8206, in __import_hook
+  File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\tkinter_frames.py", line 4, in <module>
+    class DistributionData(tk.Tk):
+  File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\tkinter_frames.py", line 5, in DistributionData
+    def __init__(self, a_dict=ribbon_functions.cell_distribution_data):
+AttributeError: partially initialized module 'ribbon_functions' has no attribute 'cell_distribution_data' (most likely due to a circular import)
+2021-07-20 09:07:57,205 - INFO : This product is licensed to 
+2021-07-20 09:07:57,205 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 09:07:57,221 - ERROR : Error loading 'ribbon_functions' : partially initialized module 'ribbon_functions' has no attribute 'cell_distribution_data' (most likely due to a circular import)
+2021-07-20 09:08:04,988 - ERROR : Traceback (most recent call last):
+2021-07-20 09:08:04,988 - ERROR :   File "build/x64/py38/res/release/pyxll.py", line 193, in _import
+2021-07-20 09:08:04,996 - ERROR :   File "build/x64/py38/res/release/pyxll.py", line 8206, in __import_hook
+2021-07-20 09:08:05,001 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 8, in <module>
+2021-07-20 09:08:05,010 - ERROR :     from examples.tkinter_frames import DistributionData
+2021-07-20 09:08:05,010 - ERROR :   File "build/x64/py38/res/release/pyxll.py", line 8206, in __import_hook
+2021-07-20 09:08:05,011 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\tkinter_frames.py", line 4, in <module>
+2021-07-20 09:08:05,016 - ERROR :     class DistributionData(tk.Tk):
+2021-07-20 09:08:05,016 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\tkinter_frames.py", line 5, in DistributionData
+2021-07-20 09:08:05,017 - ERROR :     def __init__(self, a_dict=ribbon_functions.cell_distribution_data):
+2021-07-20 09:08:05,017 - ERROR : AttributeError: partially initialized module 'ribbon_functions' has no attribute 'cell_distribution_data' (most likely due to a circular import)
+2021-07-20 09:08:05,017 - ERROR : Error importing module 'ribbon_functions' for ribbon callback 'ribbon_functions.test_interface'.
+AttributeError("partially initialized module 'ribbon_functions' has no attribute 'cell_distribution_data' (most likely due to a circular import)")
+2021-07-20 09:08:55,909 - ERROR : Error calling ribbon function 'ribbon_functions.test_interface'
+2021-07-20 09:09:04,603 - ERROR : Traceback (most recent call last):
+2021-07-20 09:09:04,603 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 45, in test_interface
+2021-07-20 09:09:04,603 - ERROR :     example_tk_ctp()
+2021-07-20 09:09:04,603 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 29, in example_tk_ctp
+2021-07-20 09:09:04,604 - ERROR :     frame = DistributionData(cell_distribution_data=cell_distribution_data)
+2021-07-20 09:09:04,604 - ERROR : TypeError: __init__() got an unexpected keyword argument 'cell_distribution_data'
+2021-07-20 09:09:11,723 - ERROR : Error calling ribbon function 'ribbon_functions.test_interface'
+2021-07-20 09:09:25,651 - ERROR : Error calling ribbon function 'ribbon_functions.test_interface'
+2021-07-20 09:09:27,697 - ERROR : Traceback (most recent call last):
+2021-07-20 09:09:27,697 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 45, in test_interface
+2021-07-20 09:09:27,698 - ERROR :     example_tk_ctp()
+2021-07-20 09:09:27,698 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 29, in example_tk_ctp
+2021-07-20 09:09:27,698 - ERROR :     frame = DistributionData(a_dict=cell_distribution_data)
+2021-07-20 09:09:27,698 - ERROR : TypeError: __init__() got an unexpected keyword argument 'cell_distribution_data'
+2021-07-20 09:09:30,182 - ERROR : Error calling ribbon function 'ribbon_functions.test_interface'
+2021-07-20 09:09:32,594 - ERROR : Traceback (most recent call last):
+2021-07-20 09:09:32,594 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 45, in test_interface
+2021-07-20 09:09:32,594 - ERROR :     example_tk_ctp()
+2021-07-20 09:09:32,595 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 29, in example_tk_ctp
+2021-07-20 09:09:32,595 - ERROR :     frame = DistributionData(a_dict=cell_distribution_data)
+2021-07-20 09:09:32,595 - ERROR : TypeError: __init__() got an unexpected keyword argument 'cell_distribution_data'
+2021-07-20 09:09:36,720 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 09:09:36,791 - WARNING : Circular dependency found between 'ribbon_functions' and 'examples.tkinter_frames'
+2021-07-20 09:09:36,791 - WARNING : Circular dependency found between 'ribbon_functions' and 'tkinter_frames'
+2021-07-20 09:09:36,944 - INFO : This product is licensed to 
+2021-07-20 09:09:36,944 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 09:11:49,306 - ERROR : Error calling ribbon function 'ribbon_functions.test_interface'
+2021-07-20 09:12:07,071 - ERROR : Traceback (most recent call last):
+2021-07-20 09:12:07,071 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 45, in test_interface
+2021-07-20 09:12:07,072 - ERROR :     example_tk_ctp()
+2021-07-20 09:12:07,072 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 35, in example_tk_ctp
+2021-07-20 09:12:07,073 - ERROR :     create_ctp(frame,
+2021-07-20 09:12:07,073 - ERROR :   File "build/x64/py38/res/release/pyxll.py", line 7284, in _get_ctp_bridge
+2021-07-20 09:12:07,074 - ERROR : RuntimeError: Unable to create a custom task pane from DistributionData.
+2021-07-20 09:19:02,542 - ERROR : Error calling ribbon function 'ribbon_functions.test_interface'
+2021-07-20 09:19:06,819 - ERROR : Traceback (most recent call last):
+2021-07-20 09:19:06,819 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 45, in test_interface
+2021-07-20 09:19:06,819 - ERROR :     def test_interface(control):
+2021-07-20 09:19:06,819 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 35, in example_tk_ctp
+2021-07-20 09:19:06,820 - ERROR :     
+2021-07-20 09:19:06,820 - ERROR :   File "build/x64/py38/res/release/pyxll.py", line 7284, in _get_ctp_bridge
+2021-07-20 09:19:06,821 - ERROR : RuntimeError: Unable to create a custom task pane from DistributionData.
+2021-07-20 09:19:11,744 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 09:19:11,819 - WARNING : Circular dependency found between 'ribbon_functions' and 'examples.tkinter_frames'
+2021-07-20 09:19:11,819 - WARNING : Circular dependency found between 'ribbon_functions' and 'tkinter_frames'
+2021-07-20 09:19:11,989 - INFO : This product is licensed to 
+2021-07-20 09:19:11,989 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 09:19:17,973 - ERROR : Error calling ribbon function 'ribbon_functions.test_interface'
+2021-07-20 09:19:27,549 - ERROR : Traceback (most recent call last):
+2021-07-20 09:19:27,549 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 45, in test_interface
+2021-07-20 09:19:27,550 - ERROR :     def test_interface(control):
+2021-07-20 09:19:27,550 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 34, in example_tk_ctp
+2021-07-20 09:19:27,552 - ERROR :     frame = ExampleFrame(master=window)
+2021-07-20 09:19:27,552 - ERROR : NameError: name 'ExampleFrame' is not defined
+2021-07-20 09:20:05,704 - ERROR : Error calling ribbon function 'ribbon_functions.test_interface'
+2021-07-20 09:20:06,933 - ERROR : Traceback (most recent call last):
+2021-07-20 09:20:06,933 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 45, in test_interface
+2021-07-20 09:20:06,934 - ERROR :     def test_interface(control):
+2021-07-20 09:20:06,934 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 34, in example_tk_ctp
+2021-07-20 09:20:06,934 - ERROR :     frame = DistributionData(master=window)
+2021-07-20 09:20:06,934 - ERROR : NameError: name 'ExampleFrame' is not defined
+2021-07-20 09:20:09,806 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 09:20:09,877 - WARNING : Circular dependency found between 'ribbon_functions' and 'examples.tkinter_frames'
+2021-07-20 09:20:09,877 - WARNING : Circular dependency found between 'ribbon_functions' and 'tkinter_frames'
+2021-07-20 09:20:10,024 - INFO : This product is licensed to 
+2021-07-20 09:20:10,024 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 09:20:13,870 - ERROR : Error calling ribbon function 'ribbon_functions.test_interface'
+2021-07-20 09:20:26,646 - ERROR : Traceback (most recent call last):
+2021-07-20 09:20:26,646 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 45, in test_interface
+2021-07-20 09:20:26,647 - ERROR :     def test_interface(control):
+2021-07-20 09:20:26,647 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 34, in example_tk_ctp
+2021-07-20 09:20:26,648 - ERROR :     frame = DistributionData(master=window)
+2021-07-20 09:20:26,648 - ERROR : TypeError: __init__() got an unexpected keyword argument 'master'
+2021-07-20 09:20:57,006 - ERROR : Error calling ribbon function 'ribbon_functions.test_interface'
+2021-07-20 09:20:59,507 - ERROR : Traceback (most recent call last):
+2021-07-20 09:20:59,507 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 45, in test_interface
+2021-07-20 09:20:59,508 - ERROR :     def test_interface(control):
+2021-07-20 09:20:59,508 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 34, in example_tk_ctp
+2021-07-20 09:20:59,509 - ERROR :     frame = DistributionData(master=window)
+2021-07-20 09:20:59,509 - ERROR : TypeError: __init__() got an unexpected keyword argument 'master'
+2021-07-20 09:21:02,904 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 09:21:02,974 - WARNING : Circular dependency found between 'ribbon_functions' and 'examples.tkinter_frames'
+2021-07-20 09:21:02,974 - WARNING : Circular dependency found between 'ribbon_functions' and 'tkinter_frames'
+2021-07-20 09:21:03,116 - INFO : This product is licensed to 
+2021-07-20 09:21:03,116 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 09:21:07,281 - ERROR : Error calling ribbon function 'ribbon_functions.test_interface'
+2021-07-20 09:21:08,729 - ERROR : Traceback (most recent call last):
+2021-07-20 09:21:08,730 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 45, in test_interface
+2021-07-20 09:21:08,730 - ERROR :     def test_interface(control):
+2021-07-20 09:21:08,730 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 34, in example_tk_ctp
+2021-07-20 09:21:08,731 - ERROR :     frame = DistributionData(master=window)
+2021-07-20 09:21:08,731 - ERROR : TypeError: __init__() got an unexpected keyword argument 'master'
+2021-07-20 09:21:10,002 - INFO : callbacks.on_close: PyXLL is closing
+2021-07-20 09:21:16,569 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 09:21:21,238 - INFO : This product is licensed to 
+2021-07-20 09:21:21,238 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 09:21:21,903 - INFO : This product is licensed to 
+2021-07-20 09:21:21,903 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 09:22:40,546 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 09:22:40,785 - INFO : This product is licensed to 
+2021-07-20 09:22:40,785 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 09:25:12,065 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 09:25:12,340 - INFO : This product is licensed to 
+2021-07-20 09:25:12,340 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 09:25:57,287 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 09:25:57,511 - INFO : This product is licensed to 
+2021-07-20 09:25:57,511 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 09:26:33,937 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 09:26:34,160 - INFO : This product is licensed to 
+2021-07-20 09:26:34,160 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 09:26:39,441 - ERROR : Exception in Tkinter callback
+2021-07-20 09:26:39,451 - ERROR : Traceback (most recent call last):
+2021-07-20 09:26:39,451 - ERROR :   File "C:\Program Files\Python38\lib\tkinter\__init__.py", line 1883, in __call__
+2021-07-20 09:26:39,451 - ERROR :     return self.func(*args)
+2021-07-20 09:26:39,452 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\tkinter_frames.py", line 29, in onWrite
+2021-07-20 09:26:39,452 - ERROR :     self.label_value.set(self.entry_value.get())
+2021-07-20 09:26:39,452 - ERROR : AttributeError: 'DistributionData' object has no attribute 'label_value'
+2021-07-20 09:26:39,653 - ERROR : Exception in Tkinter callback
+2021-07-20 09:26:39,655 - ERROR : Traceback (most recent call last):
+2021-07-20 09:26:39,656 - ERROR :   File "C:\Program Files\Python38\lib\tkinter\__init__.py", line 1883, in __call__
+2021-07-20 09:26:39,656 - ERROR :     return self.func(*args)
+2021-07-20 09:26:39,656 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\tkinter_frames.py", line 29, in onWrite
+2021-07-20 09:26:39,657 - ERROR :     self.label_value.set(self.entry_value.get())
+2021-07-20 09:26:39,657 - ERROR : AttributeError: 'DistributionData' object has no attribute 'label_value'
+2021-07-20 09:26:39,878 - ERROR : Exception in Tkinter callback
+2021-07-20 09:26:39,880 - ERROR : Traceback (most recent call last):
+2021-07-20 09:26:39,880 - ERROR :   File "C:\Program Files\Python38\lib\tkinter\__init__.py", line 1883, in __call__
+2021-07-20 09:26:39,880 - ERROR :     return self.func(*args)
+2021-07-20 09:26:39,880 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\tkinter_frames.py", line 29, in onWrite
+2021-07-20 09:26:39,880 - ERROR :     self.label_value.set(self.entry_value.get())
+2021-07-20 09:26:39,880 - ERROR : AttributeError: 'DistributionData' object has no attribute 'label_value'
+2021-07-20 09:26:39,984 - ERROR : Exception in Tkinter callback
+2021-07-20 09:26:39,985 - ERROR : Traceback (most recent call last):
+2021-07-20 09:26:39,985 - ERROR :   File "C:\Program Files\Python38\lib\tkinter\__init__.py", line 1883, in __call__
+2021-07-20 09:26:39,985 - ERROR :     return self.func(*args)
+2021-07-20 09:26:39,985 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\tkinter_frames.py", line 29, in onWrite
+2021-07-20 09:26:39,986 - ERROR :     self.label_value.set(self.entry_value.get())
+2021-07-20 09:26:39,986 - ERROR : AttributeError: 'DistributionData' object has no attribute 'label_value'
+2021-07-20 09:26:40,205 - ERROR : Exception in Tkinter callback
+2021-07-20 09:26:40,208 - ERROR : Traceback (most recent call last):
+2021-07-20 09:26:40,208 - ERROR :   File "C:\Program Files\Python38\lib\tkinter\__init__.py", line 1883, in __call__
+2021-07-20 09:26:40,208 - ERROR :     return self.func(*args)
+2021-07-20 09:26:40,209 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\tkinter_frames.py", line 29, in onWrite
+2021-07-20 09:26:40,209 - ERROR :     self.label_value.set(self.entry_value.get())
+2021-07-20 09:26:40,209 - ERROR : AttributeError: 'DistributionData' object has no attribute 'label_value'
+2021-07-20 09:26:40,642 - ERROR : Exception in Tkinter callback
+2021-07-20 09:26:40,645 - ERROR : Traceback (most recent call last):
+2021-07-20 09:26:40,645 - ERROR :   File "C:\Program Files\Python38\lib\tkinter\__init__.py", line 1883, in __call__
+2021-07-20 09:26:40,645 - ERROR :     return self.func(*args)
+2021-07-20 09:26:40,646 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\tkinter_frames.py", line 29, in onWrite
+2021-07-20 09:26:40,646 - ERROR :     self.label_value.set(self.entry_value.get())
+2021-07-20 09:26:40,646 - ERROR : AttributeError: 'DistributionData' object has no attribute 'label_value'
+2021-07-20 09:26:41,077 - ERROR : Exception in Tkinter callback
+2021-07-20 09:26:41,079 - ERROR : Traceback (most recent call last):
+2021-07-20 09:26:41,080 - ERROR :   File "C:\Program Files\Python38\lib\tkinter\__init__.py", line 1883, in __call__
+2021-07-20 09:26:41,080 - ERROR :     return self.func(*args)
+2021-07-20 09:26:41,080 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\tkinter_frames.py", line 29, in onWrite
+2021-07-20 09:26:41,081 - ERROR :     self.label_value.set(self.entry_value.get())
+2021-07-20 09:26:41,081 - ERROR : AttributeError: 'DistributionData' object has no attribute 'label_value'
+2021-07-20 09:26:41,082 - ERROR : Exception in Tkinter callback
+2021-07-20 09:26:41,084 - ERROR : Traceback (most recent call last):
+2021-07-20 09:26:41,084 - ERROR :   File "C:\Program Files\Python38\lib\tkinter\__init__.py", line 1883, in __call__
+2021-07-20 09:26:41,085 - ERROR :     return self.func(*args)
+2021-07-20 09:26:41,085 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\tkinter_frames.py", line 29, in onWrite
+2021-07-20 09:26:41,085 - ERROR :     self.label_value.set(self.entry_value.get())
+2021-07-20 09:26:41,085 - ERROR : AttributeError: 'DistributionData' object has no attribute 'label_value'
+2021-07-20 09:26:41,098 - ERROR : Exception in Tkinter callback
+2021-07-20 09:26:41,100 - ERROR : Traceback (most recent call last):
+2021-07-20 09:26:41,100 - ERROR :   File "C:\Program Files\Python38\lib\tkinter\__init__.py", line 1883, in __call__
+2021-07-20 09:26:41,100 - ERROR :     return self.func(*args)
+2021-07-20 09:26:41,100 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\tkinter_frames.py", line 29, in onWrite
+2021-07-20 09:26:41,100 - ERROR :     self.label_value.set(self.entry_value.get())
+2021-07-20 09:26:41,100 - ERROR : AttributeError: 'DistributionData' object has no attribute 'label_value'
+2021-07-20 09:26:41,187 - ERROR : Exception in Tkinter callback
+2021-07-20 09:26:41,189 - ERROR : Traceback (most recent call last):
+2021-07-20 09:26:41,189 - ERROR :   File "C:\Program Files\Python38\lib\tkinter\__init__.py", line 1883, in __call__
+2021-07-20 09:26:41,189 - ERROR :     return self.func(*args)
+2021-07-20 09:26:41,190 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\tkinter_frames.py", line 29, in onWrite
+2021-07-20 09:26:41,190 - ERROR :     self.label_value.set(self.entry_value.get())
+2021-07-20 09:26:41,190 - ERROR : AttributeError: 'DistributionData' object has no attribute 'label_value'
+2021-07-20 09:28:31,524 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 09:28:31,774 - INFO : This product is licensed to 
+2021-07-20 09:28:31,774 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 09:28:44,404 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 09:28:44,624 - INFO : This product is licensed to 
+2021-07-20 09:28:44,625 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 09:38:07,831 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 09:38:08,052 - INFO : This product is licensed to 
+2021-07-20 09:38:08,052 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 09:38:10,643 - ERROR : Error calling ribbon function 'ribbon_functions.test_interface'
+2021-07-20 09:38:15,984 - ERROR : Traceback (most recent call last):
+2021-07-20 09:38:15,984 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 50, in test_interface
+2021-07-20 09:38:15,985 - ERROR :     example_tk_ctp()
+2021-07-20 09:38:15,985 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 34, in example_tk_ctp
+2021-07-20 09:38:15,985 - ERROR :     frame = DistributionData(master=window)
+2021-07-20 09:38:15,985 - ERROR : TypeError: __init__() missing 1 required positional argument: 'update_dict'
+2021-07-20 09:38:59,054 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 09:38:59,279 - INFO : This product is licensed to 
+2021-07-20 09:38:59,279 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 09:39:14,640 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 09:39:14,852 - INFO : This product is licensed to 
+2021-07-20 09:39:14,852 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 09:39:53,091 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 09:39:53,309 - INFO : This product is licensed to 
+2021-07-20 09:39:53,309 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 09:40:36,653 - ERROR : Error calling ribbon function 'ribbon_functions.on_text_button'
+2021-07-20 09:40:38,645 - ERROR : Traceback (most recent call last):
+2021-07-20 09:40:38,645 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 61, in on_text_button
+2021-07-20 09:40:38,646 - ERROR :     xl.Selection.Value  = cell_distribution_data["test"]
+2021-07-20 09:40:38,646 - ERROR : KeyError: 'test'
+2021-07-20 09:41:00,743 - ERROR : Error calling ribbon function 'ribbon_functions.on_text_button'
+2021-07-20 09:41:02,813 - ERROR : Traceback (most recent call last):
+2021-07-20 09:41:02,814 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 61, in on_text_button
+2021-07-20 09:41:02,814 - ERROR :     xl.Selection.Value  = cell_distribution_data["test"]
+2021-07-20 09:41:02,814 - ERROR : KeyError: 'test'
+2021-07-20 09:41:03,908 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 09:41:04,126 - INFO : This product is licensed to 
+2021-07-20 09:41:04,126 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 09:41:12,733 - ERROR : Error calling ribbon function 'ribbon_functions.on_text_button'
+2021-07-20 09:41:18,828 - ERROR : Traceback (most recent call last):
+2021-07-20 09:41:18,829 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 61, in on_text_button
+2021-07-20 09:41:18,829 - ERROR :     xl.Selection.Value  = cell_distribution_data["test"]
+2021-07-20 09:41:18,829 - ERROR : KeyError: 'test'
+2021-07-20 09:41:40,548 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 09:41:40,769 - INFO : This product is licensed to 
+2021-07-20 09:41:40,769 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 09:46:15,921 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 09:46:16,148 - INFO : This product is licensed to 
+2021-07-20 09:46:16,148 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 09:46:28,392 - INFO : 1
+2021-07-20 09:52:50,938 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 09:52:51,161 - INFO : This product is licensed to 
+2021-07-20 09:52:51,161 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 09:55:20,877 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 09:55:21,096 - INFO : This product is licensed to 
+2021-07-20 09:55:21,096 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 10:26:09,486 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 10:26:09,803 - INFO : This product is licensed to 
+2021-07-20 10:26:09,803 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 10:36:59,463 - ERROR : Exception ignored in: <function Variable.__del__ at 0x000002DB51A2AC10>
+2021-07-20 10:36:59,463 - ERROR : Traceback (most recent call last):
+2021-07-20 10:36:59,463 - ERROR :   File "C:\Program Files\Python38\lib\tkinter\__init__.py", line 351, in __del__
+2021-07-20 10:36:59,466 - ERROR :     if self._tk.getboolean(self._tk.call("info", "exists", self._name)):
+2021-07-20 10:36:59,466 - ERROR : RuntimeError: main thread is not in main loop
+2021-07-20 10:37:56,300 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 10:37:58,583 - ERROR : Error importing 'ribbon_functions'
+Traceback (most recent call last):
+  File "build/x64/py38/res/release/pyxll.py", line 839, in _open
+  File "build/x64/py38/res/release/pyxll.py", line 8206, in __import_hook
+  File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 8, in <module>
+    from examples.tkinter_frames import DistributionData
+ImportError: cannot import name 'DistributionData' from 'examples.tkinter_frames' (C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\tkinter_frames.py)
+2021-07-20 10:38:06,058 - INFO : This product is licensed to 
+2021-07-20 10:38:06,058 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 10:38:06,122 - ERROR : Error loading 'ribbon_functions' : cannot import name 'DistributionData' from 'examples.tkinter_frames' (C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\tkinter_frames.py)
+2021-07-20 10:38:06,989 - ERROR : Error importing 'ribbon_functions'
+Traceback (most recent call last):
+  File "build/x64/py38/res/release/pyxll.py", line 839, in _open
+  File "build/x64/py38/res/release/pyxll.py", line 8206, in __import_hook
+  File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 8, in <module>
+    from examples.tkinter_frames import DistributionData
+ImportError: cannot import name 'DistributionData' from 'examples.tkinter_frames' (C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\tkinter_frames.py)
+2021-07-20 10:38:40,912 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 10:38:44,545 - INFO : This product is licensed to 
+2021-07-20 10:38:44,545 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 10:38:45,030 - INFO : This product is licensed to 
+2021-07-20 10:38:45,030 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 10:46:28,959 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 10:46:29,258 - INFO : This product is licensed to 
+2021-07-20 10:46:29,258 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 10:47:09,900 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 10:47:13,116 - INFO : This product is licensed to 
+2021-07-20 10:47:13,116 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 10:47:13,608 - INFO : This product is licensed to 
+2021-07-20 10:47:13,608 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 10:49:13,942 - ERROR : Exception ignored in: <function Variable.__del__ at 0x000002477EBC7CA0>
+2021-07-20 10:49:13,944 - ERROR : Traceback (most recent call last):
+2021-07-20 10:49:13,944 - ERROR :   File "C:\Program Files\Python38\lib\tkinter\__init__.py", line 351, in __del__
+2021-07-20 10:49:13,947 - ERROR :     if self._tk.getboolean(self._tk.call("info", "exists", self._name)):
+2021-07-20 10:49:13,948 - ERROR : RuntimeError: main thread is not in main loop
+2021-07-20 10:50:08,856 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 10:50:15,131 - INFO : This product is licensed to 
+2021-07-20 10:50:15,131 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 10:50:20,640 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 10:50:20,912 - INFO : This product is licensed to 
+2021-07-20 10:50:20,912 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 10:50:50,486 - ERROR : Error calling ribbon function 'ribbon_functions.test_interface'
+2021-07-20 10:51:07,960 - ERROR : Error calling ribbon function 'ribbon_functions.test_interface'
+2021-07-20 10:57:01,016 - ERROR : Error calling ribbon function 'ribbon_functions.test_interface'
+2021-07-20 10:57:26,297 - ERROR : Error calling ribbon function 'ribbon_functions.test_interface'
+2021-07-20 10:57:29,739 - ERROR : Traceback (most recent call last):
+2021-07-20 10:57:29,749 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 52, in test_interface
+2021-07-20 10:57:29,751 - ERROR :     for y in xl.Selection.Range:
+2021-07-20 10:57:29,751 - ERROR : TypeError: 'method' object is not iterable
+2021-07-20 10:57:40,506 - ERROR : Error calling ribbon function 'ribbon_functions.test_interface'
+2021-07-20 10:58:21,029 - ERROR : Error calling ribbon function 'ribbon_functions.test_interface'
+2021-07-20 10:58:51,135 - ERROR : Error calling ribbon function 'ribbon_functions.test_interface'
+2021-07-20 10:59:17,283 - ERROR : Error calling ribbon function 'ribbon_functions.test_interface'
+2021-07-20 10:59:28,556 - ERROR : Error calling ribbon function 'ribbon_functions.test_interface'
+2021-07-20 10:59:39,819 - ERROR : Traceback (most recent call last):
+2021-07-20 10:59:39,820 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 52, in test_interface
+2021-07-20 10:59:39,821 - ERROR :     r = xl.Selection.Range()
+2021-07-20 10:59:39,821 - ERROR : TypeError: 'method' object is not iterable
+2021-07-20 10:59:48,140 - ERROR : Error calling ribbon function 'ribbon_functions.test_interface'
+2021-07-20 10:59:51,754 - ERROR : Traceback (most recent call last):
+2021-07-20 10:59:51,755 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 52, in test_interface
+2021-07-20 10:59:51,756 - ERROR :     r = xl.Selection.Range
+2021-07-20 10:59:51,758 - ERROR : TypeError: 'method' object is not iterable
+2021-07-20 11:00:06,867 - ERROR : Error calling ribbon function 'ribbon_functions.test_interface'
+2021-07-20 11:00:39,416 - ERROR : Error calling ribbon function 'ribbon_functions.test_interface'
+2021-07-20 11:00:50,331 - ERROR : Traceback (most recent call last):
+2021-07-20 11:00:50,332 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 52, in test_interface
+2021-07-20 11:00:50,334 - ERROR :     r = xl.Selection.Value
+2021-07-20 11:00:50,336 - ERROR : TypeError: 'method' object is not iterable
+2021-07-20 11:01:01,511 - INFO : callbacks.on_close: PyXLL is closing
+2021-07-20 11:01:07,950 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 11:01:12,693 - INFO : This product is licensed to 
+2021-07-20 11:01:12,693 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 11:01:13,385 - INFO : This product is licensed to 
+2021-07-20 11:01:13,385 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 11:03:04,718 - ERROR : Exception ignored in: <function Variable.__del__ at 0x00000233307A8CA0>
+2021-07-20 11:03:04,718 - ERROR : Traceback (most recent call last):
+2021-07-20 11:03:04,718 - ERROR :   File "C:\Program Files\Python38\lib\tkinter\__init__.py", line 351, in __del__
+2021-07-20 11:03:04,722 - ERROR :     if self._tk.getboolean(self._tk.call("info", "exists", self._name)):
+2021-07-20 11:03:04,722 - ERROR : RuntimeError: main thread is not in main loop
+2021-07-20 11:03:19,250 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 11:03:19,564 - INFO : This product is licensed to 
+2021-07-20 11:03:19,564 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 11:04:06,760 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 11:04:11,847 - INFO : This product is licensed to 
+2021-07-20 11:04:11,847 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 11:04:28,764 - ERROR : Error calling ribbon function 'ribbon_functions.test_interface'
+2021-07-20 11:04:38,699 - ERROR : Error calling ribbon function 'ribbon_functions.test_interface'
+2021-07-20 11:04:43,615 - ERROR : Exception ignored in: <function Variable.__del__ at 0x00000233307A8CA0>
+2021-07-20 11:04:43,615 - ERROR : Traceback (most recent call last):
+2021-07-20 11:04:43,615 - ERROR :   File "C:\Program Files\Python38\lib\tkinter\__init__.py", line 351, in __del__
+2021-07-20 11:04:43,617 - ERROR :     if self._tk.getboolean(self._tk.call("info", "exists", self._name)):
+2021-07-20 11:04:43,617 - ERROR : RuntimeError: main thread is not in main loop
+2021-07-20 11:09:28,329 - ERROR : Error calling ribbon function 'ribbon_functions.test_interface'
+2021-07-20 11:10:32,658 - ERROR : Error calling ribbon function 'ribbon_functions.test_interface'
+2021-07-20 11:10:59,937 - ERROR : Error calling ribbon function 'ribbon_functions.test_interface'
+2021-07-20 11:11:38,909 - ERROR : Error calling ribbon function 'ribbon_functions.test_interface'
+2021-07-20 11:13:31,988 - ERROR : Error calling ribbon function 'ribbon_functions.test_interface'
+2021-07-20 11:13:39,010 - ERROR : Error calling ribbon function 'ribbon_functions.test_interface'
+2021-07-20 11:14:02,528 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 11:14:02,825 - INFO : This product is licensed to 
+2021-07-20 11:14:02,825 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 11:15:18,651 - ERROR : Error calling ribbon function 'ribbon_functions.test_interface'
+2021-07-20 11:16:29,750 - ERROR : Error calling ribbon function 'ribbon_functions.test_interface'
+2021-07-20 11:16:33,706 - ERROR : Traceback (most recent call last):
+2021-07-20 11:16:33,715 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 53, in test_interface
+2021-07-20 11:16:33,716 - ERROR :     z=x[0]
+2021-07-20 11:16:33,717 - ERROR : TypeError: 'method' object is not iterable
+2021-07-20 11:16:36,206 - ERROR : Error calling ribbon function 'ribbon_functions.test_interface'
+2021-07-20 11:16:37,680 - ERROR : Traceback (most recent call last):
+2021-07-20 11:16:37,681 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 53, in test_interface
+2021-07-20 11:16:37,682 - ERROR :     z=x[0]
+2021-07-20 11:16:37,683 - ERROR : TypeError: 'method' object is not iterable
+2021-07-20 11:16:40,399 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 11:16:40,674 - INFO : This product is licensed to 
+2021-07-20 11:16:40,674 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 11:16:45,780 - ERROR : Error calling ribbon function 'ribbon_functions.test_interface'
+2021-07-20 11:22:38,120 - ERROR : Error calling ribbon function 'ribbon_functions.test_interface'
+2021-07-20 11:22:44,770 - ERROR : Traceback (most recent call last):
+2021-07-20 11:22:44,771 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 53, in test_interface
+2021-07-20 11:22:44,772 - ERROR :     
+2021-07-20 11:22:44,772 - ERROR : TypeError: 'method' object is not iterable
+2021-07-20 11:22:47,279 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 11:22:47,555 - INFO : This product is licensed to 
+2021-07-20 11:22:47,556 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 11:22:51,504 - ERROR : Error calling ribbon function 'ribbon_functions.test_interface'
+2021-07-20 11:22:54,961 - ERROR : Traceback (most recent call last):
+2021-07-20 11:22:54,961 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 53, in test_interface
+2021-07-20 11:22:54,962 - ERROR :     
+2021-07-20 11:22:54,963 - ERROR : TypeError: 'method' object is not iterable
+2021-07-20 11:23:01,384 - INFO : callbacks.on_close: PyXLL is closing
+2021-07-20 11:23:05,343 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 11:23:09,674 - INFO : This product is licensed to 
+2021-07-20 11:23:09,674 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 11:23:10,619 - INFO : This product is licensed to 
+2021-07-20 11:23:10,619 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 11:25:08,634 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 11:25:08,803 - ERROR : Error reloading 'ribbon_functions'
+Traceback (most recent call last):
+  File "build/x64/py38/res/release/pyxll.py", line 835, in _open
+  File "build/x64/py38/res/release/pyxll.py", line 8047, in reload
+  File "C:\Program Files\Python38\lib\imp.py", line 314, in reload
+    return importlib.reload(module)
+  File "C:\Program Files\Python38\lib\importlib\__init__.py", line 169, in reload
+    _bootstrap._exec(spec, module)
+  File "<frozen importlib._bootstrap>", line 604, in _exec
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 53
+    RowAbsolute:=False, ColumnAbsolute:=False)
+    ^
+SyntaxError: invalid syntax
+2021-07-20 11:25:12,904 - INFO : This product is licensed to 
+2021-07-20 11:25:12,904 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 11:25:12,923 - ERROR : Error loading 'ribbon_functions' : invalid syntax (ribbon_functions.py, line 53)
+2021-07-20 11:25:19,686 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 11:25:19,819 - ERROR : Error reloading 'ribbon_functions'
+Traceback (most recent call last):
+  File "build/x64/py38/res/release/pyxll.py", line 835, in _open
+  File "build/x64/py38/res/release/pyxll.py", line 8047, in reload
+  File "C:\Program Files\Python38\lib\imp.py", line 314, in reload
+    return importlib.reload(module)
+  File "C:\Program Files\Python38\lib\importlib\__init__.py", line 169, in reload
+    _bootstrap._exec(spec, module)
+  File "<frozen importlib._bootstrap>", line 604, in _exec
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 53
+    RowAbsolute:=False, ColumnAbsolute:=False)
+    ^
+SyntaxError: invalid syntax
+2021-07-20 11:25:21,462 - INFO : This product is licensed to 
+2021-07-20 11:25:21,462 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 11:25:21,472 - ERROR : Error loading 'ribbon_functions' : invalid syntax (ribbon_functions.py, line 53)
+2021-07-20 11:25:24,401 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 11:25:24,531 - ERROR : Error reloading 'ribbon_functions'
+Traceback (most recent call last):
+  File "build/x64/py38/res/release/pyxll.py", line 835, in _open
+  File "build/x64/py38/res/release/pyxll.py", line 8047, in reload
+  File "C:\Program Files\Python38\lib\imp.py", line 314, in reload
+    return importlib.reload(module)
+  File "C:\Program Files\Python38\lib\importlib\__init__.py", line 169, in reload
+    _bootstrap._exec(spec, module)
+  File "<frozen importlib._bootstrap>", line 604, in _exec
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 53
+    RowAbsolute:=False, ColumnAbsolute:=False)
+    ^
+SyntaxError: invalid syntax
+2021-07-20 11:25:27,220 - INFO : This product is licensed to 
+2021-07-20 11:25:27,220 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 11:25:27,237 - ERROR : Error loading 'ribbon_functions' : invalid syntax (ribbon_functions.py, line 53)
+2021-07-20 11:25:46,642 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 11:25:46,775 - ERROR : Error reloading 'ribbon_functions'
+Traceback (most recent call last):
+  File "build/x64/py38/res/release/pyxll.py", line 835, in _open
+  File "build/x64/py38/res/release/pyxll.py", line 8047, in reload
+  File "C:\Program Files\Python38\lib\imp.py", line 314, in reload
+    return importlib.reload(module)
+  File "C:\Program Files\Python38\lib\importlib\__init__.py", line 169, in reload
+    _bootstrap._exec(spec, module)
+  File "<frozen importlib._bootstrap>", line 604, in _exec
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 53
+    RowAbsolute=False, ColumnAbsolute=False)
+    ^
+SyntaxError: invalid syntax
+2021-07-20 11:25:48,761 - INFO : This product is licensed to 
+2021-07-20 11:25:48,762 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 11:25:48,782 - ERROR : Error loading 'ribbon_functions' : invalid syntax (ribbon_functions.py, line 53)
+2021-07-20 11:26:07,427 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 11:26:07,704 - INFO : This product is licensed to 
+2021-07-20 11:26:07,704 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 11:26:12,012 - ERROR : Error calling ribbon function 'ribbon_functions.test_interface'
+2021-07-20 11:26:15,843 - ERROR : Traceback (most recent call last):
+2021-07-20 11:26:15,847 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 52, in test_interface
+2021-07-20 11:26:15,850 - ERROR :     x = xl.Selection.Address(ReferenceStyle:=xlA1, RowAbsolute=False, ColumnAbsolute=False)
+2021-07-20 11:26:15,851 - ERROR : NameError: name 'xlA1' is not defined
+2021-07-20 11:26:28,842 - ERROR : Error calling ribbon function 'ribbon_functions.test_interface'
+2021-07-20 11:26:31,001 - ERROR : Traceback (most recent call last):
+2021-07-20 11:26:31,002 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 52, in test_interface
+2021-07-20 11:26:31,003 - ERROR :     x = xl.Selection.Address(ReferenceStyle:="xlA1", RowAbsolute=False, ColumnAbsolute=False)
+2021-07-20 11:26:31,004 - ERROR : NameError: name 'xlA1' is not defined
+2021-07-20 11:26:33,564 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 11:26:33,903 - INFO : This product is licensed to 
+2021-07-20 11:26:33,903 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 11:26:36,760 - ERROR : Error calling ribbon function 'ribbon_functions.test_interface'
+2021-07-20 11:26:46,380 - ERROR : Traceback (most recent call last):
+2021-07-20 11:26:46,381 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 52, in test_interface
+2021-07-20 11:26:46,383 - ERROR :     x = xl.Selection.Address(ReferenceStyle:="xlA1", RowAbsolute=False, ColumnAbsolute=False)
+2021-07-20 11:26:46,383 - ERROR : TypeError: 'str' object is not callable
+2021-07-20 11:26:54,124 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 11:26:54,405 - INFO : This product is licensed to 
+2021-07-20 11:26:54,405 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 11:26:57,818 - ERROR : Error calling ribbon function 'ribbon_functions.test_interface'
+2021-07-20 11:27:01,868 - ERROR : Traceback (most recent call last):
+2021-07-20 11:27:01,869 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 52, in test_interface
+2021-07-20 11:27:01,870 - ERROR :     x = xl.Selection.Address(ReferenceStyle="xlA1", RowAbsolute=False, ColumnAbsolute=False)
+2021-07-20 11:27:01,871 - ERROR : TypeError: 'str' object is not callable
+2021-07-20 11:27:12,255 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 11:27:12,526 - INFO : This product is licensed to 
+2021-07-20 11:27:12,527 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 11:27:14,799 - ERROR : Error calling ribbon function 'ribbon_functions.test_interface'
+2021-07-20 11:27:28,689 - ERROR : Traceback (most recent call last):
+2021-07-20 11:27:28,689 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 52, in test_interface
+2021-07-20 11:27:28,691 - ERROR :     x = xl.Selection.Address(RowAbsolute=False, ColumnAbsolute=False)
+2021-07-20 11:27:28,691 - ERROR : TypeError: 'str' object is not callable
+2021-07-20 11:30:15,015 - INFO : callbacks.on_close: PyXLL is closing
+2021-07-20 11:30:20,096 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 11:30:23,806 - INFO : This product is licensed to 
+2021-07-20 11:30:23,806 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 11:30:24,286 - INFO : This product is licensed to 
+2021-07-20 11:30:24,286 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 11:30:33,113 - ERROR : Error calling ribbon function 'ribbon_functions.test_interface'
+2021-07-20 11:30:34,783 - ERROR : Traceback (most recent call last):
+2021-07-20 11:30:34,783 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 52, in test_interface
+2021-07-20 11:30:34,784 - ERROR :     x = xl.Selection.Address(RowAbsolute=False, ColumnAbsolute=False)
+2021-07-20 11:30:34,784 - ERROR : TypeError: 'str' object is not callable
+2021-07-20 11:30:46,415 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 11:30:46,631 - INFO : This product is licensed to 
+2021-07-20 11:30:46,631 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 11:30:49,400 - ERROR : Error calling ribbon function 'ribbon_functions.test_interface'
+2021-07-20 11:30:55,149 - ERROR : Traceback (most recent call last):
+2021-07-20 11:30:55,150 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 52, in test_interface
+2021-07-20 11:30:55,150 - ERROR :     x = xl.Selection.Address()
+2021-07-20 11:30:55,150 - ERROR : TypeError: 'str' object is not callable
+2021-07-20 11:31:04,615 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 11:31:04,831 - INFO : This product is licensed to 
+2021-07-20 11:31:04,831 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 11:31:42,365 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 11:31:42,581 - INFO : This product is licensed to 
+2021-07-20 11:31:42,581 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 11:31:44,983 - ERROR : Error calling ribbon function 'ribbon_functions.test_interface'
+2021-07-20 11:31:50,458 - ERROR : Traceback (most recent call last):
+2021-07-20 11:31:50,458 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 53, in test_interface
+2021-07-20 11:31:50,459 - ERROR :     x.ReferenceStyle="xlA1"
+2021-07-20 11:31:50,459 - ERROR : AttributeError: 'str' object has no attribute 'ReferenceStyle'
+2021-07-20 11:34:53,699 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 11:34:53,920 - INFO : This product is licensed to 
+2021-07-20 11:34:53,920 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 11:34:56,350 - ERROR : Error calling ribbon function 'ribbon_functions.test_interface'
+2021-07-20 11:34:58,178 - ERROR : Traceback (most recent call last):
+2021-07-20 11:34:58,179 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 53, in test_interface
+2021-07-20 11:34:58,179 - ERROR :     range = caller.to_range(com_package="win32com")
+2021-07-20 11:34:58,179 - ERROR : NameError: name 'caller' is not defined
+2021-07-20 11:35:17,663 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 11:35:17,883 - INFO : This product is licensed to 
+2021-07-20 11:35:17,883 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 11:35:19,983 - ERROR : Error calling ribbon function 'ribbon_functions.test_interface'
+2021-07-20 11:35:22,107 - ERROR : Traceback (most recent call last):
+2021-07-20 11:35:22,107 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 53, in test_interface
+2021-07-20 11:35:22,108 - ERROR :     range = pyxll.caller.to_range(com_package="win32com")
+2021-07-20 11:35:22,108 - ERROR : NameError: name 'pyxll' is not defined
+2021-07-20 11:35:42,342 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 11:35:42,432 - ERROR : Error reloading 'ribbon_functions'
+Traceback (most recent call last):
+  File "build/x64/py38/res/release/pyxll.py", line 835, in _open
+  File "build/x64/py38/res/release/pyxll.py", line 8047, in reload
+  File "C:\Program Files\Python38\lib\imp.py", line 314, in reload
+    return importlib.reload(module)
+  File "C:\Program Files\Python38\lib\importlib\__init__.py", line 169, in reload
+    _bootstrap._exec(spec, module)
+  File "<frozen importlib._bootstrap>", line 604, in _exec
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 15, in <module>
+    from pyxll import xl_menu, create_ctp, CTPDockPositionFloating, caller
+ImportError: cannot import name 'caller' from '_pyxll_220000.pyxll' (C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\pyxll.xll)
+2021-07-20 11:35:45,317 - INFO : This product is licensed to 
+2021-07-20 11:35:45,317 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 11:35:45,330 - ERROR : Error loading 'ribbon_functions' : cannot import name 'caller' from '_pyxll_220000.pyxll' (C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\pyxll.xll)
+2021-07-20 11:48:12,805 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 11:48:13,021 - INFO : This product is licensed to 
+2021-07-20 11:48:13,021 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 11:52:44,280 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 11:52:44,579 - INFO : This product is licensed to 
+2021-07-20 11:52:44,579 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 11:53:09,361 - ERROR : Exception ignored in: <function Variable.__del__ at 0x000001CD9B098CA0>
+2021-07-20 11:53:09,362 - ERROR : Traceback (most recent call last):
+2021-07-20 11:53:09,362 - ERROR :   File "C:\Program Files\Python38\lib\tkinter\__init__.py", line 351, in __del__
+2021-07-20 11:53:09,363 - ERROR :     if self._tk.getboolean(self._tk.call("info", "exists", self._name)):
+2021-07-20 11:53:09,363 - ERROR : RuntimeError: main thread is not in main loop
+2021-07-20 12:03:47,624 - ERROR : Exception ignored in: <function Variable.__del__ at 0x000001CD9B098CA0>
+2021-07-20 12:03:47,625 - ERROR : Traceback (most recent call last):
+2021-07-20 12:03:47,625 - ERROR :   File "C:\Program Files\Python38\lib\tkinter\__init__.py", line 351, in __del__
+2021-07-20 12:03:47,627 - ERROR :     if self._tk.getboolean(self._tk.call("info", "exists", self._name)):
+2021-07-20 12:03:47,628 - ERROR : RuntimeError: main thread is not in main loop
+2021-07-20 12:04:08,983 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 12:04:09,257 - INFO : This product is licensed to 
+2021-07-20 12:04:09,257 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 12:04:12,022 - ERROR : Error calling ribbon function 'ribbon_functions.test_interface'
+2021-07-20 12:04:14,182 - ERROR : Traceback (most recent call last):
+2021-07-20 12:04:14,189 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 55, in test_interface
+2021-07-20 12:04:14,190 - ERROR :     z = xl.Selection["A1"]
+2021-07-20 12:04:14,191 - ERROR :   File "C:\Users\ETHAN-~1\AppData\Local\Temp\gen_py\3.8\00020813-0000-0000-C000-000000000046x0x1x9\Range.py", line 779, in __getitem__
+2021-07-20 12:04:14,193 - ERROR :     return self._get_good_object_(self._oleobj_.Invoke(*(170, LCID, 2, 1, key)), "Item", None)
+2021-07-20 12:04:14,195 - ERROR : pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, None, None, None, 0, -2147024809), None)
+2021-07-20 12:04:28,161 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 12:04:28,433 - INFO : This product is licensed to 
+2021-07-20 12:04:28,433 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 12:04:31,053 - ERROR : Error calling ribbon function 'ribbon_functions.test_interface'
+2021-07-20 12:06:29,601 - ERROR : Error calling ribbon function 'ribbon_functions.test_interface'
+2021-07-20 12:06:46,749 - ERROR : Error calling ribbon function 'ribbon_functions.test_interface'
+2021-07-20 12:06:53,633 - ERROR : Traceback (most recent call last):
+2021-07-20 12:06:53,634 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 55, in test_interface
+2021-07-20 12:06:53,636 - ERROR :     x = xl.Selection.Address
+2021-07-20 12:06:53,637 - ERROR :   File "C:\Users\ETHAN-~1\AppData\Local\Temp\gen_py\3.8\00020813-0000-0000-C000-000000000046x0x1x9\Range.py", line 779, in __getitem__
+2021-07-20 12:06:53,640 - ERROR :     return self._get_good_object_(self._oleobj_.Invoke(*(170, LCID, 2, 1, key)), "Item", None)
+2021-07-20 12:06:53,641 - ERROR : pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, None, None, None, 0, -2147024809), None)
+2021-07-20 12:07:12,432 - ERROR : Error calling ribbon function 'ribbon_functions.test_interface'
+2021-07-20 12:07:13,885 - ERROR : Traceback (most recent call last):
+2021-07-20 12:07:13,886 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 55, in test_interface
+2021-07-20 12:07:13,888 - ERROR :     x = xl.Selection.Address
+2021-07-20 12:07:13,888 - ERROR :   File "C:\Users\ETHAN-~1\AppData\Local\Temp\gen_py\3.8\00020813-0000-0000-C000-000000000046x0x1x9\Range.py", line 779, in __getitem__
+2021-07-20 12:07:13,890 - ERROR :     return self._get_good_object_(self._oleobj_.Invoke(*(170, LCID, 2, 1, key)), "Item", None)
+2021-07-20 12:07:13,890 - ERROR : pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, None, None, None, 0, -2147024809), None)
+2021-07-20 12:07:34,820 - ERROR : Error calling ribbon function 'ribbon_functions.test_interface'
+2021-07-20 12:07:36,794 - ERROR : Traceback (most recent call last):
+2021-07-20 12:07:36,795 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 55, in test_interface
+2021-07-20 12:07:36,798 - ERROR :     x = xl.Selection.Address
+2021-07-20 12:07:36,798 - ERROR :   File "C:\Users\ETHAN-~1\AppData\Local\Temp\gen_py\3.8\00020813-0000-0000-C000-000000000046x0x1x9\Range.py", line 779, in __getitem__
+2021-07-20 12:07:36,800 - ERROR :     return self._get_good_object_(self._oleobj_.Invoke(*(170, LCID, 2, 1, key)), "Item", None)
+2021-07-20 12:07:36,801 - ERROR : pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, None, None, None, 0, -2147024809), None)
+2021-07-20 12:08:31,356 - ERROR : Error calling ribbon function 'ribbon_functions.test_interface'
+2021-07-20 12:08:32,606 - ERROR : Traceback (most recent call last):
+2021-07-20 12:08:32,607 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 55, in test_interface
+2021-07-20 12:08:32,608 - ERROR :     x = xl.Selection.Address
+2021-07-20 12:08:32,609 - ERROR :   File "C:\Users\ETHAN-~1\AppData\Local\Temp\gen_py\3.8\00020813-0000-0000-C000-000000000046x0x1x9\Range.py", line 779, in __getitem__
+2021-07-20 12:08:32,611 - ERROR :     return self._get_good_object_(self._oleobj_.Invoke(*(170, LCID, 2, 1, key)), "Item", None)
+2021-07-20 12:08:32,613 - ERROR : pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, None, None, None, 0, -2147024809), None)
+2021-07-20 12:08:40,078 - ERROR : Error calling ribbon function 'ribbon_functions.test_interface'
+2021-07-20 12:08:41,482 - ERROR : Traceback (most recent call last):
+2021-07-20 12:08:41,482 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 55, in test_interface
+2021-07-20 12:08:41,483 - ERROR :     x = xl.Selection.Address
+2021-07-20 12:08:41,484 - ERROR :   File "C:\Users\ETHAN-~1\AppData\Local\Temp\gen_py\3.8\00020813-0000-0000-C000-000000000046x0x1x9\Range.py", line 779, in __getitem__
+2021-07-20 12:08:41,485 - ERROR :     return self._get_good_object_(self._oleobj_.Invoke(*(170, LCID, 2, 1, key)), "Item", None)
+2021-07-20 12:08:41,486 - ERROR : pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, None, None, None, 0, -2147024809), None)
+2021-07-20 12:08:44,145 - INFO : callbacks.on_close: PyXLL is closing
+2021-07-20 12:09:12,843 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 12:09:17,606 - INFO : This product is licensed to 
+2021-07-20 12:09:17,606 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 12:09:18,334 - INFO : This product is licensed to 
+2021-07-20 12:09:18,334 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 12:12:30,485 - ERROR : Exception ignored in: <function Variable.__del__ at 0x000001939CCC8CA0>
+2021-07-20 12:12:30,485 - ERROR : Traceback (most recent call last):
+2021-07-20 12:12:30,485 - ERROR :   File "C:\Program Files\Python38\lib\tkinter\__init__.py", line 351, in __del__
+2021-07-20 12:12:30,489 - ERROR :     if self._tk.getboolean(self._tk.call("info", "exists", self._name)):
+2021-07-20 12:12:30,489 - ERROR : RuntimeError: main thread is not in main loop
+2021-07-20 12:12:32,740 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 12:12:34,628 - INFO : This product is licensed to 
+2021-07-20 12:12:34,628 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 12:13:45,031 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 12:13:47,841 - INFO : This product is licensed to 
+2021-07-20 12:13:47,841 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 12:26:39,696 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 12:26:41,348 - INFO : This product is licensed to 
+2021-07-20 12:26:41,348 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 12:28:25,285 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 12:28:26,789 - INFO : This product is licensed to 
+2021-07-20 12:28:26,789 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 12:30:09,770 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 12:30:11,431 - INFO : This product is licensed to 
+2021-07-20 12:30:11,431 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 12:30:44,840 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 12:30:46,443 - INFO : This product is licensed to 
+2021-07-20 12:30:46,443 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 13:22:43,974 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 13:22:44,342 - INFO : This product is licensed to 
+2021-07-20 13:22:44,342 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 13:23:15,123 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 13:23:15,400 - INFO : This product is licensed to 
+2021-07-20 13:23:15,400 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 14:10:34,252 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 14:10:34,401 - ERROR : Error reloading 'ribbon_functions'
+Traceback (most recent call last):
+  File "build/x64/py38/res/release/pyxll.py", line 835, in _open
+  File "build/x64/py38/res/release/pyxll.py", line 8047, in reload
+  File "C:\Program Files\Python38\lib\imp.py", line 314, in reload
+    return importlib.reload(module)
+  File "C:\Program Files\Python38\lib\importlib\__init__.py", line 169, in reload
+    _bootstrap._exec(spec, module)
+  File "<frozen importlib._bootstrap>", line 604, in _exec
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 47, in <module>
+    @xl_func
+NameError: name 'xl_func' is not defined
+2021-07-20 14:10:36,705 - INFO : This product is licensed to 
+2021-07-20 14:10:36,705 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 14:10:36,715 - ERROR : Error loading 'ribbon_functions' : name 'xl_func' is not defined
+2021-07-20 14:10:52,211 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 14:10:52,491 - INFO : This product is licensed to 
+2021-07-20 14:10:52,491 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 14:12:39,979 - ERROR : Error calling function random_test
+2021-07-20 14:12:39,987 - ERROR : Traceback (most recent call last):
+2021-07-20 14:12:39,988 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 49, in random_test
+2021-07-20 14:12:39,988 - ERROR :     return cell_distribution_data["test_sheet_reference"].Range("$A$1").Value
+2021-07-20 14:12:39,989 - ERROR : KeyError: 'test_sheet_reference'
+2021-07-20 14:12:49,444 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 14:12:49,719 - INFO : This product is licensed to 
+2021-07-20 14:12:49,720 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 14:14:11,191 - INFO : callbacks.on_close: PyXLL is closing
+2021-07-20 14:14:22,495 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 14:14:26,446 - INFO : This product is licensed to 
+2021-07-20 14:14:26,446 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 14:14:26,958 - INFO : This product is licensed to 
+2021-07-20 14:14:26,958 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 14:14:49,212 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 14:14:49,428 - INFO : This product is licensed to 
+2021-07-20 14:14:49,428 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 14:15:19,222 - ERROR : Error calling ribbon function 'ribbon_functions.on_text_button'
+2021-07-20 14:15:24,687 - ERROR : Traceback (most recent call last):
+2021-07-20 14:15:24,687 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 70, in on_text_button
+2021-07-20 14:15:24,688 - ERROR :     xl.Selection.Value  = cell_distribution_data["test"]
+2021-07-20 14:15:24,688 - ERROR : KeyError: 'test'
+2021-07-20 14:15:30,160 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 14:15:30,379 - INFO : This product is licensed to 
+2021-07-20 14:15:30,379 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 14:16:12,764 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 14:16:12,984 - INFO : This product is licensed to 
+2021-07-20 14:16:12,984 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 14:16:13,881 - ERROR : Error calling function random_test
+2021-07-20 14:16:13,881 - ERROR : Traceback (most recent call last):
+2021-07-20 14:16:13,882 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 49, in random_test
+2021-07-20 14:16:13,882 - ERROR :     return cell_distribution_data["test_sheet_reference"].Range("$A$1").Value
+2021-07-20 14:16:13,882 - ERROR : KeyError: 'test_sheet_reference'
+2021-07-20 14:16:15,585 - ERROR : Error calling function random_test
+2021-07-20 14:16:15,585 - ERROR : Traceback (most recent call last):
+2021-07-20 14:16:15,586 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 49, in random_test
+2021-07-20 14:16:15,587 - ERROR :     return cell_distribution_data["test_sheet_reference"].Range("$A$1").Value
+2021-07-20 14:16:15,587 - ERROR : KeyError: 'test_sheet_reference'
+2021-07-20 14:17:02,600 - INFO : callbacks.on_close: PyXLL is closing
+2021-07-20 14:39:05,558 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 14:39:09,163 - INFO : This product is licensed to 
+2021-07-20 14:39:09,163 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 14:39:09,649 - INFO : This product is licensed to 
+2021-07-20 14:39:09,649 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 14:39:22,931 - ERROR : Error calling ribbon function 'ribbon_functions.inputNormal'
+2021-07-20 14:42:55,104 - ERROR : Traceback (most recent call last):
+2021-07-20 14:42:55,105 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 65, in inputNormal
+2021-07-20 14:42:55,108 - ERROR :     initSheetDistributionDict(control=control, cell_distribution_data=cell_distribution_data)
+2021-07-20 14:42:55,109 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 53, in initSheetDistributionDict
+2021-07-20 14:42:55,109 - ERROR :     if sheet not in cell_distribution_data.keys():
+2021-07-20 14:42:55,109 - ERROR : TypeError: unhashable type: '_Worksheet'
+2021-07-20 14:43:08,851 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 14:43:09,139 - INFO : This product is licensed to 
+2021-07-20 14:43:09,139 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 14:44:04,130 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 14:44:04,365 - INFO : This product is licensed to 
+2021-07-20 14:44:04,365 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 14:44:13,642 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 14:44:13,860 - INFO : This product is licensed to 
+2021-07-20 14:44:13,860 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 14:44:16,073 - ERROR : Error calling ribbon function 'ribbon_functions.inputNormal'
+2021-07-20 14:44:17,530 - ERROR : Traceback (most recent call last):
+2021-07-20 14:44:17,530 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 69, in inputNormal
+2021-07-20 14:44:17,531 - ERROR :     y = xl.Worksheets("Sheet2")
+2021-07-20 14:44:17,531 - ERROR :   File "C:\Users\ETHAN-~1\AppData\Local\Temp\gen_py\3.8\00020813-0000-0000-C000-000000000046x0x1x9\Sheets.py", line 120, in __call__
+2021-07-20 14:44:17,531 - ERROR :     ret = self._oleobj_.InvokeTypes(0, LCID, 2, (9, 0), ((12, 1),),Index
+2021-07-20 14:44:17,532 - ERROR : pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, None, None, None, 0, -2147352565), None)
+2021-07-20 14:53:26,584 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 14:53:26,889 - INFO : This product is licensed to 
+2021-07-20 14:53:26,889 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 14:54:29,129 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 14:54:31,016 - INFO : This product is licensed to 
+2021-07-20 14:54:31,016 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 14:55:56,253 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 14:55:58,058 - INFO : This product is licensed to 
+2021-07-20 14:55:58,058 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 14:56:19,359 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 14:56:21,172 - INFO : This product is licensed to 
+2021-07-20 14:56:21,172 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 14:56:38,809 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 14:56:41,790 - INFO : This product is licensed to 
+2021-07-20 14:56:41,790 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 14:58:41,791 - INFO : callbacks.on_close: PyXLL is closing
+2021-07-20 14:58:49,574 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 14:58:53,950 - INFO : This product is licensed to 
+2021-07-20 14:58:53,950 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 14:58:54,577 - INFO : This product is licensed to 
+2021-07-20 14:58:54,577 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 14:59:04,460 - ERROR : Error calling ribbon function 'ribbon_functions.inputNormal'
+2021-07-20 14:59:09,693 - ERROR : Traceback (most recent call last):
+2021-07-20 14:59:09,693 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 71, in inputNormal
+2021-07-20 14:59:09,694 - ERROR :     f = xl.Worksheets("Sheet2").CodeName
+2021-07-20 14:59:09,694 - ERROR :   File "C:\Users\ETHAN-~1\AppData\Local\Temp\gen_py\3.8\00020813-0000-0000-C000-000000000046x0x1x9\Sheets.py", line 120, in __call__
+2021-07-20 14:59:09,695 - ERROR :     ret = self._oleobj_.InvokeTypes(0, LCID, 2, (9, 0), ((12, 1),),Index
+2021-07-20 14:59:09,695 - ERROR : pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, None, None, None, 0, -2147352565), None)
+2021-07-20 15:00:58,824 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 15:00:59,100 - INFO : This product is licensed to 
+2021-07-20 15:00:59,100 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 15:01:14,899 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 15:01:15,127 - INFO : This product is licensed to 
+2021-07-20 15:01:15,127 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 15:01:17,294 - ERROR : Error calling ribbon function 'ribbon_functions.inputNormal'
+2021-07-20 15:01:18,600 - ERROR : Traceback (most recent call last):
+2021-07-20 15:01:18,600 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 74, in inputNormal
+2021-07-20 15:01:18,601 - ERROR :     sheet.Range("$A$1").Value = xl.Worksheets("Sheet2").CodeName()
+2021-07-20 15:01:18,601 - ERROR : TypeError: 'str' object is not callable
+2021-07-20 15:08:27,887 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 15:08:28,119 - INFO : This product is licensed to 
+2021-07-20 15:08:28,119 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 15:19:12,970 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 15:19:13,198 - INFO : This product is licensed to 
+2021-07-20 15:19:13,198 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 15:19:15,593 - ERROR : Error calling ribbon function 'ribbon_functions.inputNormal'
+2021-07-20 15:19:17,958 - ERROR : Traceback (most recent call last):
+2021-07-20 15:19:17,959 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 74, in inputNormal
+2021-07-20 15:19:17,959 - ERROR :     xl_Worksheets(1).CodeName = "tatatata"
+2021-07-20 15:19:17,959 - ERROR : NameError: name 'xl_Worksheets' is not defined
+2021-07-20 15:19:26,189 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 15:19:26,417 - INFO : This product is licensed to 
+2021-07-20 15:19:26,417 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 15:19:29,105 - ERROR : Error calling ribbon function 'ribbon_functions.inputNormal'
+2021-07-20 15:45:29,997 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 15:45:30,411 - INFO : This product is licensed to 
+2021-07-20 15:45:30,411 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 15:45:35,277 - ERROR : Error calling ribbon function 'ribbon_functions.inputNormal'
+2021-07-20 15:45:37,865 - ERROR : Traceback (most recent call last):
+2021-07-20 15:45:37,865 - ERROR :   File "C:\Users\Ethan-tuna\AppData\Roaming\Python\Python38\site-packages\win32com\client\__init__.py", line 479, in __setattr__
+2021-07-20 15:45:37,872 - ERROR :     args, defArgs=self._prop_map_put_[attr]
+2021-07-20 15:45:37,872 - ERROR : KeyError: 'CodeName'
+2021-07-20 15:45:37,872 - ERROR : 
+2021-07-20 15:45:37,872 - ERROR : During handling of the above exception, another exception occurred:
+2021-07-20 15:45:37,872 - ERROR : 
+2021-07-20 15:45:37,873 - ERROR : Traceback (most recent call last):
+2021-07-20 15:45:37,873 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 74, in inputNormal
+2021-07-20 15:45:37,873 - ERROR :     
+2021-07-20 15:45:37,873 - ERROR :   File "C:\Users\Ethan-tuna\AppData\Roaming\Python\Python38\site-packages\win32com\client\__init__.py", line 481, in __setattr__
+2021-07-20 15:45:37,874 - ERROR :     raise AttributeError("'%s' object has no attribute '%s'" % (repr(self), attr))
+2021-07-20 15:45:37,874 - ERROR : AttributeError: '<win32com.gen_py.Microsoft Excel 16.0 Object Library._Worksheet instance at 0x2178882623856>' object has no attribute 'CodeName'
+2021-07-20 15:45:51,375 - INFO : callbacks.on_close: PyXLL is closing
+2021-07-20 15:45:57,530 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 15:46:06,255 - INFO : This product is licensed to 
+2021-07-20 15:46:06,255 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 15:46:06,818 - INFO : This product is licensed to 
+2021-07-20 15:46:06,818 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 15:53:13,226 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 15:53:13,461 - INFO : This product is licensed to 
+2021-07-20 15:53:13,461 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 15:53:16,966 - ERROR : Error calling ribbon function 'ribbon_functions.inputNormal'
+2021-07-20 15:53:19,916 - ERROR : Traceback (most recent call last):
+2021-07-20 15:53:19,916 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 77, in inputNormal
+2021-07-20 15:53:19,916 - ERROR :     xl_app().Activesheet.Range("$A$1").Value = [1,2,3]
+2021-07-20 15:53:19,916 - ERROR :   File "C:\Users\Ethan-tuna\AppData\Roaming\Python\Python38\site-packages\win32com\client\__init__.py", line 473, in __getattr__
+2021-07-20 15:53:19,917 - ERROR :     raise AttributeError("'%s' object has no attribute '%s'" % (repr(self), attr))
+2021-07-20 15:53:19,917 - ERROR : AttributeError: '<win32com.gen_py.Microsoft Excel 16.0 Object Library._Application instance at 0x2819268375408>' object has no attribute 'Activesheet'
+2021-07-20 15:53:30,241 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 15:53:30,457 - INFO : This product is licensed to 
+2021-07-20 15:53:30,457 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 15:57:11,591 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 15:57:11,812 - INFO : This product is licensed to 
+2021-07-20 15:57:11,812 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 15:57:14,158 - ERROR : Error calling ribbon function 'ribbon_functions.inputNormal'
+2021-07-20 15:57:18,553 - ERROR : Traceback (most recent call last):
+2021-07-20 15:57:18,553 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 68, in inputNormal
+2021-07-20 15:57:18,554 - ERROR :     xl.Sheets.Add("reee")
+2021-07-20 15:57:18,554 - ERROR :   File "C:\Users\ETHAN-~1\AppData\Local\Temp\gen_py\3.8\00020813-0000-0000-C000-000000000046x0x1x9\Sheets.py", line 33, in Add
+2021-07-20 15:57:18,555 - ERROR :     ret = self._oleobj_.InvokeTypes(181, LCID, 1, (9, 0), ((12, 17), (12, 17), (12, 17), (12, 17)),Before
+2021-07-20 15:57:18,556 - ERROR : pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', 'Add method of Sheets class failed', 'xlmain11.chm', 0, -2146827284), None)
+2021-07-20 15:57:36,784 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 15:57:37,000 - INFO : This product is licensed to 
+2021-07-20 15:57:37,000 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 15:58:18,053 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 15:58:18,272 - INFO : This product is licensed to 
+2021-07-20 15:58:18,273 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 15:58:21,522 - ERROR : Error calling ribbon function 'ribbon_functions.inputNormal'
+2021-07-20 15:58:24,563 - ERROR : Traceback (most recent call last):
+2021-07-20 15:58:24,564 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 68, in inputNormal
+2021-07-20 15:58:24,564 - ERROR :     xl.Sheets.Add.Name = "test"
+2021-07-20 15:58:24,565 - ERROR : AttributeError: 'method' object has no attribute 'Name'
+2021-07-20 16:00:49,757 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 16:00:49,983 - INFO : This product is licensed to 
+2021-07-20 16:00:49,983 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 16:00:52,037 - ERROR : Error calling ribbon function 'ribbon_functions.inputNormal'
+2021-07-20 16:01:01,201 - ERROR : Traceback (most recent call last):
+2021-07-20 16:01:01,202 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 68, in inputNormal
+2021-07-20 16:01:01,202 - ERROR :     xl.Sheets.Add("Sheet 4")
+2021-07-20 16:01:01,202 - ERROR :   File "C:\Users\ETHAN-~1\AppData\Local\Temp\gen_py\3.8\00020813-0000-0000-C000-000000000046x0x1x9\Sheets.py", line 33, in Add
+2021-07-20 16:01:01,203 - ERROR :     ret = self._oleobj_.InvokeTypes(181, LCID, 1, (9, 0), ((12, 17), (12, 17), (12, 17), (12, 17)),Before
+2021-07-20 16:01:01,203 - ERROR : pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', 'Add method of Sheets class failed', 'xlmain11.chm', 0, -2146827284), None)
+2021-07-20 16:07:31,014 - ERROR : Error calling ribbon function 'ribbon_functions.inputNormal'
+2021-07-20 16:07:34,370 - ERROR : Traceback (most recent call last):
+2021-07-20 16:07:34,371 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 68, in inputNormal
+2021-07-20 16:07:34,371 - ERROR :     xl.Sheets.Add(Name="New Sheet")
+2021-07-20 16:07:34,371 - ERROR :   File "C:\Users\ETHAN-~1\AppData\Local\Temp\gen_py\3.8\00020813-0000-0000-C000-000000000046x0x1x9\Sheets.py", line 33, in Add
+2021-07-20 16:07:34,372 - ERROR :     ret = self._oleobj_.InvokeTypes(181, LCID, 1, (9, 0), ((12, 17), (12, 17), (12, 17), (12, 17)),Before
+2021-07-20 16:07:34,372 - ERROR : pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', 'Add method of Sheets class failed', 'xlmain11.chm', 0, -2146827284), None)
+2021-07-20 16:07:35,364 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 16:07:35,580 - INFO : This product is licensed to 
+2021-07-20 16:07:35,580 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 16:07:37,579 - ERROR : Error calling ribbon function 'ribbon_functions.inputNormal'
+2021-07-20 16:07:46,403 - ERROR : Traceback (most recent call last):
+2021-07-20 16:07:46,404 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 68, in inputNormal
+2021-07-20 16:07:46,404 - ERROR :     xl.Sheets.Add(Name="New Sheet")
+2021-07-20 16:07:46,404 - ERROR : TypeError: Add() got an unexpected keyword argument 'Name'
+2021-07-20 16:08:00,939 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 16:08:01,168 - INFO : This product is licensed to 
+2021-07-20 16:08:01,168 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 16:08:03,943 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 16:08:04,155 - INFO : This product is licensed to 
+2021-07-20 16:08:04,155 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 16:09:24,507 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 16:09:24,727 - INFO : This product is licensed to 
+2021-07-20 16:09:24,727 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 16:10:44,551 - ERROR : Error calling ribbon function 'ribbon_functions.inputNormal'
+2021-07-20 16:10:47,677 - ERROR : Traceback (most recent call last):
+2021-07-20 16:10:47,677 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 72, in inputNormal
+2021-07-20 16:10:47,678 - ERROR :     sheet.Name = "Reee2"
+2021-07-20 16:10:47,678 - ERROR :   File "C:\Users\Ethan-tuna\AppData\Roaming\Python\Python38\site-packages\win32com\client\__init__.py", line 482, in __setattr__
+2021-07-20 16:10:47,678 - ERROR :     self._oleobj_.Invoke(*(args + (value,) + defArgs))
+2021-07-20 16:10:47,679 - ERROR : pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', 'That name is already taken. Try a different one.', 'xlmain11.chm', 0, -2146827284), None)
+2021-07-20 16:10:49,321 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 16:10:49,540 - INFO : This product is licensed to 
+2021-07-20 16:10:49,540 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 16:16:27,134 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 16:16:27,360 - INFO : This product is licensed to 
+2021-07-20 16:16:27,360 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 17:01:58,233 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 17:01:58,674 - INFO : This product is licensed to 
+2021-07-20 17:01:58,674 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 17:02:04,898 - ERROR : Error calling ribbon function 'ribbon_functions.inputNormal'
+2021-07-20 17:02:09,210 - ERROR : Traceback (most recent call last):
+2021-07-20 17:02:09,210 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 105, in inputNormal
+2021-07-20 17:02:09,210 - ERROR :     sheet.Name = "Reee2"
+2021-07-20 17:02:09,213 - ERROR : NameError: name 'sheet' is not defined
+2021-07-20 17:02:29,673 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 17:02:29,899 - INFO : This product is licensed to 
+2021-07-20 17:02:29,899 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 17:02:32,421 - ERROR : Error calling ribbon function 'ribbon_functions.inputNormal'
+2021-07-20 17:02:44,021 - ERROR : Traceback (most recent call last):
+2021-07-20 17:02:44,022 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 99, in inputNormal
+2021-07-20 17:02:44,022 - ERROR :     initSheetDistributionDict(control=control)
+2021-07-20 17:02:44,022 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 75, in initSheetDistributionDict
+2021-07-20 17:02:44,023 - ERROR :     excel_current_sheet.Name = name_for_sheet
+2021-07-20 17:02:44,023 - ERROR : AttributeError: 'str' object has no attribute 'Name'
+2021-07-20 17:03:30,701 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 17:03:30,937 - INFO : This product is licensed to 
+2021-07-20 17:03:30,937 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 17:03:33,426 - ERROR : Error calling ribbon function 'ribbon_functions.inputNormal'
+2021-07-20 17:03:37,862 - ERROR : Traceback (most recent call last):
+2021-07-20 17:03:37,862 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 106, in inputNormal
+2021-07-20 17:03:37,863 - ERROR :     sheet.Range("$B$1:$H$6").Value = 3
+2021-07-20 17:03:37,863 - ERROR : NameError: name 'sheet' is not defined
+2021-07-20 17:04:07,908 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 17:04:08,130 - INFO : This product is licensed to 
+2021-07-20 17:04:08,130 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 17:04:10,387 - ERROR : Error calling ribbon function 'ribbon_functions.inputNormal'
+2021-07-20 17:04:15,094 - ERROR : Traceback (most recent call last):
+2021-07-20 17:04:15,095 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 112, in inputNormal
+2021-07-20 17:04:15,095 - ERROR :     sheet.Range("$A$1").Value = str1
+2021-07-20 17:04:15,095 - ERROR : NameError: name 'sheet' is not defined
+2021-07-20 17:04:25,431 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 17:04:25,652 - INFO : This product is licensed to 
+2021-07-20 17:04:25,652 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 17:07:20,347 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 17:07:20,602 - INFO : This product is licensed to 
+2021-07-20 17:07:20,602 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 17:10:58,157 - ERROR : Exception ignored in: <function Variable.__del__ at 0x000002905AE89CA0>
+2021-07-20 17:10:58,157 - ERROR : Traceback (most recent call last):
+2021-07-20 17:10:58,157 - ERROR :   File "C:\Program Files\Python38\lib\tkinter\__init__.py", line 351, in __del__
+2021-07-20 17:10:58,159 - ERROR :     if self._tk.getboolean(self._tk.call("info", "exists", self._name)):
+2021-07-20 17:10:58,159 - ERROR : RuntimeError: main thread is not in main loop
+2021-07-20 17:10:59,245 - ERROR : Exception ignored in: <function Variable.__del__ at 0x000002905AE89CA0>
+2021-07-20 17:10:59,245 - ERROR : Traceback (most recent call last):
+2021-07-20 17:10:59,245 - ERROR :   File "C:\Program Files\Python38\lib\tkinter\__init__.py", line 351, in __del__
+2021-07-20 17:10:59,245 - ERROR :     if self._tk.getboolean(self._tk.call("info", "exists", self._name)):
+2021-07-20 17:10:59,246 - ERROR : RuntimeError: main thread is not in main loop
+2021-07-20 17:13:51,730 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 17:13:57,708 - INFO : This product is licensed to 
+2021-07-20 17:13:57,708 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 17:16:53,624 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 17:16:55,779 - INFO : This product is licensed to 
+2021-07-20 17:16:55,779 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 17:17:56,159 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 17:17:58,855 - INFO : This product is licensed to 
+2021-07-20 17:17:58,855 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 17:18:34,167 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 17:18:34,305 - ERROR : Error reloading 'ribbon_functions'
+Traceback (most recent call last):
+  File "build/x64/py38/res/release/pyxll.py", line 835, in _open
+  File "build/x64/py38/res/release/pyxll.py", line 8047, in reload
+  File "C:\Program Files\Python38\lib\imp.py", line 314, in reload
+    return importlib.reload(module)
+  File "C:\Program Files\Python38\lib\importlib\__init__.py", line 169, in reload
+    _bootstrap._exec(spec, module)
+  File "<frozen importlib._bootstrap>", line 604, in _exec
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 81
+    xl.ActiveSheet.Range(cell_location).Locked() = True #this doesn't seem to be working?
+    ^
+SyntaxError: cannot assign to function call
+2021-07-20 17:18:42,010 - INFO : This product is licensed to 
+2021-07-20 17:18:42,010 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 17:18:42,024 - ERROR : Error loading 'ribbon_functions' : cannot assign to function call (ribbon_functions.py, line 81)
+2021-07-20 17:18:50,713 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 17:18:52,391 - ERROR : Exception ignored in: <function Variable.__del__ at 0x000002905AE89CA0>
+2021-07-20 17:18:52,392 - ERROR : Traceback (most recent call last):
+2021-07-20 17:18:52,392 - ERROR :   File "C:\Program Files\Python38\lib\tkinter\__init__.py", line 351, in __del__
+2021-07-20 17:18:52,394 - ERROR :     if self._tk.getboolean(self._tk.call("info", "exists", self._name)):
+2021-07-20 17:18:52,395 - ERROR : RuntimeError: main thread is not in main loop
+2021-07-20 17:18:53,484 - ERROR : Exception ignored in: <function Variable.__del__ at 0x000002905AE89CA0>
+2021-07-20 17:18:53,485 - ERROR : Traceback (most recent call last):
+2021-07-20 17:18:53,486 - ERROR :   File "C:\Program Files\Python38\lib\tkinter\__init__.py", line 351, in __del__
+2021-07-20 17:18:53,490 - ERROR :     if self._tk.getboolean(self._tk.call("info", "exists", self._name)):
+2021-07-20 17:18:53,491 - ERROR : RuntimeError: main thread is not in main loop
+2021-07-20 17:18:55,951 - INFO : This product is licensed to 
+2021-07-20 17:18:55,951 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 17:19:08,636 - ERROR : Error calling ribbon function 'ribbon_functions.inputNormal'
+2021-07-20 17:19:18,816 - ERROR : Error calling ribbon function 'ribbon_functions.inputNormal'
+2021-07-20 17:19:29,715 - ERROR : Traceback (most recent call last):
+2021-07-20 17:19:29,726 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 99, in inputNormal
+2021-07-20 17:19:29,728 - ERROR :     initSheetDistributionDict(control=control)
+2021-07-20 17:19:29,729 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 81, in initSheetDistributionDict
+2021-07-20 17:19:29,730 - ERROR :     xl.ActiveSheet.Range(cell_location).Locked() #this doesn't seem to be working?
+2021-07-20 17:19:29,731 - ERROR : TypeError: 'bool' object is not callable
+2021-07-20 17:20:17,267 - ERROR : Error calling ribbon function 'ribbon_functions.inputNormal'
+2021-07-20 17:20:18,969 - ERROR : Traceback (most recent call last):
+2021-07-20 17:20:18,969 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 99, in inputNormal
+2021-07-20 17:20:18,970 - ERROR :     initSheetDistributionDict(control=control)
+2021-07-20 17:20:18,971 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 81, in initSheetDistributionDict
+2021-07-20 17:20:18,972 - ERROR :     xl.ActiveSheet.Range(cell_location).Locked = True #this doesn't seem to be working?
+2021-07-20 17:20:18,972 - ERROR : TypeError: 'bool' object is not callable
+2021-07-20 17:20:26,180 - INFO : callbacks.on_close: PyXLL is closing
+2021-07-20 17:20:37,850 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 17:20:43,044 - INFO : This product is licensed to 
+2021-07-20 17:20:43,044 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 17:20:43,853 - INFO : This product is licensed to 
+2021-07-20 17:20:43,853 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 17:24:40,900 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-20 17:24:41,136 - INFO : This product is licensed to 
+2021-07-20 17:24:41,136 - INFO : The license will expire on 2021-08-16 (27 days left)
+2021-07-20 17:36:22,962 - INFO : callbacks.on_close: PyXLL is closing

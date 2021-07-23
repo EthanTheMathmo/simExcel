@@ -1,0 +1,899 @@
+2021-07-17 13:33:17,026 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-17 13:33:17,027 - WARNING : Unexpected content in config file 'C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\pyxll.cfg' at line 20
+2021-07-17 13:33:17,064 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-17 13:33:17,065 - WARNING : Unexpected content in config file 'C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\pyxll.cfg' at line 20
+2021-07-17 13:33:18,167 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-17 13:33:18,167 - WARNING : Unexpected content in config file 'C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\pyxll.cfg' at line 20
+2021-07-17 13:33:20,324 - WARNING : aiohttp could not be imported. Async example will not work
+Traceback (most recent call last):
+  File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\asyncfunc.py", line 24, in <module>
+    import aiohttp
+  File "build/x64/py38/res/release/pyxll.py", line 8206, in __import_hook
+ModuleNotFoundError: No module named 'aiohttp'
+2021-07-17 13:33:20,597 - INFO : This product is licensed to 
+2021-07-17 13:33:20,597 - INFO : The license will expire on 2021-08-16 (30 days left)
+2021-07-17 13:59:50,100 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-17 13:59:50,100 - WARNING : Unexpected content in config file 'C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\pyxll.cfg' at line 20
+2021-07-17 13:59:50,100 - WARNING : Unexpected content in config file 'C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\pyxll.cfg' at line 29
+2021-07-17 13:59:50,100 - WARNING : Unexpected content in config file 'C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\pyxll.cfg' at line 84
+2021-07-17 13:59:50,132 - WARNING : aiohttp could not be imported. Async example will not work
+Traceback (most recent call last):
+  File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\asyncfunc.py", line 24, in <module>
+    import aiohttp
+  File "build/x64/py38/res/release/pyxll.py", line 8206, in __import_hook
+ModuleNotFoundError: No module named 'aiohttp'
+2021-07-17 13:59:50,185 - INFO : This product is licensed to 
+2021-07-17 13:59:50,185 - INFO : The license will expire on 2021-08-16 (30 days left)
+2021-07-17 14:01:49,294 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-17 14:01:49,294 - WARNING : Unexpected content in config file 'C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\pyxll.cfg' at line 20
+2021-07-17 14:01:49,294 - WARNING : Unexpected content in config file 'C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\pyxll.cfg' at line 85
+2021-07-17 14:01:49,327 - WARNING : aiohttp could not be imported. Async example will not work
+Traceback (most recent call last):
+  File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\asyncfunc.py", line 24, in <module>
+    import aiohttp
+  File "build/x64/py38/res/release/pyxll.py", line 8206, in __import_hook
+ModuleNotFoundError: No module named 'aiohttp'
+2021-07-17 14:01:49,378 - INFO : This product is licensed to 
+2021-07-17 14:01:49,378 - INFO : The license will expire on 2021-08-16 (30 days left)
+2021-07-17 14:02:27,917 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-17 14:02:27,917 - WARNING : Unexpected content in config file 'C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\pyxll.cfg' at line 20
+2021-07-17 14:02:27,917 - WARNING : Unexpected content in config file 'C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\pyxll.cfg' at line 85
+2021-07-17 14:02:27,951 - WARNING : aiohttp could not be imported. Async example will not work
+Traceback (most recent call last):
+  File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\asyncfunc.py", line 24, in <module>
+    import aiohttp
+  File "build/x64/py38/res/release/pyxll.py", line 8206, in __import_hook
+ModuleNotFoundError: No module named 'aiohttp'
+2021-07-17 14:02:28,005 - INFO : This product is licensed to 
+2021-07-17 14:02:28,005 - INFO : The license will expire on 2021-08-16 (30 days left)
+2021-07-17 15:49:45,121 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-17 15:49:45,121 - WARNING : Unexpected content in config file 'C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\pyxll.cfg' at line 20
+2021-07-17 15:49:45,121 - WARNING : Unexpected content in config file 'C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\pyxll.cfg' at line 85
+2021-07-17 15:49:45,158 - WARNING : aiohttp could not be imported. Async example will not work
+Traceback (most recent call last):
+  File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\asyncfunc.py", line 24, in <module>
+    import aiohttp
+  File "build/x64/py38/res/release/pyxll.py", line 8206, in __import_hook
+ModuleNotFoundError: No module named 'aiohttp'
+2021-07-17 15:49:45,216 - INFO : This product is licensed to 
+2021-07-17 15:49:45,217 - INFO : The license will expire on 2021-08-16 (30 days left)
+2021-07-17 15:50:03,998 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-17 15:50:03,998 - WARNING : Unexpected content in config file 'C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\pyxll.cfg' at line 20
+2021-07-17 15:50:03,998 - WARNING : Unexpected content in config file 'C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\pyxll.cfg' at line 85
+2021-07-17 15:50:04,035 - WARNING : aiohttp could not be imported. Async example will not work
+Traceback (most recent call last):
+  File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\asyncfunc.py", line 24, in <module>
+    import aiohttp
+  File "build/x64/py38/res/release/pyxll.py", line 8206, in __import_hook
+ModuleNotFoundError: No module named 'aiohttp'
+2021-07-17 15:50:04,095 - INFO : This product is licensed to 
+2021-07-17 15:50:04,096 - INFO : The license will expire on 2021-08-16 (30 days left)
+2021-07-17 15:50:46,344 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-17 15:50:46,344 - WARNING : Unexpected content in config file 'C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\pyxll.cfg' at line 85
+2021-07-17 15:50:46,384 - WARNING : aiohttp could not be imported. Async example will not work
+Traceback (most recent call last):
+  File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\asyncfunc.py", line 24, in <module>
+    import aiohttp
+  File "build/x64/py38/res/release/pyxll.py", line 8206, in __import_hook
+ModuleNotFoundError: No module named 'aiohttp'
+2021-07-17 15:50:46,443 - INFO : This product is licensed to 
+2021-07-17 15:50:46,444 - INFO : The license will expire on 2021-08-16 (30 days left)
+2021-07-17 15:51:17,456 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-17 15:51:17,456 - WARNING : Unexpected content in config file 'C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\pyxll.cfg' at line 85
+2021-07-17 15:51:17,490 - WARNING : aiohttp could not be imported. Async example will not work
+Traceback (most recent call last):
+  File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\asyncfunc.py", line 24, in <module>
+    import aiohttp
+  File "build/x64/py38/res/release/pyxll.py", line 8206, in __import_hook
+ModuleNotFoundError: No module named 'aiohttp'
+2021-07-17 15:51:17,547 - INFO : This product is licensed to 
+2021-07-17 15:51:17,547 - INFO : The license will expire on 2021-08-16 (30 days left)
+2021-07-17 15:52:11,179 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-17 15:52:11,216 - WARNING : aiohttp could not be imported. Async example will not work
+Traceback (most recent call last):
+  File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\asyncfunc.py", line 24, in <module>
+    import aiohttp
+  File "build/x64/py38/res/release/pyxll.py", line 8206, in __import_hook
+ModuleNotFoundError: No module named 'aiohttp'
+2021-07-17 15:52:11,285 - INFO : This product is licensed to 
+2021-07-17 15:52:11,285 - INFO : The license will expire on 2021-08-16 (30 days left)
+2021-07-17 15:52:12,698 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-17 15:52:12,743 - WARNING : aiohttp could not be imported. Async example will not work
+Traceback (most recent call last):
+  File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\asyncfunc.py", line 24, in <module>
+    import aiohttp
+  File "build/x64/py38/res/release/pyxll.py", line 8206, in __import_hook
+ModuleNotFoundError: No module named 'aiohttp'
+2021-07-17 15:52:12,817 - INFO : This product is licensed to 
+2021-07-17 15:52:12,817 - INFO : The license will expire on 2021-08-16 (30 days left)
+2021-07-17 15:52:14,205 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-17 15:52:14,245 - WARNING : aiohttp could not be imported. Async example will not work
+Traceback (most recent call last):
+  File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\asyncfunc.py", line 24, in <module>
+    import aiohttp
+  File "build/x64/py38/res/release/pyxll.py", line 8206, in __import_hook
+ModuleNotFoundError: No module named 'aiohttp'
+2021-07-17 15:52:14,313 - INFO : This product is licensed to 
+2021-07-17 15:52:14,313 - INFO : The license will expire on 2021-08-16 (30 days left)
+2021-07-17 15:52:15,541 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-17 15:52:15,586 - WARNING : aiohttp could not be imported. Async example will not work
+Traceback (most recent call last):
+  File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\asyncfunc.py", line 24, in <module>
+    import aiohttp
+  File "build/x64/py38/res/release/pyxll.py", line 8206, in __import_hook
+ModuleNotFoundError: No module named 'aiohttp'
+2021-07-17 15:52:15,652 - INFO : This product is licensed to 
+2021-07-17 15:52:15,652 - INFO : The license will expire on 2021-08-16 (30 days left)
+2021-07-17 16:29:41,674 - INFO : callbacks.on_close: PyXLL is closing
+2021-07-17 21:40:56,911 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-17 21:40:59,536 - WARNING : aiohttp could not be imported. Async example will not work
+Traceback (most recent call last):
+  File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\asyncfunc.py", line 24, in <module>
+    import aiohttp
+  File "build/x64/py38/res/release/pyxll.py", line 8206, in __import_hook
+ModuleNotFoundError: No module named 'aiohttp'
+2021-07-17 21:41:00,052 - INFO : This product is licensed to 
+2021-07-17 21:41:00,052 - INFO : The license will expire on 2021-08-16 (30 days left)
+2021-07-17 21:41:00,436 - WARNING : aiohttp could not be imported. Async example will not work
+Traceback (most recent call last):
+  File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\asyncfunc.py", line 24, in <module>
+    import aiohttp
+  File "build/x64/py38/res/release/pyxll.py", line 8206, in __import_hook
+ModuleNotFoundError: No module named 'aiohttp'
+2021-07-17 21:41:00,500 - INFO : This product is licensed to 
+2021-07-17 21:41:00,500 - INFO : The license will expire on 2021-08-16 (30 days left)
+2021-07-17 21:41:28,652 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-17 21:41:28,689 - WARNING : aiohttp could not be imported. Async example will not work
+Traceback (most recent call last):
+  File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\asyncfunc.py", line 24, in <module>
+    import aiohttp
+  File "build/x64/py38/res/release/pyxll.py", line 8206, in __import_hook
+ModuleNotFoundError: No module named 'aiohttp'
+2021-07-17 21:41:28,718 - ERROR : Error reading ribbon XML file: C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon\ribbon.xml
+Traceback (most recent call last):
+  File "build/x64/py38/res/release/pyxll.py", line 912, in _open
+  File "build/x64/py38/res/release/pyxll.py", line 6144, in _validate_ribbon_xml
+  File "build/x64/py38/res/release/pyxll.py", line 6133, in _xml_to_dom
+  File "C:\Program Files\Python38\lib\xml\dom\minidom.py", line 1969, in parseString
+    return expatbuilder.parseString(string)
+  File "C:\Program Files\Python38\lib\xml\dom\expatbuilder.py", line 925, in parseString
+    return builder.parseString(string)
+  File "C:\Program Files\Python38\lib\xml\dom\expatbuilder.py", line 223, in parseString
+    parser.Parse(string, True)
+xml.parsers.expat.ExpatError: junk after document element: line 80, column 0
+2021-07-17 21:41:32,080 - INFO : This product is licensed to 
+2021-07-17 21:41:32,080 - INFO : The license will expire on 2021-08-16 (30 days left)
+2021-07-17 21:44:22,207 - INFO : callbacks.on_close: PyXLL is closing
+2021-07-17 21:44:25,773 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-17 21:44:27,333 - WARNING : aiohttp could not be imported. Async example will not work
+Traceback (most recent call last):
+  File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\asyncfunc.py", line 24, in <module>
+    import aiohttp
+  File "build/x64/py38/res/release/pyxll.py", line 8206, in __import_hook
+ModuleNotFoundError: No module named 'aiohttp'
+2021-07-17 21:44:27,548 - ERROR : Error constructing ribbon
+Traceback (most recent call last):
+  File "build/x64/py38/res/release/pyxll.py", line 939, in _open
+  File "build/x64/py38/res/release/pyxll.py", line 6294, in set_ribbon_xml
+  File "build/x64/py38/res/release/pyxll.py", line 6165, in _validate_ribbon_xml
+  File "build/x64/py38/res/release/pyxll.py", line 6162, in _assert_unique_attr
+AssertionError: Duplicate id attribute 'Reload' found.
+2021-07-17 21:44:32,235 - INFO : This product is licensed to 
+2021-07-17 21:44:32,236 - INFO : The license will expire on 2021-08-16 (30 days left)
+2021-07-17 21:44:32,586 - WARNING : aiohttp could not be imported. Async example will not work
+Traceback (most recent call last):
+  File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\asyncfunc.py", line 24, in <module>
+    import aiohttp
+  File "build/x64/py38/res/release/pyxll.py", line 8206, in __import_hook
+ModuleNotFoundError: No module named 'aiohttp'
+2021-07-17 21:44:32,636 - ERROR : Error constructing ribbon
+Traceback (most recent call last):
+  File "build/x64/py38/res/release/pyxll.py", line 939, in _open
+  File "build/x64/py38/res/release/pyxll.py", line 6294, in set_ribbon_xml
+  File "build/x64/py38/res/release/pyxll.py", line 6165, in _validate_ribbon_xml
+  File "build/x64/py38/res/release/pyxll.py", line 6162, in _assert_unique_attr
+AssertionError: Duplicate id attribute 'Reload' found.
+2021-07-17 21:44:34,716 - INFO : This product is licensed to 
+2021-07-17 21:44:34,716 - INFO : The license will expire on 2021-08-16 (30 days left)
+2021-07-17 21:45:11,858 - INFO : callbacks.on_close: PyXLL is closing
+2021-07-17 21:45:23,674 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-17 21:45:25,199 - WARNING : aiohttp could not be imported. Async example will not work
+Traceback (most recent call last):
+  File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\asyncfunc.py", line 24, in <module>
+    import aiohttp
+  File "build/x64/py38/res/release/pyxll.py", line 8206, in __import_hook
+ModuleNotFoundError: No module named 'aiohttp'
+2021-07-17 21:45:25,428 - ERROR : Error constructing ribbon
+Traceback (most recent call last):
+  File "build/x64/py38/res/release/pyxll.py", line 939, in _open
+  File "build/x64/py38/res/release/pyxll.py", line 6294, in set_ribbon_xml
+  File "build/x64/py38/res/release/pyxll.py", line 6165, in _validate_ribbon_xml
+  File "build/x64/py38/res/release/pyxll.py", line 6162, in _assert_unique_attr
+AssertionError: Duplicate id attribute 'Tools' found.
+2021-07-17 21:45:29,757 - INFO : This product is licensed to 
+2021-07-17 21:45:29,757 - INFO : The license will expire on 2021-08-16 (30 days left)
+2021-07-17 21:45:30,110 - WARNING : aiohttp could not be imported. Async example will not work
+Traceback (most recent call last):
+  File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\asyncfunc.py", line 24, in <module>
+    import aiohttp
+  File "build/x64/py38/res/release/pyxll.py", line 8206, in __import_hook
+ModuleNotFoundError: No module named 'aiohttp'
+2021-07-17 21:45:30,164 - ERROR : Error constructing ribbon
+Traceback (most recent call last):
+  File "build/x64/py38/res/release/pyxll.py", line 939, in _open
+  File "build/x64/py38/res/release/pyxll.py", line 6294, in set_ribbon_xml
+  File "build/x64/py38/res/release/pyxll.py", line 6165, in _validate_ribbon_xml
+  File "build/x64/py38/res/release/pyxll.py", line 6162, in _assert_unique_attr
+AssertionError: Duplicate id attribute 'Tools' found.
+2021-07-17 21:45:31,056 - INFO : This product is licensed to 
+2021-07-17 21:45:31,056 - INFO : The license will expire on 2021-08-16 (30 days left)
+2021-07-17 21:45:36,195 - INFO : callbacks.on_close: PyXLL is closing
+2021-07-17 21:45:51,388 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-17 21:45:52,442 - WARNING : aiohttp could not be imported. Async example will not work
+Traceback (most recent call last):
+  File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\asyncfunc.py", line 24, in <module>
+    import aiohttp
+  File "build/x64/py38/res/release/pyxll.py", line 8206, in __import_hook
+ModuleNotFoundError: No module named 'aiohttp'
+2021-07-17 21:45:52,654 - ERROR : Ribbon XML file 'C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon\simulation.xml' not found
+2021-07-17 21:45:55,326 - INFO : This product is licensed to 
+2021-07-17 21:45:55,326 - INFO : The license will expire on 2021-08-16 (30 days left)
+2021-07-17 21:45:55,679 - WARNING : aiohttp could not be imported. Async example will not work
+Traceback (most recent call last):
+  File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\asyncfunc.py", line 24, in <module>
+    import aiohttp
+  File "build/x64/py38/res/release/pyxll.py", line 8206, in __import_hook
+ModuleNotFoundError: No module named 'aiohttp'
+2021-07-17 21:45:55,724 - ERROR : Ribbon XML file 'C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon\simulation.xml' not found
+2021-07-17 21:45:56,734 - INFO : This product is licensed to 
+2021-07-17 21:45:56,734 - INFO : The license will expire on 2021-08-16 (30 days left)
+2021-07-17 21:47:06,140 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-17 21:47:06,178 - WARNING : aiohttp could not be imported. Async example will not work
+Traceback (most recent call last):
+  File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\asyncfunc.py", line 24, in <module>
+    import aiohttp
+  File "build/x64/py38/res/release/pyxll.py", line 8206, in __import_hook
+ModuleNotFoundError: No module named 'aiohttp'
+2021-07-17 21:47:06,231 - INFO : This product is licensed to 
+2021-07-17 21:47:06,231 - INFO : The license will expire on 2021-08-16 (30 days left)
+2021-07-17 21:47:19,428 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-17 21:47:19,470 - WARNING : aiohttp could not be imported. Async example will not work
+Traceback (most recent call last):
+  File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\asyncfunc.py", line 24, in <module>
+    import aiohttp
+  File "build/x64/py38/res/release/pyxll.py", line 8206, in __import_hook
+ModuleNotFoundError: No module named 'aiohttp'
+2021-07-17 21:47:19,525 - INFO : This product is licensed to 
+2021-07-17 21:47:19,525 - INFO : The license will expire on 2021-08-16 (30 days left)
+2021-07-17 21:47:30,776 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-17 21:47:30,815 - WARNING : aiohttp could not be imported. Async example will not work
+Traceback (most recent call last):
+  File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\asyncfunc.py", line 24, in <module>
+    import aiohttp
+  File "build/x64/py38/res/release/pyxll.py", line 8206, in __import_hook
+ModuleNotFoundError: No module named 'aiohttp'
+2021-07-17 21:47:30,869 - INFO : This product is licensed to 
+2021-07-17 21:47:30,869 - INFO : The license will expire on 2021-08-16 (30 days left)
+2021-07-17 21:47:46,769 - ERROR : Error calling ribbon function 'custom_task_panes.qt_ctp_ribbon_action'
+2021-07-17 21:47:53,158 - ERROR : Traceback (most recent call last):
+2021-07-17 21:47:53,158 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\custom_task_panes\__init__.py", line 50, in show_qt_ctp
+2021-07-17 21:47:53,159 - ERROR :     from . import qt_ctp
+2021-07-17 21:47:53,160 - ERROR :   File "build/x64/py38/res/release/pyxll.py", line 8206, in __import_hook
+2021-07-17 21:47:53,162 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\custom_task_panes\qt_ctp.py", line 54, in <module>
+2021-07-17 21:47:53,162 - ERROR :     from PyQt5.QtWidgets import *
+2021-07-17 21:47:53,162 - ERROR :   File "build/x64/py38/res/release/pyxll.py", line 8206, in __import_hook
+2021-07-17 21:47:53,164 - ERROR : ModuleNotFoundError: No module named 'PyQt5'
+2021-07-17 21:47:53,164 - ERROR : 
+2021-07-17 21:47:53,165 - ERROR : During handling of the above exception, another exception occurred:
+2021-07-17 21:47:53,165 - ERROR : 
+2021-07-17 21:47:53,165 - ERROR : Traceback (most recent call last):
+2021-07-17 21:47:53,165 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\custom_task_panes\__init__.py", line 81, in qt_ctp_ribbon_action
+2021-07-17 21:47:53,165 - ERROR :     show_qt_ctp()
+2021-07-17 21:47:53,166 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\custom_task_panes\__init__.py", line 53, in show_qt_ctp
+2021-07-17 21:47:53,166 - ERROR :     raise RuntimeError("""
+2021-07-17 21:47:53,166 - ERROR : RuntimeError: 
+2021-07-17 21:47:53,166 - ERROR : 
+2021-07-17 21:47:53,166 - ERROR : Either PyQt5 or PySide2 needs to be installed for this example.
+2021-07-17 21:47:53,166 - ERROR : Install either using pip or conda and try again.
+2021-07-17 21:47:53,166 - ERROR : 
+2021-07-17 21:47:53,167 - ERROR : 
+2021-07-17 21:47:55,231 - ERROR : Error calling ribbon function 'custom_task_panes.wx_ctp_ribbon_action'
+2021-07-17 21:47:57,645 - ERROR : Traceback (most recent call last):
+2021-07-17 21:47:57,645 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\custom_task_panes\__init__.py", line 63, in show_wx_ctp
+2021-07-17 21:47:57,646 - ERROR :     from . import wx_ctp
+2021-07-17 21:47:57,646 - ERROR :   File "build/x64/py38/res/release/pyxll.py", line 8206, in __import_hook
+2021-07-17 21:47:57,648 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\custom_task_panes\wx_ctp.py", line 13, in <module>
+2021-07-17 21:47:57,648 - ERROR :     import wx
+2021-07-17 21:47:57,648 - ERROR :   File "build/x64/py38/res/release/pyxll.py", line 8206, in __import_hook
+2021-07-17 21:47:57,650 - ERROR : ModuleNotFoundError: No module named 'wx'
+2021-07-17 21:47:57,650 - ERROR : 
+2021-07-17 21:47:57,650 - ERROR : During handling of the above exception, another exception occurred:
+2021-07-17 21:47:57,650 - ERROR : 
+2021-07-17 21:47:57,650 - ERROR : Traceback (most recent call last):
+2021-07-17 21:47:57,651 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\custom_task_panes\__init__.py", line 84, in wx_ctp_ribbon_action
+2021-07-17 21:47:57,651 - ERROR :     show_wx_ctp()
+2021-07-17 21:47:57,651 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\custom_task_panes\__init__.py", line 66, in show_wx_ctp
+2021-07-17 21:47:57,652 - ERROR :     raise RuntimeError("""
+2021-07-17 21:47:57,652 - ERROR : RuntimeError: 
+2021-07-17 21:47:57,652 - ERROR : 
+2021-07-17 21:47:57,652 - ERROR : wxPython to be installed for this example.
+2021-07-17 21:47:57,652 - ERROR : Install either using pip or conda and try again.
+2021-07-17 21:47:57,652 - ERROR : 
+2021-07-17 21:47:57,652 - ERROR : 
+2021-07-17 21:48:00,428 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-17 21:48:00,487 - WARNING : aiohttp could not be imported. Async example will not work
+Traceback (most recent call last):
+  File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\asyncfunc.py", line 24, in <module>
+    import aiohttp
+  File "build/x64/py38/res/release/pyxll.py", line 8206, in __import_hook
+ModuleNotFoundError: No module named 'aiohttp'
+2021-07-17 21:48:00,548 - INFO : This product is licensed to 
+2021-07-17 21:48:00,549 - INFO : The license will expire on 2021-08-16 (30 days left)
+2021-07-17 21:54:22,067 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-17 21:54:22,130 - WARNING : aiohttp could not be imported. Async example will not work
+Traceback (most recent call last):
+  File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\asyncfunc.py", line 24, in <module>
+    import aiohttp
+  File "build/x64/py38/res/release/pyxll.py", line 8206, in __import_hook
+ModuleNotFoundError: No module named 'aiohttp'
+2021-07-17 21:54:22,197 - INFO : This product is licensed to 
+2021-07-17 21:54:22,197 - INFO : The license will expire on 2021-08-16 (30 days left)
+2021-07-17 22:08:12,300 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-17 22:08:12,368 - WARNING : aiohttp could not be imported. Async example will not work
+Traceback (most recent call last):
+  File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\asyncfunc.py", line 24, in <module>
+    import aiohttp
+  File "build/x64/py38/res/release/pyxll.py", line 8206, in __import_hook
+ModuleNotFoundError: No module named 'aiohttp'
+2021-07-17 22:08:12,438 - INFO : This product is licensed to 
+2021-07-17 22:08:12,439 - INFO : The license will expire on 2021-08-16 (30 days left)
+2021-07-17 22:44:36,364 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-17 22:44:36,431 - WARNING : aiohttp could not be imported. Async example will not work
+Traceback (most recent call last):
+  File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\asyncfunc.py", line 24, in <module>
+    import aiohttp
+  File "build/x64/py38/res/release/pyxll.py", line 8206, in __import_hook
+ModuleNotFoundError: No module named 'aiohttp'
+2021-07-17 22:44:36,482 - ERROR : Error constructing ribbon
+Traceback (most recent call last):
+  File "build/x64/py38/res/release/pyxll.py", line 937, in _open
+RuntimeError: A 'group' element is missing its 'id', 'idMso' or 'idQ' attribute.
+2021-07-17 22:44:39,263 - INFO : This product is licensed to 
+2021-07-17 22:44:39,263 - INFO : The license will expire on 2021-08-16 (30 days left)
+2021-07-17 22:45:31,437 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-17 22:45:31,487 - WARNING : aiohttp could not be imported. Async example will not work
+Traceback (most recent call last):
+  File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\asyncfunc.py", line 24, in <module>
+    import aiohttp
+  File "build/x64/py38/res/release/pyxll.py", line 8206, in __import_hook
+ModuleNotFoundError: No module named 'aiohttp'
+2021-07-17 22:45:31,526 - ERROR : Error constructing ribbon
+Traceback (most recent call last):
+  File "build/x64/py38/res/release/pyxll.py", line 939, in _open
+  File "build/x64/py38/res/release/pyxll.py", line 6294, in set_ribbon_xml
+  File "build/x64/py38/res/release/pyxll.py", line 6165, in _validate_ribbon_xml
+  File "build/x64/py38/res/release/pyxll.py", line 6162, in _assert_unique_attr
+AssertionError: Duplicate id attribute 'Tools' found.
+2021-07-17 22:45:34,302 - INFO : This product is licensed to 
+2021-07-17 22:45:34,302 - INFO : The license will expire on 2021-08-16 (30 days left)
+2021-07-17 22:47:51,107 - INFO : callbacks.on_close: PyXLL is closing
+2021-07-17 22:47:58,668 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-17 22:48:00,524 - WARNING : aiohttp could not be imported. Async example will not work
+Traceback (most recent call last):
+  File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\asyncfunc.py", line 24, in <module>
+    import aiohttp
+  File "build/x64/py38/res/release/pyxll.py", line 8206, in __import_hook
+ModuleNotFoundError: No module named 'aiohttp'
+2021-07-17 22:48:00,781 - INFO : This product is licensed to 
+2021-07-17 22:48:00,781 - INFO : The license will expire on 2021-08-16 (30 days left)
+2021-07-17 22:48:01,195 - WARNING : aiohttp could not be imported. Async example will not work
+Traceback (most recent call last):
+  File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\asyncfunc.py", line 24, in <module>
+    import aiohttp
+  File "build/x64/py38/res/release/pyxll.py", line 8206, in __import_hook
+ModuleNotFoundError: No module named 'aiohttp'
+2021-07-17 22:48:01,276 - INFO : This product is licensed to 
+2021-07-17 22:48:01,276 - INFO : The license will expire on 2021-08-16 (30 days left)
+2021-07-17 22:48:03,783 - ERROR : Error loading image reload.png (2).
+2021-07-17 22:48:05,354 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-17 22:48:05,402 - WARNING : aiohttp could not be imported. Async example will not work
+Traceback (most recent call last):
+  File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\asyncfunc.py", line 24, in <module>
+    import aiohttp
+  File "build/x64/py38/res/release/pyxll.py", line 8206, in __import_hook
+ModuleNotFoundError: No module named 'aiohttp'
+2021-07-17 22:48:05,455 - INFO : This product is licensed to 
+2021-07-17 22:48:05,455 - INFO : The license will expire on 2021-08-16 (30 days left)
+2021-07-17 22:48:07,941 - ERROR : Error loading image reload.png (2).
+2021-07-17 22:49:19,976 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-17 22:49:20,022 - WARNING : aiohttp could not be imported. Async example will not work
+Traceback (most recent call last):
+  File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\asyncfunc.py", line 24, in <module>
+    import aiohttp
+  File "build/x64/py38/res/release/pyxll.py", line 8206, in __import_hook
+ModuleNotFoundError: No module named 'aiohttp'
+2021-07-17 22:49:20,090 - INFO : This product is licensed to 
+2021-07-17 22:49:20,090 - INFO : The license will expire on 2021-08-16 (30 days left)
+2021-07-17 22:49:25,711 - ERROR : Error loading image reload.png (2).
+2021-07-17 22:50:36,031 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-17 22:50:36,073 - WARNING : aiohttp could not be imported. Async example will not work
+Traceback (most recent call last):
+  File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\asyncfunc.py", line 24, in <module>
+    import aiohttp
+  File "build/x64/py38/res/release/pyxll.py", line 8206, in __import_hook
+ModuleNotFoundError: No module named 'aiohttp'
+2021-07-17 22:50:36,124 - INFO : This product is licensed to 
+2021-07-17 22:50:36,124 - INFO : The license will expire on 2021-08-16 (30 days left)
+2021-07-17 22:56:39,639 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-17 22:56:39,679 - WARNING : aiohttp could not be imported. Async example will not work
+Traceback (most recent call last):
+  File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\asyncfunc.py", line 24, in <module>
+    import aiohttp
+  File "build/x64/py38/res/release/pyxll.py", line 8206, in __import_hook
+ModuleNotFoundError: No module named 'aiohttp'
+2021-07-17 22:56:39,728 - INFO : This product is licensed to 
+2021-07-17 22:56:39,728 - INFO : The license will expire on 2021-08-16 (30 days left)
+2021-07-17 22:57:16,157 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-17 22:57:16,197 - WARNING : aiohttp could not be imported. Async example will not work
+Traceback (most recent call last):
+  File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\asyncfunc.py", line 24, in <module>
+    import aiohttp
+  File "build/x64/py38/res/release/pyxll.py", line 8206, in __import_hook
+ModuleNotFoundError: No module named 'aiohttp'
+2021-07-17 22:57:16,249 - INFO : This product is licensed to 
+2021-07-17 22:57:16,249 - INFO : The license will expire on 2021-08-16 (30 days left)
+2021-07-17 22:57:38,045 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-17 22:57:38,089 - WARNING : aiohttp could not be imported. Async example will not work
+Traceback (most recent call last):
+  File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\asyncfunc.py", line 24, in <module>
+    import aiohttp
+  File "build/x64/py38/res/release/pyxll.py", line 8206, in __import_hook
+ModuleNotFoundError: No module named 'aiohttp'
+2021-07-17 22:57:38,136 - INFO : This product is licensed to 
+2021-07-17 22:57:38,136 - INFO : The license will expire on 2021-08-16 (30 days left)
+2021-07-17 22:58:23,379 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-17 22:58:23,420 - WARNING : aiohttp could not be imported. Async example will not work
+Traceback (most recent call last):
+  File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\asyncfunc.py", line 24, in <module>
+    import aiohttp
+  File "build/x64/py38/res/release/pyxll.py", line 8206, in __import_hook
+ModuleNotFoundError: No module named 'aiohttp'
+2021-07-17 22:58:23,475 - INFO : This product is licensed to 
+2021-07-17 22:58:23,475 - INFO : The license will expire on 2021-08-16 (30 days left)
+2021-07-17 22:58:32,486 - INFO : callbacks.on_close: PyXLL is closing
+2021-07-17 22:58:41,545 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-17 22:58:43,053 - WARNING : aiohttp could not be imported. Async example will not work
+Traceback (most recent call last):
+  File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\asyncfunc.py", line 24, in <module>
+    import aiohttp
+  File "build/x64/py38/res/release/pyxll.py", line 8206, in __import_hook
+ModuleNotFoundError: No module named 'aiohttp'
+2021-07-17 22:58:43,296 - INFO : This product is licensed to 
+2021-07-17 22:58:43,296 - INFO : The license will expire on 2021-08-16 (30 days left)
+2021-07-17 22:58:43,657 - WARNING : aiohttp could not be imported. Async example will not work
+Traceback (most recent call last):
+  File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\asyncfunc.py", line 24, in <module>
+    import aiohttp
+  File "build/x64/py38/res/release/pyxll.py", line 8206, in __import_hook
+ModuleNotFoundError: No module named 'aiohttp'
+2021-07-17 22:58:43,727 - INFO : This product is licensed to 
+2021-07-17 22:58:43,727 - INFO : The license will expire on 2021-08-16 (30 days left)
+2021-07-17 22:58:52,822 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-17 22:58:52,863 - WARNING : aiohttp could not be imported. Async example will not work
+Traceback (most recent call last):
+  File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\asyncfunc.py", line 24, in <module>
+    import aiohttp
+  File "build/x64/py38/res/release/pyxll.py", line 8206, in __import_hook
+ModuleNotFoundError: No module named 'aiohttp'
+2021-07-17 22:58:52,911 - INFO : This product is licensed to 
+2021-07-17 22:58:52,911 - INFO : The license will expire on 2021-08-16 (30 days left)
+2021-07-17 22:58:56,181 - ERROR : Error calling ribbon function 'ribbon_functions.on_text_button'
+2021-07-17 22:59:02,004 - ERROR : Traceback (most recent call last):
+2021-07-17 22:59:02,005 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 5, in on_text_button
+2021-07-17 22:59:02,005 - ERROR :     xl.Selection.Value = xl[0]
+2021-07-17 22:59:02,006 - ERROR : TypeError: '_Application' object is not subscriptable
+2021-07-17 23:01:19,724 - INFO : callbacks.on_close: PyXLL is closing
+2021-07-17 23:01:25,380 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-17 23:01:27,037 - WARNING : aiohttp could not be imported. Async example will not work
+Traceback (most recent call last):
+  File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\asyncfunc.py", line 24, in <module>
+    import aiohttp
+  File "build/x64/py38/res/release/pyxll.py", line 8206, in __import_hook
+ModuleNotFoundError: No module named 'aiohttp'
+2021-07-17 23:01:27,294 - INFO : This product is licensed to 
+2021-07-17 23:01:27,294 - INFO : The license will expire on 2021-08-16 (30 days left)
+2021-07-17 23:01:27,661 - WARNING : aiohttp could not be imported. Async example will not work
+Traceback (most recent call last):
+  File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\asyncfunc.py", line 24, in <module>
+    import aiohttp
+  File "build/x64/py38/res/release/pyxll.py", line 8206, in __import_hook
+ModuleNotFoundError: No module named 'aiohttp'
+2021-07-17 23:01:27,727 - INFO : This product is licensed to 
+2021-07-17 23:01:27,727 - INFO : The license will expire on 2021-08-16 (30 days left)
+2021-07-17 23:01:36,243 - ERROR : Error calling ribbon function 'ribbon_functions.on_text_button'
+2021-07-17 23:01:36,613 - ERROR : Error calling ribbon function 'ribbon_functions.on_text_button'
+2021-07-17 23:01:42,217 - ERROR : Traceback (most recent call last):
+2021-07-17 23:01:42,217 - ERROR :   File "C:\Users\Ethan-tuna\Documents\pyxll-5.1.1-x64-py38\examples\ribbon_functions.py", line 5, in on_text_button
+2021-07-17 23:01:42,218 - ERROR :     xl_app.Selection
+2021-07-17 23:01:42,218 - ERROR : AttributeError: 'builtin_function_or_method' object has no attribute 'Selection'
+2021-07-17 23:32:53,058 - INFO : callbacks.on_close: PyXLL is closing
