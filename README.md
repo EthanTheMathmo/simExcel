@@ -17,10 +17,11 @@ Note some work still needs to done to clean this up - e.g. by removing files fro
 * ribbon_functions.py is too long. Should split into several files based on functionality
 * Need to develop unit tests
 
-## Extra features
+## Extra features (not sure if all of these will be helpfull currently)
 * Error messages. I am currently thinking having an abbreviated error message, but also having a ribbon function which you can press on it to explain the error. (Basic version implemented 23.07.2021)
 * Error messages. Currently a very rudimentary return value to a cell. Perhaps better to make a pop-up tkinter box or something similar. (done for some error messages 23.07.2021. Some work needed on the UI)
 * Decision variables. Implement some sort of optimisation features. (e.g. stochastic gradient descent etc)
 * More complicated flow simulation
 * request a feature button 
 * Default value ribbon for the cell values ribbon. (done 23.07.21)
+* Plotting. Have a dot on the pdf to show the mean and the median
