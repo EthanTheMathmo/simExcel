@@ -76,7 +76,15 @@ def cell_data(control, cell_location, id_location=id_location,
     xl.Worksheets(distrInfoPageName).Activate()
 
     #set the relevant values on the distrInfoSheet
-    values = xl.ActiveSheet.Range(cell_location).Value.split(",")
+    values = xl.ActiveSheet.Range(cell_location).Value
+
+    if values == None:
+        """
+        empty cell returns none. (i.e. cell with no distribution)
+        """
+        return None
+    else:
+        values = values.split(",")
 
     # "".join([form_result["Mean"],form_result["Standard deviation"], "N"])
     #return the active sheet to the user's original page

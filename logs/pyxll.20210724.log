@@ -1,0 +1,310 @@
+2021-07-24 09:27:55,928 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-24 09:27:55,928 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-24 09:28:05,573 - INFO : This product is licensed to 
+2021-07-24 09:28:05,573 - INFO : The license will expire on 2021-08-21 (28 days left)
+2021-07-24 09:28:16,855 - WARNING : Delay in processing scheduled callbacks: Error getting Excel Window instance
+2021-07-24 09:29:12,641 - ERROR : Error calling ribbon function 'error_ribbon_functions.explainErrorWrapper'
+2021-07-24 09:29:14,673 - ERROR : Traceback (most recent call last):
+2021-07-24 09:29:14,673 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\error_ribbon_functions.py", line 67, in explainErrorWrapper
+2021-07-24 09:29:14,681 - ERROR :     explainError(control=control, error_id=error_id, error_messages_dictionary=error_messages_dictionary)
+2021-07-24 09:29:14,681 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\meta_variables.py", line 131, in explainError
+2021-07-24 09:29:14,681 - ERROR :     window.title("Error id: "+error_id)
+2021-07-24 09:29:14,681 - ERROR : TypeError: can only concatenate str (not "float") to str
+2021-07-24 09:52:08,114 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-24 09:52:08,114 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-24 09:52:08,219 - INFO : This product is licensed to 
+2021-07-24 09:52:08,219 - INFO : The license will expire on 2021-08-21 (28 days left)
+2021-07-24 09:52:51,450 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-24 09:52:51,450 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-24 09:52:51,528 - INFO : This product is licensed to 
+2021-07-24 09:52:51,528 - INFO : The license will expire on 2021-08-21 (28 days left)
+2021-07-24 09:54:03,483 - ERROR : Error calling ribbon function 'error_ribbon_functions.explainErrorWrapper'
+2021-07-24 09:54:04,989 - ERROR : Traceback (most recent call last):
+2021-07-24 09:54:04,989 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\error_ribbon_functions.py", line 67, in explainErrorWrapper
+2021-07-24 09:54:04,990 - ERROR :     explainError(control=control, error_id=error_id, error_messages_dictionary=error_messages_dictionary)
+2021-07-24 09:54:04,990 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\meta_variables.py", line 131, in explainError
+2021-07-24 09:54:04,990 - ERROR :     window.title("Error id: "+error_id)
+2021-07-24 09:54:04,990 - ERROR : TypeError: can only concatenate str (not "float") to str
+2021-07-24 10:28:04,084 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-24 10:28:04,084 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-24 10:28:04,177 - INFO : This product is licensed to 
+2021-07-24 10:28:04,177 - INFO : The license will expire on 2021-08-21 (28 days left)
+2021-07-24 10:28:33,293 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-24 10:28:33,293 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-24 10:28:33,383 - INFO : This product is licensed to 
+2021-07-24 10:28:33,383 - INFO : The license will expire on 2021-08-21 (28 days left)
+2021-07-24 10:31:03,746 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-24 10:31:03,747 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-24 10:31:03,826 - INFO : This product is licensed to 
+2021-07-24 10:31:03,826 - INFO : The license will expire on 2021-08-21 (28 days left)
+2021-07-24 10:31:10,208 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-24 10:31:10,208 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-24 10:31:10,300 - INFO : This product is licensed to 
+2021-07-24 10:31:10,300 - INFO : The license will expire on 2021-08-21 (28 days left)
+2021-07-24 10:31:54,801 - INFO : callbacks.on_close: PyXLL is closing
+2021-07-24 10:31:59,945 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-24 10:31:59,946 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-24 10:32:02,005 - INFO : This product is licensed to 
+2021-07-24 10:32:02,006 - INFO : The license will expire on 2021-08-21 (28 days left)
+2021-07-24 10:32:22,729 - ERROR : Error calling ribbon function 'advanced_simulation.advanced_simulation_cell'
+2021-07-24 10:32:48,201 - ERROR : Traceback (most recent call last):
+2021-07-24 10:32:48,201 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\advanced_simulation.py", line 48, in advanced_simulation_cell
+2021-07-24 10:32:48,202 - ERROR :     result = parser.parse(adjusted_formula).evaluate(variable_dict)
+2021-07-24 10:32:48,202 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\lib\site-packages\py_expression_eval\__init__.py", line 543, in parse
+2021-07-24 10:32:48,202 - ERROR :     self.error_parsing(self.pos, 'unknown character')
+2021-07-24 10:32:48,202 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\lib\site-packages\py_expression_eval\__init__.py", line 562, in error_parsing
+2021-07-24 10:32:48,203 - ERROR :     raise Exception(self.errormsg)
+2021-07-24 10:32:48,203 - ERROR : Exception: parse error [column 0]: unknown character, expression: =G2*H2+I2
+2021-07-24 10:34:43,979 - ERROR : Error calling ribbon function 'advanced_simulation.advanced_simulation_cell'
+2021-07-24 10:34:52,384 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-24 10:34:52,384 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-24 10:34:52,505 - INFO : This product is licensed to 
+2021-07-24 10:34:52,505 - INFO : The license will expire on 2021-08-21 (28 days left)
+2021-07-24 10:35:01,422 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-24 10:35:01,422 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-24 10:35:01,530 - INFO : This product is licensed to 
+2021-07-24 10:35:01,530 - INFO : The license will expire on 2021-08-21 (28 days left)
+2021-07-24 10:35:06,028 - ERROR : Error calling ribbon function 'advanced_simulation.advanced_simulation_cell'
+2021-07-24 10:35:09,169 - ERROR : Traceback (most recent call last):
+2021-07-24 10:35:09,172 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\advanced_simulation.py", line 48, in advanced_simulation_cell
+2021-07-24 10:35:09,173 - ERROR :     result = parser.parse(adjusted_formula).evaluate(variable_dict)
+2021-07-24 10:35:09,174 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\lib\site-packages\py_expression_eval\__init__.py", line 543, in parse
+2021-07-24 10:35:09,175 - ERROR :     self.error_parsing(self.pos, 'unknown character')
+2021-07-24 10:35:09,175 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\lib\site-packages\py_expression_eval\__init__.py", line 562, in error_parsing
+2021-07-24 10:35:09,176 - ERROR :     raise Exception(self.errormsg)
+2021-07-24 10:35:09,176 - ERROR : Exception: parse error [column 0]: unknown character, expression: =G2*H2+I2
+2021-07-24 10:35:09,812 - INFO : callbacks.on_close: PyXLL is closing
+2021-07-24 10:35:13,874 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-24 10:35:13,874 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-24 10:35:15,710 - INFO : This product is licensed to 
+2021-07-24 10:35:15,710 - INFO : The license will expire on 2021-08-21 (28 days left)
+2021-07-24 10:35:44,998 - ERROR : Error calling ribbon function 'advanced_simulation.advanced_simulation_cell'
+2021-07-24 10:35:50,007 - ERROR : Traceback (most recent call last):
+2021-07-24 10:35:50,007 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\advanced_simulation.py", line 48, in advanced_simulation_cell
+2021-07-24 10:35:50,007 - ERROR :     result = parser.parse(adjusted_formula).evaluate(variable_dict)
+2021-07-24 10:35:50,007 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\lib\site-packages\py_expression_eval\__init__.py", line 543, in parse
+2021-07-24 10:35:50,022 - ERROR :     self.error_parsing(self.pos, 'unknown character')
+2021-07-24 10:35:50,022 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\lib\site-packages\py_expression_eval\__init__.py", line 562, in error_parsing
+2021-07-24 10:35:50,022 - ERROR :     raise Exception(self.errormsg)
+2021-07-24 10:35:50,022 - ERROR : Exception: parse error [column 0]: unknown character, expression: =E7*F7+G7
+2021-07-24 10:36:16,437 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-24 10:36:16,437 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-24 10:36:16,506 - INFO : This product is licensed to 
+2021-07-24 10:36:16,506 - INFO : The license will expire on 2021-08-21 (28 days left)
+2021-07-24 10:36:19,146 - ERROR : Error calling ribbon function 'advanced_simulation.advanced_simulation_cell'
+2021-07-24 10:36:21,008 - ERROR : Traceback (most recent call last):
+2021-07-24 10:36:21,008 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\advanced_simulation.py", line 48, in advanced_simulation_cell
+2021-07-24 10:36:21,008 - ERROR :     
+2021-07-24 10:36:21,008 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\lib\site-packages\py_expression_eval\__init__.py", line 543, in parse
+2021-07-24 10:36:21,008 - ERROR :     self.error_parsing(self.pos, 'unknown character')
+2021-07-24 10:36:21,008 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\lib\site-packages\py_expression_eval\__init__.py", line 562, in error_parsing
+2021-07-24 10:36:21,008 - ERROR :     raise Exception(self.errormsg)
+2021-07-24 10:36:21,008 - ERROR : Exception: parse error [column 0]: unknown character, expression: =E7*F7+G7
+2021-07-24 10:36:24,972 - INFO : callbacks.on_close: PyXLL is closing
+2021-07-24 10:36:28,903 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-24 10:36:28,903 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-24 10:36:30,709 - INFO : This product is licensed to 
+2021-07-24 10:36:30,709 - INFO : The license will expire on 2021-08-21 (28 days left)
+2021-07-24 10:37:04,768 - ERROR : Error calling ribbon function 'advanced_simulation.advanced_simulation_cell'
+2021-07-24 10:37:06,319 - ERROR : Traceback (most recent call last):
+2021-07-24 10:37:06,319 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\advanced_simulation.py", line 46, in advanced_simulation_cell
+2021-07-24 10:37:06,319 - ERROR :     result = parser.parse(formula).evaluate(variable_dict)
+2021-07-24 10:37:06,319 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\lib\site-packages\py_expression_eval\__init__.py", line 543, in parse
+2021-07-24 10:37:06,319 - ERROR :     self.error_parsing(self.pos, 'unknown character')
+2021-07-24 10:37:06,319 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\lib\site-packages\py_expression_eval\__init__.py", line 562, in error_parsing
+2021-07-24 10:37:06,319 - ERROR :     raise Exception(self.errormsg)
+2021-07-24 10:37:06,319 - ERROR : Exception: parse error [column 0]: unknown character, expression: =F3*G3+H3
+2021-07-24 10:37:56,680 - ERROR : Error calling ribbon function 'advanced_simulation.advanced_simulation_cell'
+2021-07-24 10:38:18,287 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-24 10:38:18,287 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-24 10:38:18,407 - INFO : This product is licensed to 
+2021-07-24 10:38:18,407 - INFO : The license will expire on 2021-08-21 (28 days left)
+2021-07-24 10:38:31,734 - ERROR : Error calling ribbon function 'advanced_simulation.advanced_simulation_cell'
+2021-07-24 10:38:37,044 - INFO : callbacks.on_close: PyXLL is closing
+2021-07-24 10:38:42,535 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-24 10:38:42,535 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-24 10:38:44,253 - INFO : This product is licensed to 
+2021-07-24 10:38:44,253 - INFO : The license will expire on 2021-08-21 (28 days left)
+2021-07-24 10:38:55,551 - WARNING : Delay in processing scheduled callbacks: Error getting Excel Window instance
+2021-07-24 10:39:06,716 - WARNING : Delay in processing scheduled callbacks: Error getting Excel Window instance
+2021-07-24 10:48:50,246 - ERROR : Error calling ribbon function 'advanced_simulation.advanced_simulation_cell'
+2021-07-24 10:48:55,882 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-24 10:48:55,882 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-24 10:48:56,011 - INFO : This product is licensed to 
+2021-07-24 10:48:56,011 - INFO : The license will expire on 2021-08-21 (28 days left)
+2021-07-24 10:49:19,307 - ERROR : Error calling ribbon function 'advanced_simulation.advanced_simulation_cell'
+2021-07-24 10:49:21,797 - INFO : callbacks.on_close: PyXLL is closing
+2021-07-24 10:49:26,091 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-24 10:49:26,091 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-24 10:49:27,862 - INFO : This product is licensed to 
+2021-07-24 10:49:27,862 - INFO : The license will expire on 2021-08-21 (28 days left)

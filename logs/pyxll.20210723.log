@@ -1394,3 +1394,13 @@ SyntaxError: invalid syntax
 2021-07-23 14:13:26,039 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
 2021-07-23 14:13:26,141 - INFO : This product is licensed to 
 2021-07-23 14:13:26,141 - INFO : The license will expire on 2021-08-21 (29 days left)
+2021-07-23 14:50:05,762 - ERROR : Error calling ribbon function 'ribbon_functions.irregular_simulate'
+2021-07-23 14:50:06,974 - ERROR : Traceback (most recent call last):
+2021-07-23 14:50:06,974 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\ribbon_functions.py", line 375, in irregular_simulate
+2021-07-23 14:50:06,975 - ERROR :     hist_data_notsummed = np.array([hist_block_data(control=control,
+2021-07-23 14:50:06,975 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\ribbon_functions.py", line 375, in <listcomp>
+2021-07-23 14:50:06,975 - ERROR :     hist_data_notsummed = np.array([hist_block_data(control=control,
+2021-07-23 14:50:06,975 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\ribbon_functions.py", line 339, in hist_block_data
+2021-07-23 14:50:06,976 - ERROR :     if type(data[0]) == str:
+2021-07-23 14:50:06,976 - ERROR : TypeError: 'NoneType' object is not subscriptable
+2021-07-24 00:21:10,067 - INFO : callbacks.on_close: PyXLL is closing
