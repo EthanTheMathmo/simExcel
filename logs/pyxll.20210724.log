@@ -1013,3 +1013,14 @@ SyntaxError: invalid syntax
 2021-07-24 17:08:55,460 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
 2021-07-24 17:08:55,636 - INFO : This product is licensed to 
 2021-07-24 17:08:55,636 - INFO : The license will expire on 2021-08-21 (28 days left)
+2021-07-24 17:09:13,650 - ERROR : Error calling ribbon function 'advanced_simulation.advanced_simulation_cell_wrapper'
+2021-07-24 17:09:17,665 - ERROR : Traceback (most recent call last):
+2021-07-24 17:09:17,665 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\advanced_simulation.py", line 81, in advanced_simulation_cell_wrapper
+2021-07-24 17:09:17,666 - ERROR :     hist_data = advanced_simulation_cell(control)
+2021-07-24 17:09:17,666 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\advanced_simulation.py", line 75, in advanced_simulation_cell
+2021-07-24 17:09:17,667 - ERROR :     result = parser.parse(formula[1:]).evaluate(variable_dict)
+2021-07-24 17:09:17,667 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\lib\site-packages\py_expression_eval\__init__.py", line 552, in parse
+2021-07-24 17:09:17,667 - ERROR :     self.error_parsing(self.pos, 'parity')
+2021-07-24 17:09:17,668 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\lib\site-packages\py_expression_eval\__init__.py", line 562, in error_parsing
+2021-07-24 17:09:17,668 - ERROR :     raise Exception(self.errormsg)
+2021-07-24 17:09:17,668 - ERROR : Exception: parse error [column 0]: parity, expression: 
