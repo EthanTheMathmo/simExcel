@@ -308,3 +308,368 @@
 2021-07-24 10:49:26,091 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
 2021-07-24 10:49:27,862 - INFO : This product is licensed to 
 2021-07-24 10:49:27,862 - INFO : The license will expire on 2021-08-21 (28 days left)
+2021-07-24 15:51:05,114 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-24 15:51:05,116 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-24 15:51:05,318 - INFO : This product is licensed to 
+2021-07-24 15:51:05,318 - INFO : The license will expire on 2021-08-21 (28 days left)
+2021-07-24 15:51:07,792 - ERROR : AttributeError: module 'advanced_simulation' has no attribute 'advanced_simulation_cell_wrapper'
+2021-07-24 15:51:07,793 - ERROR : Error getting ribbon callback function 'advanced_simulation.advanced_simulation_cell_wrapper'.
+"module 'advanced_simulation' has no attribute 'advanced_simulation_cell_wrapper'"
+2021-07-24 15:51:21,944 - ERROR : AttributeError: module 'advanced_simulation' has no attribute 'advanced_simulation_cell_wrapper'
+2021-07-24 15:51:21,944 - ERROR : Error getting ribbon callback function 'advanced_simulation.advanced_simulation_cell_wrapper'.
+"module 'advanced_simulation' has no attribute 'advanced_simulation_cell_wrapper'"
+2021-07-24 15:51:26,124 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-24 15:51:26,124 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-24 15:51:26,214 - INFO : This product is licensed to 
+2021-07-24 15:51:26,214 - INFO : The license will expire on 2021-08-21 (28 days left)
+2021-07-24 15:51:28,378 - ERROR : AttributeError: module 'advanced_simulation' has no attribute 'advanced_simulation_cell_wrapper'
+2021-07-24 15:51:28,378 - ERROR : Error getting ribbon callback function 'advanced_simulation.advanced_simulation_cell_wrapper'.
+"module 'advanced_simulation' has no attribute 'advanced_simulation_cell_wrapper'"
+2021-07-24 15:51:51,980 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-24 15:51:51,980 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-24 15:51:52,063 - INFO : This product is licensed to 
+2021-07-24 15:51:52,063 - INFO : The license will expire on 2021-08-21 (28 days left)
+2021-07-24 15:51:57,626 - ERROR : AttributeError: module 'advanced_simulation' has no attribute 'advanced_simulation_cell_wrapper'
+2021-07-24 15:51:57,626 - ERROR : Error getting ribbon callback function 'advanced_simulation.advanced_simulation_cell_wrapper'.
+"module 'advanced_simulation' has no attribute 'advanced_simulation_cell_wrapper'"
+2021-07-24 15:51:59,624 - INFO : callbacks.on_close: PyXLL is closing
+2021-07-24 15:52:07,265 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-24 15:52:07,265 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-24 15:52:10,836 - INFO : This product is licensed to 
+2021-07-24 15:52:10,836 - INFO : The license will expire on 2021-08-21 (28 days left)
+2021-07-24 15:54:57,242 - ERROR : Error calling ribbon function 'advanced_simulation.advanced_simulation_cell_wrapper'
+2021-07-24 15:55:08,981 - ERROR : Traceback (most recent call last):
+2021-07-24 15:55:08,981 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\advanced_simulation.py", line 79, in advanced_simulation_cell_wrapper
+2021-07-24 15:55:08,990 - ERROR :     hist_data = advanced_simulation_cell(control)
+2021-07-24 15:55:08,990 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\advanced_simulation.py", line 73, in advanced_simulation_cell
+2021-07-24 15:55:08,991 - ERROR :     result = parser.parse(formula[1:]).evaluate(variable_dict)
+2021-07-24 15:55:08,991 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\lib\site-packages\py_expression_eval\__init__.py", line 129, in evaluate
+2021-07-24 15:55:08,991 - ERROR :     raise Exception('undefined variable: ' + item.index_)
+2021-07-24 15:55:08,991 - ERROR : Exception: undefined variable: F2
+2021-07-24 15:58:19,599 - ERROR : Error calling ribbon function 'advanced_simulation.advanced_simulation_cell_wrapper'
+2021-07-24 15:58:43,942 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-24 15:58:43,942 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-24 15:58:44,160 - INFO : This product is licensed to 
+2021-07-24 15:58:44,160 - INFO : The license will expire on 2021-08-21 (28 days left)
+2021-07-24 16:00:59,699 - ERROR : Error calling ribbon function 'advanced_simulation.advanced_simulation_cell_wrapper'
+2021-07-24 16:01:04,687 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-24 16:01:04,687 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-24 16:01:04,888 - INFO : This product is licensed to 
+2021-07-24 16:01:04,888 - INFO : The license will expire on 2021-08-21 (28 days left)
+2021-07-24 16:01:08,050 - ERROR : Error calling ribbon function 'advanced_simulation.advanced_simulation_cell_wrapper'
+2021-07-24 16:01:10,116 - ERROR : Traceback (most recent call last):
+2021-07-24 16:01:10,126 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\advanced_simulation.py", line 79, in advanced_simulation_cell_wrapper
+2021-07-24 16:01:10,127 - ERROR :     hist_data = advanced_simulation_cell(control)
+2021-07-24 16:01:10,128 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\advanced_simulation.py", line 73, in advanced_simulation_cell
+2021-07-24 16:01:10,129 - ERROR :     result = parser.parse(formula[1:]).evaluate(variable_dict)
+2021-07-24 16:01:10,129 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\lib\site-packages\py_expression_eval\__init__.py", line 129, in evaluate
+2021-07-24 16:01:10,130 - ERROR :     raise Exception('undefined variable: ' + item.index_)
+2021-07-24 16:01:10,131 - ERROR : Exception: undefined variable: F2
+2021-07-24 16:01:10,796 - INFO : callbacks.on_close: PyXLL is closing
+2021-07-24 16:01:19,024 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-24 16:01:19,024 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-24 16:01:21,867 - INFO : This product is licensed to 
+2021-07-24 16:01:21,867 - INFO : The license will expire on 2021-08-21 (28 days left)
+2021-07-24 16:01:33,022 - WARNING : Delay in processing scheduled callbacks: Error getting Excel Window instance
+2021-07-24 16:01:44,001 - WARNING : Delay in processing scheduled callbacks: Error getting Excel Window instance
+2021-07-24 16:01:54,993 - WARNING : Delay in processing scheduled callbacks: Error getting Excel Window instance
+2021-07-24 16:02:05,938 - WARNING : Delay in processing scheduled callbacks: Error getting Excel Window instance
+2021-07-24 16:02:17,133 - WARNING : Delay in processing scheduled callbacks: Error getting Excel Window instance
+2021-07-24 16:02:28,145 - WARNING : Delay in processing scheduled callbacks: Error getting Excel Window instance
+2021-07-24 16:02:39,197 - WARNING : Delay in processing scheduled callbacks: Error getting Excel Window instance
+2021-07-24 16:02:50,208 - WARNING : Delay in processing scheduled callbacks: Error getting Excel Window instance
+2021-07-24 16:03:01,216 - WARNING : Delay in processing scheduled callbacks: Error getting Excel Window instance
+2021-07-24 16:03:12,224 - WARNING : Delay in processing scheduled callbacks: Error getting Excel Window instance
+2021-07-24 16:03:23,296 - WARNING : Delay in processing scheduled callbacks: Error getting Excel Window instance
+2021-07-24 16:03:34,428 - WARNING : Delay in processing scheduled callbacks: Error getting Excel Window instance
+2021-07-24 16:07:16,685 - ERROR : Error calling ribbon function 'advanced_simulation.advanced_simulation_cell_wrapper'
+2021-07-24 16:07:20,212 - ERROR : Traceback (most recent call last):
+2021-07-24 16:07:20,212 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\advanced_simulation.py", line 79, in advanced_simulation_cell_wrapper
+2021-07-24 16:07:20,213 - ERROR :     hist_data = advanced_simulation_cell(control)
+2021-07-24 16:07:20,213 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\advanced_simulation.py", line 62, in advanced_simulation_cell
+2021-07-24 16:07:20,214 - ERROR :     variable_dict[transformed_cell_address] = advanced_simulation_cell(control=control,
+2021-07-24 16:07:20,214 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\advanced_simulation.py", line 73, in advanced_simulation_cell
+2021-07-24 16:07:20,214 - ERROR :     result = parser.parse(formula[1:]).evaluate(variable_dict)
+2021-07-24 16:07:20,214 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\lib\site-packages\py_expression_eval\__init__.py", line 552, in parse
+2021-07-24 16:07:20,215 - ERROR :     self.error_parsing(self.pos, 'parity')
+2021-07-24 16:07:20,215 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\lib\site-packages\py_expression_eval\__init__.py", line 562, in error_parsing
+2021-07-24 16:07:20,216 - ERROR :     raise Exception(self.errormsg)
+2021-07-24 16:07:20,216 - ERROR : Exception: parse error [column 0]: parity, expression: 
+2021-07-24 16:14:02,440 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-24 16:14:02,440 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-24 16:14:05,436 - INFO : This product is licensed to 
+2021-07-24 16:14:05,436 - INFO : The license will expire on 2021-08-21 (28 days left)
+2021-07-24 16:14:43,438 - ERROR : Error calling ribbon function 'advanced_simulation.advanced_simulation_cell_wrapper'
+2021-07-24 16:14:45,069 - ERROR : Traceback (most recent call last):
+2021-07-24 16:14:45,069 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\advanced_simulation.py", line 79, in advanced_simulation_cell_wrapper
+2021-07-24 16:14:45,070 - ERROR :     hist_data = advanced_simulation_cell(control)
+2021-07-24 16:14:45,070 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\advanced_simulation.py", line 62, in advanced_simulation_cell
+2021-07-24 16:14:45,070 - ERROR :     variable_dict[transformed_cell_address] = advanced_simulation_cell(control=control,
+2021-07-24 16:14:45,070 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\advanced_simulation.py", line 73, in advanced_simulation_cell
+2021-07-24 16:14:45,071 - ERROR :     result = parser.parse(formula[1:]).evaluate(variable_dict)
+2021-07-24 16:14:45,071 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\lib\site-packages\py_expression_eval\__init__.py", line 552, in parse
+2021-07-24 16:14:45,071 - ERROR :     self.error_parsing(self.pos, 'parity')
+2021-07-24 16:14:45,071 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\lib\site-packages\py_expression_eval\__init__.py", line 562, in error_parsing
+2021-07-24 16:14:45,072 - ERROR :     raise Exception(self.errormsg)
+2021-07-24 16:14:45,072 - ERROR : Exception: parse error [column 0]: parity, expression: 
+2021-07-24 16:17:03,596 - ERROR : Error calling ribbon function 'advanced_simulation.advanced_simulation_cell_wrapper'
+2021-07-24 16:17:44,483 - ERROR : Error calling ribbon function 'advanced_simulation.advanced_simulation_cell_wrapper'
+2021-07-24 16:17:48,463 - ERROR : Traceback (most recent call last):
+2021-07-24 16:17:48,470 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\advanced_simulation.py", line 79, in advanced_simulation_cell_wrapper
+2021-07-24 16:17:48,472 - ERROR :     hist_data = advanced_simulation_cell(control)
+2021-07-24 16:17:48,473 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\advanced_simulation.py", line 62, in advanced_simulation_cell
+2021-07-24 16:17:48,474 - ERROR :     variable_dict[transformed_cell_address] = advanced_simulation_cell(control=control,
+2021-07-24 16:17:48,474 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\advanced_simulation.py", line 73, in advanced_simulation_cell
+2021-07-24 16:17:48,476 - ERROR :     result = parser.parse(formula[1:]).evaluate(variable_dict)
+2021-07-24 16:17:48,477 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\lib\site-packages\py_expression_eval\__init__.py", line 508, in parse
+2021-07-24 16:17:48,478 - ERROR :     self.error_parsing(self.pos, 'unexpected \",\"')
+2021-07-24 16:17:48,478 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\lib\site-packages\py_expression_eval\__init__.py", line 562, in error_parsing
+2021-07-24 16:17:48,480 - ERROR :     raise Exception(self.errormsg)
+2021-07-24 16:17:48,480 - ERROR : Exception: parse error [column 1]: unexpected ",", expression: ,1,N
+2021-07-24 16:17:56,428 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-24 16:17:56,428 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-24 16:17:56,655 - INFO : This product is licensed to 
+2021-07-24 16:17:56,655 - INFO : The license will expire on 2021-08-21 (28 days left)
+2021-07-24 16:18:01,682 - ERROR : Error calling ribbon function 'advanced_simulation.advanced_simulation_cell_wrapper'
+2021-07-24 16:18:03,897 - ERROR : Traceback (most recent call last):
+2021-07-24 16:18:03,897 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\advanced_simulation.py", line 79, in advanced_simulation_cell_wrapper
+2021-07-24 16:18:03,899 - ERROR :     hist_data = advanced_simulation_cell(control)
+2021-07-24 16:18:03,899 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\advanced_simulation.py", line 62, in advanced_simulation_cell
+2021-07-24 16:18:03,901 - ERROR :     variable_dict[transformed_cell_address] = advanced_simulation_cell(control=control,
+2021-07-24 16:18:03,901 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\advanced_simulation.py", line 39, in advanced_simulation_cell
+2021-07-24 16:18:03,903 - ERROR :     base_items = set(re.findall('[A-Z]+[1-9]+',formula))
+2021-07-24 16:18:03,904 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\Lib\re.py", line 239, in findall
+2021-07-24 16:18:03,906 - ERROR :     return _compile(pattern, flags).findall(string)
+2021-07-24 16:18:03,907 - ERROR : TypeError: expected string or bytes-like object
+2021-07-24 16:19:13,705 - ERROR : Error calling ribbon function 'advanced_simulation.advanced_simulation_cell_wrapper'
+2021-07-24 16:21:30,110 - ERROR : Error calling ribbon function 'advanced_simulation.advanced_simulation_cell_wrapper'
+2021-07-24 16:21:47,538 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-24 16:21:47,538 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-24 16:21:47,735 - INFO : This product is licensed to 
+2021-07-24 16:21:47,735 - INFO : The license will expire on 2021-08-21 (28 days left)
+2021-07-24 16:21:51,178 - ERROR : Error calling ribbon function 'advanced_simulation.advanced_simulation_cell_wrapper'
+2021-07-24 16:21:53,105 - ERROR : Traceback (most recent call last):
+2021-07-24 16:21:53,106 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\advanced_simulation.py", line 79, in advanced_simulation_cell_wrapper
+2021-07-24 16:21:53,107 - ERROR :     hist_data = advanced_simulation_cell(control)
+2021-07-24 16:21:53,108 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\advanced_simulation.py", line 62, in advanced_simulation_cell
+2021-07-24 16:21:53,109 - ERROR :     variable_dict[transformed_cell_address] = advanced_simulation_cell(control=control,
+2021-07-24 16:21:53,110 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\advanced_simulation.py", line 73, in advanced_simulation_cell
+2021-07-24 16:21:53,111 - ERROR :     result = parser.parse(formula[1:]).evaluate(variable_dict)
+2021-07-24 16:21:53,112 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\lib\site-packages\py_expression_eval\__init__.py", line 508, in parse
+2021-07-24 16:21:53,114 - ERROR :     self.error_parsing(self.pos, 'unexpected \",\"')
+2021-07-24 16:21:53,114 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\lib\site-packages\py_expression_eval\__init__.py", line 562, in error_parsing
+2021-07-24 16:21:53,117 - ERROR :     raise Exception(self.errormsg)
+2021-07-24 16:21:53,118 - ERROR : Exception: parse error [column 1]: unexpected ",", expression: ,1,N
+2021-07-24 16:23:38,619 - ERROR : Error calling ribbon function 'advanced_simulation.advanced_simulation_cell_wrapper'
+2021-07-24 16:23:42,627 - INFO : callbacks.on_close: PyXLL is closing
+2021-07-24 16:23:49,462 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-24 16:23:49,462 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-24 16:23:52,332 - INFO : This product is licensed to 
+2021-07-24 16:23:52,332 - INFO : The license will expire on 2021-08-21 (28 days left)
+2021-07-24 16:24:03,513 - WARNING : Delay in processing scheduled callbacks: Error getting Excel Window instance
+2021-07-24 16:24:14,523 - WARNING : Delay in processing scheduled callbacks: Error getting Excel Window instance
+2021-07-24 16:24:25,521 - WARNING : Delay in processing scheduled callbacks: Error getting Excel Window instance
+2021-07-24 16:24:36,604 - WARNING : Delay in processing scheduled callbacks: Error getting Excel Window instance
+2021-07-24 16:24:47,597 - WARNING : Delay in processing scheduled callbacks: Error getting Excel Window instance
+2021-07-24 16:24:58,578 - WARNING : Delay in processing scheduled callbacks: Error getting Excel Window instance
+2021-07-24 16:25:10,187 - WARNING : Delay in processing scheduled callbacks: Error getting Excel Window instance
+2021-07-24 16:25:40,859 - ERROR : Error calling ribbon function 'advanced_simulation.advanced_simulation_cell_wrapper'
+2021-07-24 16:25:42,176 - ERROR : Traceback (most recent call last):
+2021-07-24 16:25:42,176 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\advanced_simulation.py", line 79, in advanced_simulation_cell_wrapper
+2021-07-24 16:25:42,177 - ERROR :     hist_data = advanced_simulation_cell(control)
+2021-07-24 16:25:42,177 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\advanced_simulation.py", line 62, in advanced_simulation_cell
+2021-07-24 16:25:42,178 - ERROR :     variable_dict[transformed_cell_address] = advanced_simulation_cell(control=control,
+2021-07-24 16:25:42,178 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\advanced_simulation.py", line 73, in advanced_simulation_cell
+2021-07-24 16:25:42,178 - ERROR :     result = parser.parse(formula[1:]).evaluate(variable_dict)
+2021-07-24 16:25:42,178 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\lib\site-packages\py_expression_eval\__init__.py", line 552, in parse
+2021-07-24 16:25:42,179 - ERROR :     self.error_parsing(self.pos, 'parity')
+2021-07-24 16:25:42,179 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\lib\site-packages\py_expression_eval\__init__.py", line 562, in error_parsing
+2021-07-24 16:25:42,179 - ERROR :     raise Exception(self.errormsg)
+2021-07-24 16:25:42,179 - ERROR : Exception: parse error [column 0]: parity, expression: 
+2021-07-24 16:26:28,244 - ERROR : Error calling ribbon function 'advanced_simulation.advanced_simulation_cell_wrapper'
+2021-07-24 16:28:10,364 - ERROR : Error calling ribbon function 'advanced_simulation.advanced_simulation_cell_wrapper'
+2021-07-24 16:30:12,465 - ERROR : Error calling ribbon function 'advanced_simulation.advanced_simulation_cell_wrapper'
+2021-07-24 16:30:13,916 - ERROR : Traceback (most recent call last):
+2021-07-24 16:30:13,922 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\advanced_simulation.py", line 79, in advanced_simulation_cell_wrapper
+2021-07-24 16:30:13,924 - ERROR :     hist_data = advanced_simulation_cell(control)
+2021-07-24 16:30:13,925 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\advanced_simulation.py", line 62, in advanced_simulation_cell
+2021-07-24 16:30:13,926 - ERROR :     variable_dict[transformed_cell_address] = advanced_simulation_cell(control=control,
+2021-07-24 16:30:13,927 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\advanced_simulation.py", line 73, in advanced_simulation_cell
+2021-07-24 16:30:13,929 - ERROR :     result = parser.parse(formula[1:]).evaluate(variable_dict)
+2021-07-24 16:30:13,930 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\lib\site-packages\py_expression_eval\__init__.py", line 552, in parse
+2021-07-24 16:30:13,932 - ERROR :     self.error_parsing(self.pos, 'parity')
+2021-07-24 16:30:13,933 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\lib\site-packages\py_expression_eval\__init__.py", line 562, in error_parsing
+2021-07-24 16:30:13,934 - ERROR :     raise Exception(self.errormsg)
+2021-07-24 16:30:13,935 - ERROR : Exception: parse error [column 0]: parity, expression: 
+2021-07-24 16:30:19,063 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-24 16:30:19,063 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-24 16:30:19,290 - INFO : This product is licensed to 
+2021-07-24 16:30:19,290 - INFO : The license will expire on 2021-08-21 (28 days left)
+2021-07-24 16:30:22,507 - ERROR : Error calling ribbon function 'advanced_simulation.advanced_simulation_cell_wrapper'
+2021-07-24 16:30:23,574 - ERROR : Traceback (most recent call last):
+2021-07-24 16:30:23,575 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\advanced_simulation.py", line 79, in advanced_simulation_cell_wrapper
+2021-07-24 16:30:23,576 - ERROR :     hist_data = advanced_simulation_cell(control)
+2021-07-24 16:30:23,577 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\advanced_simulation.py", line 62, in advanced_simulation_cell
+2021-07-24 16:30:23,578 - ERROR :     variable_dict[transformed_cell_address] = advanced_simulation_cell(control=control,
+2021-07-24 16:30:23,578 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\advanced_simulation.py", line 73, in advanced_simulation_cell
+2021-07-24 16:30:23,579 - ERROR :     result = parser.parse(formula[1:]).evaluate(variable_dict)
+2021-07-24 16:30:23,580 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\lib\site-packages\py_expression_eval\__init__.py", line 552, in parse
+2021-07-24 16:30:23,581 - ERROR :     self.error_parsing(self.pos, 'parity')
+2021-07-24 16:30:23,581 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\lib\site-packages\py_expression_eval\__init__.py", line 562, in error_parsing
+2021-07-24 16:30:23,582 - ERROR :     raise Exception(self.errormsg)
+2021-07-24 16:30:23,583 - ERROR : Exception: parse error [column 0]: parity, expression: 
+2021-07-24 16:30:56,161 - ERROR : Error calling ribbon function 'advanced_simulation.advanced_simulation_cell_wrapper'
+2021-07-24 16:30:58,066 - INFO : callbacks.on_close: PyXLL is closing
+2021-07-24 16:31:02,705 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-24 16:31:02,705 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-24 16:31:04,473 - INFO : This product is licensed to 
+2021-07-24 16:31:04,473 - INFO : The license will expire on 2021-08-21 (28 days left)
+2021-07-24 16:31:15,725 - WARNING : Delay in processing scheduled callbacks: Error getting Excel Window instance
+2021-07-24 16:31:26,740 - WARNING : Delay in processing scheduled callbacks: Error getting Excel Window instance
+2021-07-24 16:31:37,763 - WARNING : Delay in processing scheduled callbacks: Error getting Excel Window instance
+2021-07-24 16:31:48,766 - WARNING : Delay in processing scheduled callbacks: Error getting Excel Window instance
+2021-07-24 16:31:59,734 - WARNING : Delay in processing scheduled callbacks: Error getting Excel Window instance
+2021-07-24 16:32:10,900 - WARNING : Delay in processing scheduled callbacks: Error getting Excel Window instance
+2021-07-24 16:32:21,867 - WARNING : Delay in processing scheduled callbacks: Error getting Excel Window instance
+2021-07-24 16:32:32,866 - WARNING : Delay in processing scheduled callbacks: Error getting Excel Window instance
+2021-07-24 16:32:43,842 - WARNING : Delay in processing scheduled callbacks: Error getting Excel Window instance
+2021-07-24 16:32:54,799 - WARNING : Delay in processing scheduled callbacks: Error getting Excel Window instance
+2021-07-24 16:33:05,747 - WARNING : Delay in processing scheduled callbacks: Error getting Excel Window instance
+2021-07-24 16:33:16,695 - WARNING : Delay in processing scheduled callbacks: Error getting Excel Window instance
+2021-07-24 16:33:27,649 - WARNING : Delay in processing scheduled callbacks: Error getting Excel Window instance
+2021-07-24 16:33:38,729 - WARNING : Delay in processing scheduled callbacks: Error getting Excel Window instance
+2021-07-24 16:33:49,753 - WARNING : Delay in processing scheduled callbacks: Error getting Excel Window instance
+2021-07-24 16:34:00,718 - WARNING : Delay in processing scheduled callbacks: Error getting Excel Window instance
+2021-07-24 16:34:11,703 - WARNING : Delay in processing scheduled callbacks: Error getting Excel Window instance
+2021-07-24 16:34:22,738 - WARNING : Delay in processing scheduled callbacks: Error getting Excel Window instance
+2021-07-24 16:34:34,038 - WARNING : Delay in processing scheduled callbacks: Error getting Excel Window instance

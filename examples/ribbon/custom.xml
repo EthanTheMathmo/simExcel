@@ -62,7 +62,7 @@
                             onAction="ribbon_functions.simulate_1000"/> -->
                     <button id="advanced_simulation"
                             label="Advanced simulation"
-                            onAction="advanced_simulation.advanced_simulation_cell"/>
+                            onAction="advanced_simulation.advanced_simulation_cell_wrapper"/>
 
                 </group>               
             </tab>

@@ -82,6 +82,9 @@ def cell_data(control, cell_location, id_location=id_location,
         """
         empty cell returns none. (i.e. cell with no distribution)
         """
+        xl.Worksheets(userCurrentPageName).Activate() #return to user's page
+        xl.ScreenUpdating = True
+
         return None
     else:
         values = values.split(",")
