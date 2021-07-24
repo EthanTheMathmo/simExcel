@@ -673,3 +673,343 @@
 2021-07-24 16:34:11,703 - WARNING : Delay in processing scheduled callbacks: Error getting Excel Window instance
 2021-07-24 16:34:22,738 - WARNING : Delay in processing scheduled callbacks: Error getting Excel Window instance
 2021-07-24 16:34:34,038 - WARNING : Delay in processing scheduled callbacks: Error getting Excel Window instance
+2021-07-24 16:48:14,394 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-24 16:48:14,394 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-24 16:48:14,499 - INFO : This product is licensed to 
+2021-07-24 16:48:14,499 - INFO : The license will expire on 2021-08-21 (28 days left)
+2021-07-24 16:48:39,934 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-24 16:48:39,934 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-24 16:48:40,020 - INFO : This product is licensed to 
+2021-07-24 16:48:40,020 - INFO : The license will expire on 2021-08-21 (28 days left)
+2021-07-24 16:50:41,958 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-24 16:50:41,958 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-24 16:50:42,103 - INFO : This product is licensed to 
+2021-07-24 16:50:42,103 - INFO : The license will expire on 2021-08-21 (28 days left)
+2021-07-24 16:51:00,842 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-24 16:51:00,842 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-24 16:51:00,927 - INFO : This product is licensed to 
+2021-07-24 16:51:00,927 - INFO : The license will expire on 2021-08-21 (28 days left)
+2021-07-24 16:51:29,339 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-24 16:51:29,339 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-24 16:51:29,434 - INFO : This product is licensed to 
+2021-07-24 16:51:29,434 - INFO : The license will expire on 2021-08-21 (28 days left)
+2021-07-24 16:52:26,376 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-24 16:52:26,376 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-24 16:52:26,473 - INFO : This product is licensed to 
+2021-07-24 16:52:26,473 - INFO : The license will expire on 2021-08-21 (28 days left)
+2021-07-24 16:52:41,254 - INFO : callbacks.on_close: PyXLL is closing
+2021-07-24 16:52:46,505 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-24 16:52:46,506 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-24 16:52:49,664 - INFO : This product is licensed to 
+2021-07-24 16:52:49,664 - INFO : The license will expire on 2021-08-21 (28 days left)
+2021-07-24 16:53:01,059 - WARNING : Delay in processing scheduled callbacks: Error getting Excel Window instance
+2021-07-24 16:53:41,326 - ERROR : Error calling ribbon function 'advanced_simulation.advanced_simulation_cell_wrapper'
+2021-07-24 16:53:43,166 - ERROR : Traceback (most recent call last):
+2021-07-24 16:53:43,166 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\advanced_simulation.py", line 80, in advanced_simulation_cell_wrapper
+2021-07-24 16:53:43,167 - ERROR :     hist_data = advanced_simulation_cell(control)
+2021-07-24 16:53:43,167 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\advanced_simulation.py", line 74, in advanced_simulation_cell
+2021-07-24 16:53:43,167 - ERROR :     result = parser.parse(formula[1:]).evaluate(variable_dict)
+2021-07-24 16:53:43,167 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\lib\site-packages\py_expression_eval\__init__.py", line 552, in parse
+2021-07-24 16:53:43,168 - ERROR :     self.error_parsing(self.pos, 'parity')
+2021-07-24 16:53:43,168 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\lib\site-packages\py_expression_eval\__init__.py", line 562, in error_parsing
+2021-07-24 16:53:43,168 - ERROR :     raise Exception(self.errormsg)
+2021-07-24 16:53:43,168 - ERROR : Exception: parse error [column 0]: parity, expression: 
+2021-07-24 16:54:10,614 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-24 16:54:10,614 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-24 16:54:10,771 - INFO : This product is licensed to 
+2021-07-24 16:54:10,771 - INFO : The license will expire on 2021-08-21 (28 days left)
+2021-07-24 16:54:17,977 - INFO : callbacks.on_close: PyXLL is closing
+2021-07-24 16:54:23,338 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-24 16:54:23,338 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-24 16:54:25,255 - INFO : This product is licensed to 
+2021-07-24 16:54:25,255 - INFO : The license will expire on 2021-08-21 (28 days left)
+2021-07-24 16:54:51,593 - ERROR : Error calling ribbon function 'advanced_simulation.advanced_simulation_cell_wrapper'
+2021-07-24 16:54:55,813 - ERROR : Traceback (most recent call last):
+2021-07-24 16:54:55,814 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\lib\site-packages\numpy\lib\histograms.py", line 419, in _get_bin_edges
+2021-07-24 16:54:55,814 - ERROR :     n_equal_bins = operator.index(bins)
+2021-07-24 16:54:55,814 - ERROR : TypeError: 'float' object cannot be interpreted as an integer
+2021-07-24 16:54:55,815 - ERROR : 
+2021-07-24 16:54:55,815 - ERROR : The above exception was the direct cause of the following exception:
+2021-07-24 16:54:55,815 - ERROR : 
+2021-07-24 16:54:55,815 - ERROR : Traceback (most recent call last):
+2021-07-24 16:54:55,815 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\advanced_simulation.py", line 85, in advanced_simulation_cell_wrapper
+2021-07-24 16:54:55,815 - ERROR :     ax.hist(hist_data, bins=histogram_bins)
+2021-07-24 16:54:55,815 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\lib\site-packages\matplotlib\__init__.py", line 1361, in inner
+2021-07-24 16:54:55,816 - ERROR :     return func(ax, *map(sanitize_sequence, args), **kwargs)
+2021-07-24 16:54:55,816 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\lib\site-packages\matplotlib\axes\_axes.py", line 6759, in hist
+2021-07-24 16:54:55,817 - ERROR :     m, bins = np.histogram(x[i], bins, weights=w[i], **hist_kwargs)
+2021-07-24 16:54:55,818 - ERROR :   File "<__array_function__ internals>", line 5, in histogram
+2021-07-24 16:54:55,818 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\lib\site-packages\numpy\lib\histograms.py", line 793, in histogram
+2021-07-24 16:54:55,819 - ERROR :     bin_edges, uniform_bins = _get_bin_edges(a, bins, range, weights)
+2021-07-24 16:54:55,819 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\lib\site-packages\numpy\lib\histograms.py", line 421, in _get_bin_edges
+2021-07-24 16:54:55,819 - ERROR :     raise TypeError(
+2021-07-24 16:54:55,819 - ERROR : TypeError: `bins` must be an integer, a string, or an array
+2021-07-24 16:55:12,019 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-24 16:55:12,019 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-24 16:55:12,111 - INFO : This product is licensed to 
+2021-07-24 16:55:12,111 - INFO : The license will expire on 2021-08-21 (28 days left)
+2021-07-24 16:55:14,609 - ERROR : Error calling ribbon function 'advanced_simulation.advanced_simulation_cell_wrapper'
+2021-07-24 16:55:19,140 - ERROR : Traceback (most recent call last):
+2021-07-24 16:55:19,141 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\lib\site-packages\numpy\lib\histograms.py", line 419, in _get_bin_edges
+2021-07-24 16:55:19,141 - ERROR :     n_equal_bins = operator.index(bins)
+2021-07-24 16:55:19,141 - ERROR : TypeError: 'float' object cannot be interpreted as an integer
+2021-07-24 16:55:19,141 - ERROR : 
+2021-07-24 16:55:19,141 - ERROR : The above exception was the direct cause of the following exception:
+2021-07-24 16:55:19,141 - ERROR : 
+2021-07-24 16:55:19,141 - ERROR : Traceback (most recent call last):
+2021-07-24 16:55:19,141 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\advanced_simulation.py", line 85, in advanced_simulation_cell_wrapper
+2021-07-24 16:55:19,142 - ERROR :     ax.hist(hist_data, bins=histogram_bins)
+2021-07-24 16:55:19,142 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\lib\site-packages\matplotlib\__init__.py", line 1361, in inner
+2021-07-24 16:55:19,142 - ERROR :     return func(ax, *map(sanitize_sequence, args), **kwargs)
+2021-07-24 16:55:19,142 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\lib\site-packages\matplotlib\axes\_axes.py", line 6759, in hist
+2021-07-24 16:55:19,144 - ERROR :     m, bins = np.histogram(x[i], bins, weights=w[i], **hist_kwargs)
+2021-07-24 16:55:19,144 - ERROR :   File "<__array_function__ internals>", line 5, in histogram
+2021-07-24 16:55:19,145 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\lib\site-packages\numpy\lib\histograms.py", line 793, in histogram
+2021-07-24 16:55:19,146 - ERROR :     bin_edges, uniform_bins = _get_bin_edges(a, bins, range, weights)
+2021-07-24 16:55:19,146 - ERROR :   File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\lib\site-packages\numpy\lib\histograms.py", line 421, in _get_bin_edges
+2021-07-24 16:55:19,146 - ERROR :     raise TypeError(
+2021-07-24 16:55:19,146 - ERROR : TypeError: `bins` must be an integer, a string, or an array
+2021-07-24 16:55:20,185 - INFO : callbacks.on_close: PyXLL is closing
+2021-07-24 16:55:28,756 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-24 16:55:28,756 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-24 17:02:05,916 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-24 17:02:05,917 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-24 17:02:08,702 - INFO : This product is licensed to 
+2021-07-24 17:02:08,702 - INFO : The license will expire on 2021-08-21 (28 days left)
+2021-07-24 17:02:21,890 - ERROR : Error calling ribbon function 'ribbon_functions.cell_value_simulate'
+2021-07-24 17:02:22,287 - ERROR : Error calling ribbon function 'ribbon_functions.cell_value_simulate'
+2021-07-24 17:02:24,259 - ERROR : Traceback (most recent call last):
+2021-07-24 17:02:24,259 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\ribbon_functions.py", line 402, in cell_value_simulate
+2021-07-24 17:02:24,260 - ERROR :     single_simulation(control=control, address=address, id_location=id_location)
+2021-07-24 17:02:24,260 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\ribbon_functions.py", line 422, in single_simulation
+2021-07-24 17:02:24,261 - ERROR :     xl.ActiveSheet.Range(address).Value = block_input_simulation(control=control, range_data=address,screen_freezing=screen_freeze_disabled, id_location=id_location)
+2021-07-24 17:02:24,261 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\ribbon_functions.py", line 479, in block_input_simulation
+2021-07-24 17:02:24,261 - ERROR :     xl.Worksheets(distribution_sheet).Activate()
+2021-07-24 17:02:24,261 - ERROR :   File "C:\Users\ethan\AppData\Local\Temp\gen_py\3.8\00020813-0000-0000-C000-000000000046x0x1x9\Sheets.py", line 120, in __call__
+2021-07-24 17:02:24,262 - ERROR :     ret = self._oleobj_.InvokeTypes(0, LCID, 2, (9, 0), ((12, 1),),Index
+2021-07-24 17:02:24,262 - ERROR : pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, None, None, None, 0, -2147352571), 2)
+2021-07-24 17:02:34,690 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-24 17:02:34,690 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-24 17:02:34,847 - INFO : This product is licensed to 
+2021-07-24 17:02:34,847 - INFO : The license will expire on 2021-08-21 (28 days left)
+2021-07-24 17:02:39,610 - INFO : callbacks.on_close: PyXLL is closing
+2021-07-24 17:02:45,127 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-24 17:02:45,127 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-24 17:02:47,903 - INFO : This product is licensed to 
+2021-07-24 17:02:47,903 - INFO : The license will expire on 2021-08-21 (28 days left)
+2021-07-24 17:07:16,898 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-24 17:07:16,898 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-24 17:07:16,997 - ERROR : Error reloading 'ribbon_functions'
+Traceback (most recent call last):
+  File "build/x64/py38/res/release/pyxll.py", line 835, in _open
+  File "build/x64/py38/res/release/pyxll.py", line 8047, in reload
+  File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\Lib\imp.py", line 314, in reload
+    return importlib.reload(module)
+  File "C:\Users\ethan\AppData\Local\Programs\Python\Python38\Lib\importlib\__init__.py", line 169, in reload
+    _bootstrap._exec(spec, module)
+  File "<frozen importlib._bootstrap>", line 604, in _exec
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\ethan\Documents\simExcel\examples\ribbon_functions.py", line 350
+    ?
+    ^
+SyntaxError: invalid syntax
+2021-07-24 17:07:19,846 - INFO : This product is licensed to 
+2021-07-24 17:07:19,846 - INFO : The license will expire on 2021-08-21 (28 days left)
+2021-07-24 17:07:19,875 - ERROR : Error loading 'ribbon_functions' : invalid syntax (ribbon_functions.py, line 350)
+2021-07-24 17:07:47,314 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-24 17:07:47,314 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-24 17:07:47,494 - INFO : This product is licensed to 
+2021-07-24 17:07:47,494 - INFO : The license will expire on 2021-08-21 (28 days left)
+2021-07-24 17:07:56,098 - ERROR : Error calling ribbon function 'ribbon_functions.regular_simulate'
+2021-07-24 17:07:57,516 - ERROR : Traceback (most recent call last):
+2021-07-24 17:07:57,516 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\ribbon_functions.py", line 357, in regular_simulate
+2021-07-24 17:07:57,516 - ERROR :     hist_data = hist_block_data(control=control, range_data = None, id_location=id_location, simulation_num=simulation_num, distributions_dictionary=distributions_dictionary)
+2021-07-24 17:07:57,517 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\ribbon_functions.py", line 339, in hist_block_data
+2021-07-24 17:07:57,517 - ERROR :     if type(data[0]) == str:
+2021-07-24 17:07:57,517 - ERROR : TypeError: 'NoneType' object is not subscriptable
+2021-07-24 17:08:07,974 - ERROR : Error calling ribbon function 'ribbon_functions.cell_value_simulate'
+2021-07-24 17:08:09,124 - ERROR : Traceback (most recent call last):
+2021-07-24 17:08:09,124 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\ribbon_functions.py", line 403, in cell_value_simulate
+2021-07-24 17:08:09,125 - ERROR :     single_simulation(control=control, address=address, id_location=id_location)
+2021-07-24 17:08:09,125 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\ribbon_functions.py", line 423, in single_simulation
+2021-07-24 17:08:09,125 - ERROR :     xl.ActiveSheet.Range(address).Value = block_input_simulation(control=control, range_data=address,screen_freezing=screen_freeze_disabled, id_location=id_location)
+2021-07-24 17:08:09,125 - ERROR :   File "C:\Users\ethan\Documents\simExcel\examples\ribbon_functions.py", line 487, in block_input_simulation
+2021-07-24 17:08:09,126 - ERROR :     if type(data[0]) == str:
+2021-07-24 17:08:09,126 - ERROR : TypeError: 'NoneType' object is not subscriptable
+2021-07-24 17:08:55,459 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-24 17:08:55,460 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-24 17:08:55,636 - INFO : This product is licensed to 
+2021-07-24 17:08:55,636 - INFO : The license will expire on 2021-08-21 (28 days left)

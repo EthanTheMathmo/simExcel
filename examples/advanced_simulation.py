@@ -3,11 +3,13 @@ Provides functionality for advanced simulation options
 
 """
 
+from numpy.lib.histograms import histogram
 from py_expression_eval import Parser
 import re
 import numpy as np
 from pyxll import xl_app, plot
-from meta_variables import distributions_dictionary, id_location, screen_freeze_disabled, simulation_num, explainError, cell_data
+from meta_variables import distributions_dictionary, id_location, screen_freeze_disabled
+from meta_variables import simulation_num, explainError, cell_data, histogram_bins
 import matplotlib.pyplot as plt
 
 def advanced_simulation_cell(control, cell_address=None, variable_dict={}):
@@ -75,12 +77,12 @@ def advanced_simulation_cell(control, cell_address=None, variable_dict={}):
     return result
 
 
-def advanced_simulation_cell_wrapper(control):
+def advanced_simulation_cell_wrapper(control, histogram_bins=histogram_bins):
     hist_data = advanced_simulation_cell(control)
 
     fig, ax = plt.subplots(1, 1)
 
-    ax.hist(hist_data)
+    ax.hist(hist_data, bins=histogram_bins)
     ax.grid()
 
     return plot(fig)   

@@ -27,17 +27,13 @@ screen_freeze_disabled = True #for debugging, screen freezing often causes probl
 #number of simulations performed by default
 simulation_num = 15000
 
-#dictionary matching error codes to what the error is
-PNumEr_str = """Parameter Number Error.
-This error means you entered the wrong number of parameters\n for the distribution selected"""
-MultCellSelEr_str = """Multiple Cell Selection Error
-Multiple cells were selected and only one should have been"""
-ErrorButtonEr_str = "Oops - you selected multiple cells while using the error button"
+#histogram_bins
+histogram_bins = 150
 
-#oops is reserved for a user mistake using the error message button
-error_messages_dictionary = {"PNumEr":PNumEr_str,
-                            "MultCellSelEr":MultCellSelEr_str,
-                            "Oops!": ErrorButtonEr_str}
+#debug. Turning this off on means scary messages can appear
+DEBUG = True
+
+
 
 
 
@@ -102,6 +98,8 @@ def cell_data(control, cell_location, id_location=id_location,
     return return_dict
 
 
+
+
 """
 Implementing error tkinter window for use elsewhere
 
@@ -153,4 +151,3 @@ def explainError(control, error_id, error_messages_dictionary=error_messages_dic
                width=800,
                height=400,
                position=CTPDockPositionFloating)
-

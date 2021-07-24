@@ -1,6 +1,5 @@
 """
-This is for ribbon functions used for understanding error messages,
-for user feature requests. 
+This is for functions to do with error handling
 
 This will be imported by other modules, and ideally should remain only having 
 a dependency on meta_variables.py

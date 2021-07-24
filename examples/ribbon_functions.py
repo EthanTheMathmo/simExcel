@@ -22,7 +22,7 @@ import re
 
 #variables we will need
 from meta_variables import distributions_dictionary, id_location, screen_freeze_disabled
-from meta_variables import simulation_num, error_messages_dictionary
+from meta_variables import simulation_num, histogram_bins, error_messages_dictionary
 
 
 #Custom user interface
@@ -348,15 +348,16 @@ def hist_block_data(control, range_data, screen_freeze_disabled=screen_freeze_di
 
     return hist_data
     
-def regular_simulate(control, id_location=id_location, simulation_num=simulation_num, distributions_dictionary=distributions_dictionary):
+def regular_simulate(control, id_location=id_location, simulation_num=simulation_num, 
+                distributions_dictionary=distributions_dictionary,
+                histogram_bins = histogram_bins):
     """
     Specifically for regular shaped input (single cells, rows and blocks)
     """
     hist_data = hist_block_data(control=control, range_data = None, id_location=id_location, simulation_num=simulation_num, distributions_dictionary=distributions_dictionary)
-
     fig, ax = plt.subplots(1, 1)
 
-    ax.hist(hist_data)
+    ax.hist(hist_data, bins=histogram_bins)
     ax.grid()
 
     return plot(fig)
