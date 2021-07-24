@@ -21,7 +21,7 @@ Note some work still needs to done to clean this up - e.g. by removing files fro
 * Error messages. I am currently thinking having an abbreviated error message, but also having a ribbon function which you can press on it to explain the error. (Basic version implemented 23.07.2021)
 * Error messages. Currently a very rudimentary return value to a cell. Perhaps better to make a pop-up tkinter box or something similar. (done for some error messages 23.07.2021. Some work needed on the UI)
 * Decision variables. Implement some sort of optimisation features. (e.g. stochastic gradient descent etc)
-* More complicated flow simulation (started evening 23.07.21)
+* More complicated flow simulation (compound formulas across multiple cells done 24.07.21. Probably should implement some common functions like SUM and AVG but for various reasons this would be a little fiddly)
 * request a feature button 
 * Default value ribbon for the cell values ribbon. (done 23.07.21)
 * Plotting. Have a dot on the pdf to show the mean and the median
