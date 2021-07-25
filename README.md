@@ -13,9 +13,12 @@ Note some work still needs to done to clean this up - e.g. by removing files fro
 * in tkinter_frames.py, could improve the window that appears and customize for different distributions. e.g., for normal distribution, have something where you input mean, std, and if std is negative an appropriate error message is raised
 * in tkinter_frames.py, improve error messages (so it isn't just printing to the excel cell something long). (see extra features: as of 23.07.21 this is partially implemented)
 
+## Advanced simulation
+Am currently (25.07.21) implementing this to work with formulas spanning several sheets. To do this will require certain characters to be missing from page names, even though excel allows them. (at least for a first implementation). Currently will allow a-z,A-Z,0-9,_ characters. I think then should implement a ribbon function which checks if page names are suitable for advanced simulation to run (something simple like: it iterates through the page names on the sheet and checks every character)
+
 ## Code maintainability
 * ribbon_functions.py is too long. Should split into several files based on functionality
-* Need to develop unit tests
+* Need to develop unit test ts
 
 ## Extra features (not sure if all of these will be helpful currently)
 * Error messages. I am currently thinking having an abbreviated error message, but also having a ribbon function which you can press on it to explain the error. (Basic version implemented 23.07.2021)
