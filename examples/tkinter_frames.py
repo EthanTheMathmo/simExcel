@@ -3,7 +3,7 @@ Implements tkinter frames
 
 
 Relevant info for avoiding circular dependencies:
-imports from meta_variables and error_ribbon_functions
+imports from meta_variables and error_functions
 
 is imported by ribbon_functions.py
 """
@@ -11,7 +11,7 @@ is imported by ribbon_functions.py
 
 import tkinter as tk
 from pyxll import xl_app
-from error_ribbon_functions import default_values
+from error_functions import default_values
 
 
 #helpful variables

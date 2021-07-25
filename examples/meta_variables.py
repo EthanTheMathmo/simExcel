@@ -30,12 +30,23 @@ simulation_num = 15000
 #histogram_bins
 histogram_bins = 150
 
-#debug. Turning this off on means scary messages can appear
+#dictionary matching error codes to what the error is
+PNumEr_str = """Parameter Number Error.
+This error means you entered the wrong number of parameters\n for the distribution selected"""
+MultCellSelEr_str = """Multiple Cell Selection Error
+Multiple cells were selected and only one should have been"""
+ErrorButtonEr_str = "Oops - you selected multiple cells while using the error button"
+
+GenericEr_str = "Input not recognised - please try selecting again"
+#oops is reserved for a user mistake using the error message button
+error_messages_dictionary = {"PNumEr":PNumEr_str,
+                            "MultCellSelEr":MultCellSelEr_str,
+                            "Oops!": ErrorButtonEr_str,
+                            "Generic": GenericEr_str}
+
+#debug. This currently does nothing, but the aim is that in the future it controls what sort of error
+#messages might appear
 DEBUG = True
-
-
-
-
 
 
 """
@@ -45,16 +56,20 @@ Returns cell distribution information
 
 
 def cell_data(control, cell_location, id_location=id_location, 
-            screen_freeze_disabled = screen_freeze_disabled):
+            screen_freeze_disabled = screen_freeze_disabled,
+            literal=False,
+            sheet_name = None):
     """
     Given a cell location, this returns the dictionary
     {"params"=[float, float, ....], "distribution_id": distribution_id}
+
+    if Literal is set to True, this returns the actual string value
+
+    In general sheet_name = None because we will want to be working in the sheet
+    the user selected, but sheet_name gives is the option to override that
     """
     
     xl = xl_app()
-
-    distrInfoPageName = xl.ActiveSheet.Range(id_location).Value
-
 
     if re.search("[:,]", cell_location):
         """
@@ -65,25 +80,42 @@ def cell_data(control, cell_location, id_location=id_location,
     else:
         pass
     
-    userCurrentPageName = xl.ActiveSheet.Name
 
     xl.ScreenUpdating = screen_freeze_disabled #this ensures no screen flickering from switching the active sheet
 
+    userCurrentPageName = xl.ActiveSheet.Name
+
+    #if a value for sheet_name has been passed in, we switch the activesheet to the one
+    #specified
+    if sheet_name == None:
+        pass
+    else:
+        xl.Worksheets(sheet_name).Activate()
+
+    distrInfoPageName = xl.ActiveSheet.Range(id_location).Value
+
     xl.Worksheets(distrInfoPageName).Activate()
 
-    #set the relevant values on the distrInfoSheet
+    #get the relevant values on the distrInfoSheet
     values = xl.ActiveSheet.Range(cell_location).Value
 
-    if values == None:
-        """
-        empty cell returns none. (i.e. cell with no distribution)
-        """
-        xl.Worksheets(userCurrentPageName).Activate() #return to user's page
-        xl.ScreenUpdating = True
-
-        return None
+    if literal == True:
+        pass
     else:
-        values = values.split(",")
+        if values == None:
+            """
+            empty cell returns none. (i.e. cell with no distribution)
+            """
+            xl.Worksheets(userCurrentPageName).Activate() #return to user's page
+            xl.ScreenUpdating = True
+
+            return None
+        else:
+            values = values.split(",")
+
+            return_dict = {}
+            return_dict["params"] = [float(val) for val in values[:-1]]
+            return_dict["distribution_id"] = values[-1]
 
     # "".join([form_result["Mean"],form_result["Standard deviation"], "N"])
     #return the active sheet to the user's original page
@@ -91,13 +123,10 @@ def cell_data(control, cell_location, id_location=id_location,
 
     xl.ScreenUpdating = True
 
-    return_dict = {}
-    return_dict["params"] = [float(val) for val in values[:-1]]
-    return_dict["distribution_id"] = values[-1]
-
-    return return_dict
-
-
+    if literal:
+        return values
+    else:   
+        return return_dict
 
 
 """
@@ -151,3 +180,4 @@ def explainError(control, error_id, error_messages_dictionary=error_messages_dic
                width=800,
                height=400,
                position=CTPDockPositionFloating)
+

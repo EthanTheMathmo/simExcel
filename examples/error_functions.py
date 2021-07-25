@@ -10,10 +10,30 @@ from meta_variables import distributions_dictionary, id_location, screen_freeze_
 from meta_variables import error_messages_dictionary
 from meta_variables import cell_data
 from meta_variables import explainError
+from meta_variables import DEBUG
 
 from pyxll import xl_app, xl_menu
 
 import re
+
+def check_input(control, function_key):
+    """
+    Given a function and a selection, returns true or false depending on whether the selection is
+    appropriate for that function, and also returns an error key
+    """
+    xl = xl_app()
+
+    user_selection = xl.ActiveSheet.Selection
+
+    if function_key == "advanced_simulation_cell":
+        #first we check if
+        if re.find("[,;]", user_selection):
+            return False
+        else:
+            pass
+    else:
+        2
+
 
 def default_values(control, distribution_id, selection, params):
     """
@@ -65,3 +85,4 @@ def explainErrorWrapper(control):
         error_id = xl.Selection.Value
         explainError(control=control, error_id=error_id, error_messages_dictionary=error_messages_dictionary)
         return
+
