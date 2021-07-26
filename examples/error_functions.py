@@ -20,6 +20,8 @@ def check_input(control, function_key):
     """
     Given a function and a selection, returns true or false depending on whether the selection is
     appropriate for that function, and also returns an error key
+
+    NOT COMPLETE
     """
     xl = xl_app()
 

@@ -88,15 +88,36 @@ def advanced_simulation_cell(control, current_sheet_name = None, cell_address=No
             #the above just gets the sample from the right distribution as a numpy array
         else:
             """Covers the case where the cell is another formula"""
-            index = re.search(r'[0-9]', curr_cell_address).start() #CHECK THIS
+            index = re.search(r'[0-9]', curr_cell_address).start() 
             excel_address = "$" + curr_cell_address[:index] + "$" + curr_cell_address[index:]
             #we need to convert the address of the form say, A1, into $A$1 for being read
             #by excel when passed into advanced_simulation_cell as a address in excel
-            variable_dict[sheet_cell_address] = advanced_simulation_cell(control=control,
-                                                cell_address=excel_address,
-                                                variable_dict=variable_dict,
-                                                current_sheet_name=sheet_name)
 
+
+            """
+            There's now three options. 
+            1. the cell contains a fixed number, not a distribution
+            2. the cell contains another formula
+            3. the cell has a mistake
+            """
+            cell_value = xl.Worksheets[sheet_name].Range(excel_address).Value
+
+            #case 1
+            if re.match("[0-9]+", cell_value).group() == cell_value:
+                variable_dict[sheet_cell_address] = cell_value
+
+            #case 2. This is incomplete -  a formula could be
+            elif cell_value != None:
+                
+                variable_dict[sheet_cell_address] = advanced_simulation_cell(control=control,
+                                                    cell_address=excel_address,
+                                                    variable_dict=variable_dict,
+                                                    current_sheet_name=sheet_name)
+            #case 3
+            else:
+                explainError(control=control, error_id="FormulaError",
+                        custom_text=f"- See cell {curr_cell_address}, sheet {sheet_cell_address}")
+                return
 
 
 

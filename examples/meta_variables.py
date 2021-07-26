@@ -48,11 +48,14 @@ Multiple cells were selected and only one should have been"""
 ErrorButtonEr_str = "Oops - you selected multiple cells while using the error button"
 
 GenericEr_str = "Input not recognised - please try selecting again"
+
+FormulaError_str = "A cell entry had a formula which wasn't recognised"
 #oops is reserved for a user mistake using the error message button
 error_messages_dictionary = {"PNumEr":PNumEr_str,
                             "MultCellSelEr":MultCellSelEr_str,
                             "Oops!": ErrorButtonEr_str,
-                            "Generic": GenericEr_str}
+                            "Generic": GenericEr_str,
+                            "FormulaError": FormulaError_str}
 
 #debug. This currently does nothing, but the aim is that in the future it controls what sort of error
 #messages might appear
@@ -170,13 +173,16 @@ class ErrorFrame(tk.Frame):
         self.columnconfigure(0, weight=1)
  
 
-def explainError(control, error_id, error_messages_dictionary=error_messages_dictionary):
+def explainError(control, error_id, error_messages_dictionary=error_messages_dictionary, 
+                        custom_text=""):
     """
     Given an error id pop up an explanation of what it means
+
+    custom_text gives us the option to customize the title
     """
         # Create the top level Tk window and give it a title
     window = tk.Toplevel()
-    window.title("Error id: "+error_id)
+    window.title("Error id: "+error_id + custom_text)
 
     # Create our example frame from the code above and add
     # it to the top level window.
