@@ -15,8 +15,18 @@ import tkinter as tk
 
 distributions_dictionary = {"N":{"num_params":2, "scipy_handle":scipy.stats.norm, "params":"mean, variance","Name": "Normal Distribution"},
                             "C":{"num_params":2, "scipy_handle":scipy.stats.cauchy, "params": "mean, scaling","Name": "Cauchy"},
-                            "T":{"num_params":3, "scipy_handle":scipy.stats.triang, "params": "c, loc, scale", "Name": "Triangular"},
-                            "E":{"num_params":2, "scipy_handle":scipy.stats.expon, "params": "loc, scale", "Name":"Exponential"}}
+                            "E":{"num_params":2, "scipy_handle":scipy.stats.expon, "params": "loc, scale", "Name":"Exponential"},
+                            "U":{"num_params":2, "scipy_handle":scipy.stats.uniform, "params": "loc, scale", "Name":"Uniform"},
+                            "L": {"num_params":2, "scipy_handle":scipy.stats.laplace, "params": "loc, scale", "Name":"Laplce"},
+                            "Semicircular": {"num_params": 2, "scipy_handle":scipy.stats.semicircular, "params": "loc, scale", "Name": "Semicircular"},
+                            "Gumble_r": {"num_params":2, "scipy_handle":scipy.stats.gumbel_r, "params": "loc, scale", "Name":"Gumble_r"},
+                            "T":{"num_params":3, "scipy_handle":scipy.stats.triang, "params": "c, loc, scale", "Name": "Triangular"},                            
+                            "Rice": {"num_params": 3, "scipy_handle":scipy.stats.rice, "params": "b, loc, scale", "Name": "Rice"},
+                            "Power_law": {"num_params":3, "scipy_handle":scipy.stats.powerlaw, "params": "a, loc, scale", "Name": "Power law"},
+                            "Pareto": {"num_params": 3, "scipy_handle":scipy.stats.pareto, "params": "b, loc, scale", "Name": "Pareto"},
+                            "Nakagami": {"num_params":3, "scipy_handle":scipy.stats.nakagami, "params": "nu, loc, scale", "Name": "Nakagami"},
+                            "Bprime": {"num_params":4, "scipy_handle":scipy.stats.betaprime, "params": "a, b, loc, scale", "Name":"Beta prime"},
+                            "Mielke": {"num_params":4, "scipy_handle":scipy.stats.mielke, "params": "k, s, loc, scale", "Name": "Mielke"}}
 
 
 id_location = "$A$1" #note the value of the id_location will

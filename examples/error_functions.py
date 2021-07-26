@@ -37,19 +37,17 @@ def check_input(control, function_key):
 
 def default_values(control, distribution_id, selection, params):
     """
-    Sets the selected cells equal to their default values
+    Sets the selected cells equal to their default values. In general this is the mean,
+    although it is currently the median for triangular distribution.
+
+    Check the scipy documentation for each distribution to see which parameter refers
+    to what thing on the distribution
     
     """
     xl = xl_app()
 
-    if distribution_id == "N":
-        xl.ActiveSheet.Range(selection).Value = float(params[0])
-    elif distribution_id == "T":
-        xl.ActiveSheet.Range(selection).Value = (float(params[2])-float(params[1]))*float(params[0]) + float(params[1])
-    elif distribution_id == "E":
-        xl.ActiveSheet.Range(selection).Value = float(params[0])+float(params[1]) 
-    else:
-        xl.ActiveSheet.Range(selection).Value = "<Need to add default value for this distribution. Search for this error in tkinter_frames.py>"
+    params = [float(x) for x in params]
+    xl.ActiveSheet.Range(selection).Value = distributions_dictionary[distribution_id]["scipy_handle"].moment(*([1]+params))
 
     return
 

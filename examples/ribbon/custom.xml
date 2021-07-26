@@ -33,7 +33,40 @@
                     <button id="ExponentialDistribution"
                             label="Exponential"
                             onAction="ribbon_functions.inputExponential"/>
+                    <button id="UniformDistribution"
+                            label="Uniform"
+                            onAction="ribbon_functions.inputUniform"/>
+                    <button id="SemicircularDistribution"
+                            label="Semicircular"
+                            onAction="ribbon_functions.inputSemicircular"/>
+                    <button id="LaplaceDistribution"
+                            label="Laplace"
+                            onAction="ribbon_functions.inputLaplace"/>
                 </group>
+                <group id="AdvancedDistributionData" label="Advanced input distribution">
+                        <menu id="twoParameters" label="Two parameter distributions">
+                                <button id="normal2" label="Normal" onAction="ribbon_functions.inputNormal"/>
+                                <button id="cauchy2" label="Cauchy" onAction="ribbon_functions.inputCauchyl"/>
+                                <button id="exponential2" label="Exponential" onAction="ribbon_functions.inputExponential"/>
+                                <button id="uniform2" label="Uniform" onAction="ribbon_functions.inputUniform"/>
+                                <button id="laplace2" label="Laplace" onAction="ribbon_functions.inputLaplace"/>
+                                <button id="semicircular2" label="Semicircular" onAction="ribbon_functions.inputSemicircular"/>
+                                <button id="gumble_r2" label="Gumble r" onAction="ribbon_functions.inputGumble_r"/>
+                        </menu>
+                        <menu id="threeParameters" label="Three parameter distributions">
+                                <button id="triangular3" label="Triangular" onAction="ribbon_functions.inputTriangular"/>
+                                <button id="rice3" label="Rice" onAction="ribbon_functions.inputRice"/>
+                                <button id="power_law3" label="Power law" onAction="ribbon_functions.inputPower_law"/>
+                                <button id="pareto3" label="Pareto" onAction="ribbon_functions.inputPareto"/>
+                                <button id="nakagami3" label="Nakagami" onAction="ribbon_functions.inputNakagami"/>
+                        </menu>
+                        <menu id="fourParameters" label="Four parameter distributions">
+                                <button id="bprime4" label="Beta prime" onAction="ribbon_functions.inputBetaPrime"/>
+                                <button id="mielke4" label="Mielke" onAction="ribbon_functions.inputMielke"/>
+
+                        </menu>
+                </group>
+
                 <group id="block_simulate" label="Simulate">
                     <!-- <button id="simulate_1000"
                             label="Simulate 1000"

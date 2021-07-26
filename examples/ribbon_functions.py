@@ -88,71 +88,176 @@ def initSheetDistributionDict(control, id_location=id_location):
 
 """
 
-INPUT NORMAL DISTRIBUTION
+This function is to extend the distribution functions so that the create a 
+distribution info sheet if one doesn't exist
 
 """
 
+def distrInfoSheetInit(func, id_location=id_location):
+    def wrapper(control, id_location=id_location):
+        """
+        control and id_location should be the names of two arguments of the input function
+        """
+        xl = xl_app()
+
+
+        id_val = str(xl.ActiveSheet.Range(id_location).Value) #note if the cell is empty, this returns None, hence we need str for re.match to work
+        if bool(re.match("SIM_ID[0-9]{4}[a-z]{4}[A-Z]{4}", id_val)):
+            pass
+        else:
+            #initialize the new sheet if it doesn't
+            initSheetDistributionDict(control=control)
+            #note this function returns the ActiveSheet to the sheet the user was on when the function was initialized
+
+        func(control=control, id_location=id_location)
+
+    return wrapper
+"""
+
+INPUT DISTRIBUTIONS 
+
+"""
+#2 parameter distributions
+
+@distrInfoSheetInit
 def inputNormal(control, id_location = id_location):
     """
     This probably isn't the best way to do it, but when adding a button it seems to automatically pass in an argument
     so my work around is this wrapper function.
     """
 
-    xl = xl_app()
-
-
-    id_val = str(xl.ActiveSheet.Range(id_location).Value) #note if the cell is empty, this returns None, hence we need str for re.match to work
-    if bool(re.match("SIM_ID[0-9]{4}[a-z]{4}[A-Z]{4}", id_val)):
-        pass
-    else:
-        #initialize the new sheet if it doesn't
-        initSheetDistributionDict(control=control)
-        #note this function returns the ActiveSheet to the sheet the user was on when the function was initialized
-
     DistrInput(control=control, id_location=id_location, distr_id="N")
 
     return 
 
+
+@distrInfoSheetInit
+def inputExponential(control, id_location = id_location):
+
+    DistrInput(control=control, id_location=id_location, distr_id="E")
+
+    return 
+
+@distrInfoSheetInit
+def inputUniform(control, id_location=id_location):
+
+    DistrInput(control=control, id_location=id_location, distr_id="U")
+
+    return     
+
+@distrInfoSheetInit
+def inputSemicircular(control, id_location=id_location):
+
+    DistrInput(control=control, id_location=id_location, distr_id="Semicircular")
+
+    return  
+
+@distrInfoSheetInit
+def inputLaplace(control, id_location=id_location):
+
+    DistrInput(control=control, id_location=id_location, distr_id="L")
+
+    return  
+
+@distrInfoSheetInit
+def inputGumble_r(control, id_location=id_location):
+
+    DistrInput(control=control, id_location=id_location, distr_id="Gumble_r")
+
+    return  
+
+@distrInfoSheetInit
+def inputGumble_r(control, id_location=id_location):
+
+    DistrInput(control=control, id_location=id_location, distr_id="Gumble_r")
+
+    return  
+
+#three parameter distributions
+
+@distrInfoSheetInit
 def inputTriangular(control, id_location = id_location):
     """
     This probably isn't the best way to do it, but when adding a button it seems to automatically pass in an argument
     so my work around is this wrapper function.
     """
 
-    xl = xl_app()
-
-    id_val = str(xl.ActiveSheet.Range(id_location).Value) #note if the cell is empty, this returns None, hence we need str for re.match to work
-    if bool(re.match("SIM_ID[0-9]{4}[a-z]{4}[A-Z]{4}", id_val)):
-        pass
-    else:
-        #initialize the new sheet if it doesn't
-        initSheetDistributionDict(control=control)
-        #note this function returns the ActiveSheet to the sheet the user was on when the function was initialized
-
     DistrInput(control=control, id_location=id_location, distr_id="T")
 
     return
 
-def inputExponential(control, id_location = id_location):
-    xl = xl_app()
 
-    #this will need to be changed at some point
+@distrInfoSheetInit
+def inputRice(control, id_location = id_location):
+    """
+    This probably isn't the best way to do it, but when adding a button it seems to automatically pass in an argument
+    so my work around is this wrapper function.
+    """
 
-    id_val = str(xl.ActiveSheet.Range(id_location).Value) #note if the cell is empty, this returns None, hence we need str for re.match to work
-    if bool(re.match("SIM_ID[0-9]{4}[a-z]{4}[A-Z]{4}", id_val)):
-        pass
-    else:
-        #initialize the new sheet if it doesn't
-        initSheetDistributionDict(control=control)
-        #note this function returns the ActiveSheet to the sheet the user was on when the function was initialized
+    DistrInput(control=control, id_location=id_location, distr_id="Rice")
 
-    DistrInput(control=control, id_location=id_location, distr_id="E")
+    return
 
-    return 
+@distrInfoSheetInit
+def inputPower_law(control, id_location = id_location):
+    """
+    This probably isn't the best way to do it, but when adding a button it seems to automatically pass in an argument
+    so my work around is this wrapper function.
+    """
 
- 
+    DistrInput(control=control, id_location=id_location, distr_id="Power_law")
 
-@xl_menu("Example Tk CTP")
+    return
+
+@distrInfoSheetInit
+def inputPareto(control, id_location = id_location):
+    """
+    This probably isn't the best way to do it, but when adding a button it seems to automatically pass in an argument
+    so my work around is this wrapper function.
+    """
+
+    DistrInput(control=control, id_location=id_location, distr_id="Pareto")
+
+    return
+
+@distrInfoSheetInit
+def inputNakagami(control, id_location = id_location):
+    """
+    This probably isn't the best way to do it, but when adding a button it seems to automatically pass in an argument
+    so my work around is this wrapper function.
+    """
+
+    DistrInput(control=control, id_location=id_location, distr_id="Nakagami")
+
+    return
+
+
+#four parameter distributions
+@distrInfoSheetInit
+def inputBetaPrime(control, id_location = id_location):
+    """
+    This probably isn't the best way to do it, but when adding a button it seems to automatically pass in an argument
+    so my work around is this wrapper function.
+    """
+
+    DistrInput(control=control, id_location=id_location, distr_id="Bprime")
+
+    return
+
+@distrInfoSheetInit
+def inputMielke(control, id_location = id_location):
+    """
+    This probably isn't the best way to do it, but when adding a button it seems to automatically pass in an argument
+    so my work around is this wrapper function.
+    """
+
+    DistrInput(control=control, id_location=id_location, distr_id="Mielke")
+
+    return
+
+
+#the code for opening the distribution info window
+
 def DistrInput(control, id_location, distr_id):
     """
     id_location is the cell containing the name of the sheet with distribution info
