@@ -22,6 +22,9 @@ This uses the PyXLL excel software to build monte carlo simulation capabilities 
 * why was the dictinoary retaining its previous values? (seemingly fixed now)
 
 
+## General performance
+* see https://stackoverflow.com/questions/10714251/how-to-avoid-using-select-in-excel-vba/10718179#10718179 I think there are some places where I am using .Active, .Selection etc where I don't strictly need to
+
 ## Code maintainability
 * ribbon_functions.py is too long. Should split into several files based on functionality
 * Need to develop unit tests
