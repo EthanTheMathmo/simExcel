@@ -3,24 +3,23 @@ For simulation in excel
 
 This uses the PyXLL excel software to build monte carlo simulation capabilities into excel. 
 
-Note some work still needs to done to clean this up - e.g. by removing files from the PyXLL tutorials which are irrelevant to the project.
-
-
 # To-do
 
-## New buttons
-* Make it possible for a distribution to be removed!
 
 ## tkinter_frames.py and GUI
-* in tkinter_frames.py, need to implement tests for input variables. E.g., if a negative variance is entered, this should raise an error message
-* in tkinter_frames.py, could improve the window that appears and customize for different distributions. e.g., for normal distribution, have something where you input mean, std, and if std is negative an appropriate error message is raised
-* in tkinter_frames.py, improve error messages (so it isn't just printing to the excel cell something long). (see extra features: as of 23.07.21 this is partially implemented)
+* need to improve appearance of pop ups
 
 ## Advanced simulation
-This basically works as of 27.07.21, with some minor things to work on if there's time:
-- some page names break it (e.g., a page name with brackets, or * or + because these confuse the formula reading)
-- ideally have a function which runs through the cells and checks in advance if the formula is valid (i.e., to avoid the user having to face nasty error messages)
-- Some work has been done on error management, e.g., if a cell has no entries in it or in the distributions sheet, an error message is raised
+### Preprocessing
+* some page names break it, e.g. names with (,),+,-,* which appear in mathematical formulas confuse it
+* Either need to preprocess so that this doesn't break it (ideal option) or add a button which runs through pages and checks if they will work with suitable message
+* Some time needs to be spent thinking how the current solution could break (where we convert SheetName!A1 into SheetName__A1
+
+### extra functionality
+* things like AVG, SUM, etc
+
+### The dictionary mystery
+* why was the dictinoary retaining its previous values? (seemingly fixed now)
 
 
 ## Code maintainability
@@ -28,6 +27,19 @@ This basically works as of 27.07.21, with some minor things to work on if there'
 * Need to develop unit tests
 * There are some places where I am switching the activesheet instead of using x.Worksheet(sheet_name).<...> which is more inefficient and is only like that because I didn't know about .Worksheets
 * the error messages pop up system could be simplified as a class system. (e.g., most basic being the PopupWindow, and then making the specific error messages being extensions of that
+
+## input distributions
+### error catching input
+* lots of things to work on here if there's time. 
+* Need to personalise the error catching. Example, for beta_prime distirbution, we need beta>1 for the mean to be defined, so if we pass in something with beta <= 1, the default value breaks
+* Catching errors in input, e.g. if they input non numerical characters (perhaps regex it so we get out the right number of floats?)
+
+### remove/add distributions
+* need a button to allow removal of distributions
+
+
+
+
 
 ## Extra features (not sure if all of these will be helpful currently)
 * comprehensive error catching. currently it only catches bits and bobs and there aren't tests designed for each function
