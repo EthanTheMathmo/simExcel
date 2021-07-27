@@ -14305,3 +14305,9 @@ SyntaxError: positional argument follows keyword argument
 2021-07-27 10:44:03,925 - DEBUG :     - Click me
 2021-07-27 10:44:03,932 - DEBUG : Finished binding Python functions
 2021-07-27 10:44:03,932 - DEBUG : Calling on reload callback 'callbacks.on_reload'
+2021-07-27 10:44:04,735 - DEBUG : pyxll._post_open complete.
+2021-07-27 10:44:04,741 - DEBUG : PyXLL initialization complete.
+2021-07-27 10:44:04,743 - DEBUG : Loading PyXLL COM Addin
+2021-07-27 10:44:04,743 - DEBUG : Looking for addin PyXLL.PyXLL.
+2021-07-27 10:44:04,744 - DEBUG : Loading addin PyXLL.PyXLL.
+2021-07-27 10:44:04,799 - DEBUG : Loaded addin PyXLL.PyXLL.
