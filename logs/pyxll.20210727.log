@@ -15990,3 +15990,66 @@ SyntaxError: cannot assign to function call
 2021-07-27 13:34:14,128 - DEBUG : 
 Tue Jul 27 13:34:14 2021
 ---------- PyXLL Stopped ----------
+2021-07-27 13:47:58,262 - INFO : 
+------------------------------------------------------------------------------
+  PyXLL 
+
+  Version          5.1.1
+  Buildtime        2021-04-28 17:21
+  Python version   3.8
+  Excel version    16.0 (64 bit)
+
+  www.pyxll.com
+------------------------------------------------------------------------------
+2021-07-27 13:47:58,262 - DEBUG : Config file 'C:\Users\ethan\Documents\simExcel\pyxll.cfg' read.
+2021-07-27 13:47:58,263 - WARNING : Python executable 'C:\Program Files\Python38\python.exe' does not exist.
+2021-07-27 13:47:58,263 - DEBUG : -------- PyXLL config --------
+2021-07-27 13:47:58,263 - DEBUG : [LOG]
+2021-07-27 13:47:58,263 - DEBUG : encoding = utf-8
+2021-07-27 13:47:58,263 - DEBUG : file = pyxll.20210727.log
+2021-07-27 13:47:58,263 - DEBUG : format = %(asctime)s - %(levelname)s : %(message)s
+2021-07-27 13:47:58,263 - DEBUG : path = C:\Users\ethan\Documents\simExcel\logs
+2021-07-27 13:47:58,263 - DEBUG : verbosity = debug
+2021-07-27 13:47:58,263 - DEBUG : 
+2021-07-27 13:47:58,263 - DEBUG : [PYTHON]
+2021-07-27 13:47:58,263 - DEBUG : executable = C:\Program Files\Python38\python.exe
+2021-07-27 13:47:58,263 - DEBUG : pythonpath = C:\Users\ethan\Documents\simExcel\examples
+2021-07-27 13:47:58,263 - DEBUG : 
+2021-07-27 13:47:58,263 - DEBUG : [PYXLL]
+2021-07-27 13:47:58,263 - DEBUG : clear_object_cache_on_reload = 1
+2021-07-27 13:47:58,263 - DEBUG : developer_mode = 1
+2021-07-27 13:47:58,263 - DEBUG : error_handler = pyxll.error_handler
+2021-07-27 13:47:58,263 - DEBUG : modules = 
+2021-07-27 13:47:58,263 - DEBUG :     misc
+2021-07-27 13:47:58,263 - DEBUG :     worksheetfuncs
+2021-07-27 13:47:58,263 - DEBUG :     menus
+2021-07-27 13:47:58,263 - DEBUG :     callbacks
+2021-07-27 13:47:58,263 - DEBUG :     custom_task_panes
+2021-07-27 13:47:58,263 - DEBUG :     test
+2021-07-27 13:47:58,263 - DEBUG :     ribbon_functions
+2021-07-27 13:47:58,263 - DEBUG :     debugging
+2021-07-27 13:47:58,263 - DEBUG :     meta_variables
+2021-07-27 13:47:58,263 - DEBUG : ribbon = C:\Users\ethan\Documents\simExcel\examples\ribbon\custom.xml
+2021-07-27 13:47:58,263 - DEBUG : ------------------------------
+2021-07-27 13:47:58,265 - DEBUG : Attempting to load python38.dll
+2021-07-27 13:47:58,268 - DEBUG : Loaded python dll C:\Users\ethan\AppData\Local\Programs\Python\Python38\python38.dll
+2021-07-27 13:47:58,269 - DEBUG : Checking Py_IsInitialized...
+2021-07-27 13:47:58,269 - DEBUG : Setting Python program name to C:\Program Files\Python38\python.exe
+2021-07-27 13:47:58,530 - DEBUG : Calling Py_Initialize...
+2021-07-27 13:47:58,700 - DEBUG : Setting sys.executable to C:\Program Files\Python38\python.exe
+2021-07-27 13:47:58,700 - DEBUG : Setting sys._base_executable to C:\Program Files\Python38\python.exe
+2021-07-27 13:47:58,700 - DEBUG : Prepending 'C:\Users\ethan\Documents\simExcel\examples' to the pythonpath.
+2021-07-27 13:47:58,700 - DEBUG : Python is initialized.
+2021-07-27 13:47:58,701 - DEBUG : Looking for module 'pyxll-startup'...
+2021-07-27 13:47:58,703 - DEBUG : ImportError: No module named 'pyxll-startup'
+2021-07-27 13:47:58,703 - DEBUG : Looking for module 'site'...
+2021-07-27 13:47:58,731 - DEBUG : Imported site (C:\Users\ethan\AppData\Local\Programs\Python\Python38\Lib\site.py)
+2021-07-27 13:47:58,731 - DEBUG : Importing pyxll module
+2021-07-27 13:47:58,731 - DEBUG :   Python version is 3.8.0.final.0
+2021-07-27 13:47:58,731 - DEBUG :   os imported: C:\Users\ethan\AppData\Local\Programs\Python\Python38\Lib\os.py
+2021-07-27 13:47:58,731 - DEBUG :   Detected Python3
+2021-07-27 13:47:58,771 - DEBUG :   Setting coinit_flags=COINIT_APARTMENTTHREADED
+2021-07-27 13:47:58,776 - DEBUG : pyxll module imported
+2021-07-27 13:47:58,776 - DEBUG : Initializing PyXLL Python module.
+2021-07-27 13:47:58,776 - DEBUG : pyxll.__file__ = C:\Users\ethan\Documents\simExcel\pyxll.xll
+2021-07-27 13:47:58,776 - DEBUG : PyXLL Python module initialized.

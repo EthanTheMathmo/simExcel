@@ -37,7 +37,7 @@ Initializing the distribution sheet, where we have a hidden sheet containing inf
 
 
 
-def initSheetDistributionDict(control, id_location=id_location):
+def initSheetDistributionDict(control, id_location=id_location, screen_freeze_disabled=screen_freeze_disabled):
     """
     this initiates the hidden sheet with distribution info if it doesn't already exist.
 
@@ -61,6 +61,9 @@ def initSheetDistributionDict(control, id_location=id_location):
         """
         this checks to make sure no names are duplicates
         """
+        xl.ScreenUpdating = screen_freeze_disabled #if screen freezing is enabled
+        #this freezes the screen so there is no flicker
+
         user_current_sheet_name = xl.ActiveSheet.Name #creating a new sheet will switch to the new sheet
         #but this sheet will be a hidden distribution sheet so we want to remember where we currently are
         xl.Sheets.Add()
@@ -76,6 +79,8 @@ def initSheetDistributionDict(control, id_location=id_location):
         #NOTE later need to change cell_location to a different, hidden, cell as it will look ugly currently.
         xl.ActiveSheet.Range(cell_location).Locked = False #not sure if locking cell is sensible
         #xl.ActiveSheet.Protect() this would prevent other changes
+
+        xl.ScreenUpdating = True
         return
 
 
@@ -363,12 +368,8 @@ def display_distribution(control, screen_freeze_disabled=screen_freeze_disabled,
     #or create it
 
     #retrieve the distribution data
-    xl.ScreenUpdating = screen_freeze_disabled
-    xl.Worksheets(distribution_sheet).Activate()
-    x = xl.ActiveSheet.Range(user_address).Value
-    xl.Worksheets(user_sheet).Activate()
-    xl.ScreenUpdating = True
-  
+    x = xl.Worksheets(distribution_sheet).Range(user_address).Value
+
     vals = x.split(",")
     params = [float(y) for y in vals[:-1]]
     dist_name = vals[-1]
@@ -449,11 +450,7 @@ def hist_block_data(control, range_data, screen_freeze_disabled=screen_freeze_di
         user_selection = range_data
 
     distribution_sheet = xl.ActiveSheet.Range(id_location).Value
-
-    xl.ScreenUpdating = screen_freeze_disabled
-    xl.Worksheets(distribution_sheet).Activate()
-
-    data = xl.ActiveSheet.Range(user_selection).Value
+    data = xl.Worksheets(distribution_sheet).Range(user_selection).Value
 
     if type(data) == str:
         hist_data = parse_cell_sim(data, simulation_num)
@@ -462,11 +459,6 @@ def hist_block_data(control, range_data, screen_freeze_disabled=screen_freeze_di
             hist_data = parse_row_sim(data, simulation_num)
         else:
             hist_data = parse_block_sim(data, simulation_num)
-
-
-
-    xl.Worksheets(user_sheet).Activate()
-    xl.ScreenUpdating = True
 
     return hist_data
     
@@ -598,10 +590,7 @@ def block_input_simulation(control, range_data, screen_freezing=screen_freeze_di
 
     distribution_sheet = xl.ActiveSheet.Range(id_location).Value
 
-    xl.ScreenUpdating = screen_freeze_disabled
-    xl.Worksheets(distribution_sheet).Activate()
-
-    data = xl.ActiveSheet.Range(range_data).Value
+    data = xl.Worksheets(distribution_sheet).Range(range_data).Value
 
     if type(data) == str:
         return_data = one_cell_one_sim(data)
@@ -610,11 +599,6 @@ def block_input_simulation(control, range_data, screen_freezing=screen_freeze_di
             return_data = one_row_one_sim(data)
         else:
             return_data = one_block_one_sim(data)
-
-
-
-    xl.Worksheets(user_sheet).Activate()
-    xl.ScreenUpdating = True
 
     return return_data
 
