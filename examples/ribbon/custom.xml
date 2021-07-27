@@ -15,12 +15,15 @@
                         onAction="ribbon_functions.distribution_info"/>
                 </group>
                 
-                <group id="Tools" label="Developer Tools">
+                <group id="Tools" label="Advanced User Tools">
                     <button id="Reload"
                             size="large"
                             label="Reload code base"
                             onAction="pyxll.reload"
                             image="icons/reload.png"/>
+                     <button id="Debug"
+                            label="Look inside"
+                            onAction="advancedusertools.switchDebugMode"/>
                 </group>
 
                 <group id="DistributionData" label="input distribution">
@@ -46,7 +49,7 @@
                 <group id="AdvancedDistributionData" label="Advanced input distribution">
                         <menu id="twoParameters" label="Two parameter distributions">
                                 <button id="normal2" label="Normal" onAction="ribbon_functions.inputNormal"/>
-                                <button id="cauchy2" label="Cauchy" onAction="ribbon_functions.inputCauchyl"/>
+                                <button id="cauchy2" label="Cauchy" onAction="ribbon_functions.inputCauchy"/>
                                 <button id="exponential2" label="Exponential" onAction="ribbon_functions.inputExponential"/>
                                 <button id="uniform2" label="Uniform" onAction="ribbon_functions.inputUniform"/>
                                 <button id="laplace2" label="Laplace" onAction="ribbon_functions.inputLaplace"/>
@@ -63,7 +66,6 @@
                         <menu id="fourParameters" label="Four parameter distributions">
                                 <button id="bprime4" label="Beta prime" onAction="ribbon_functions.inputBetaPrime"/>
                                 <button id="mielke4" label="Mielke" onAction="ribbon_functions.inputMielke"/>
-
                         </menu>
                 </group>
 
@@ -88,6 +90,12 @@
                     <button id="explain_error"
                             label="Explain error"
                             onAction="error_functions.explainErrorWrapper"/>
+                     <button id="select_distribution"
+                            label="Select cells with distributions"
+                            onAction="selectiontools.selectDistrCells"/>   
+                     <button id="delete_distribution"
+                            label="Delete distribution from cell(s)"
+                            onAction="selectiontools.deleteSelectCells"/>            
                 </group> 
                 <group id="advanced_Simulate" label="Advanced simulation">
                     <!-- <button id="simulate_1000"

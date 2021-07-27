@@ -20,7 +20,7 @@ distributions_dictionary = {"N":{"num_params":2, "scipy_handle":scipy.stats.norm
                             "L": {"num_params":2, "scipy_handle":scipy.stats.laplace, "params": "loc, scale", "Name":"Laplce"},
                             "Semicircular": {"num_params": 2, "scipy_handle":scipy.stats.semicircular, "params": "loc, scale", "Name": "Semicircular"},
                             "Gumble_r": {"num_params":2, "scipy_handle":scipy.stats.gumbel_r, "params": "loc, scale", "Name":"Gumble_r"},
-                            "T":{"num_params":3, "scipy_handle":scipy.stats.triang, "params": "c, loc, scale", "Name": "Triangular"},                            
+                            "T":{"num_params":3, "scipy_handle":scipy.stats.triang, "params": "c (centre of triangle), loc (of left edge), scale (width of triangle)", "Name": "Triangular"},                            
                             "Rice": {"num_params": 3, "scipy_handle":scipy.stats.rice, "params": "b, loc, scale", "Name": "Rice"},
                             "Power_law": {"num_params":3, "scipy_handle":scipy.stats.powerlaw, "params": "a, loc, scale", "Name": "Power law"},
                             "Pareto": {"num_params": 3, "scipy_handle":scipy.stats.pareto, "params": "b, loc, scale", "Name": "Pareto"},
@@ -31,7 +31,7 @@ distributions_dictionary = {"N":{"num_params":2, "scipy_handle":scipy.stats.norm
 
 id_location = "$A$30" #note the value of the id_location will
 #at some point need to be changed to a hidden location
-screen_freeze_disabled = True #for debugging, screen freezing often causes problems
+screen_freeze_disabled = False #for debugging, screen freezing often causes problems
 #set to false to freeze screen while function operations are carried out
 
 #number of simulations performed by default
@@ -47,6 +47,8 @@ MultCellSelEr_str = """Multiple Cell Selection Error
 Multiple cells were selected and only one should have been"""
 ErrorButtonEr_str = "Oops - you selected multiple cells while using the error button"
 
+ScaleNegError_str = "Oops - the second parameter (scale) was negative or zero."
+
 GenericEr_str = "Input not recognised - please try selecting again"
 
 FormulaError_str = "A cell entry had a formula which wasn't recognised"
@@ -55,11 +57,12 @@ error_messages_dictionary = {"PNumEr":PNumEr_str,
                             "MultCellSelEr":MultCellSelEr_str,
                             "Oops!": ErrorButtonEr_str,
                             "Generic": GenericEr_str,
-                            "FormulaError": FormulaError_str}
+                            "FormulaError": FormulaError_str,
+                            "ScaleNegErr": ScaleNegError_str}
 
 #debug. This currently does nothing, but the aim is that in the future it controls what sort of error
 #messages might appear
-DEBUG = True
+DEBUG = {"val":True}
 
 
 """

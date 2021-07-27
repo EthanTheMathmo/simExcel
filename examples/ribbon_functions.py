@@ -24,7 +24,7 @@ import re
 #variables we will need
 from meta_variables import distributions_dictionary, id_location, screen_freeze_disabled
 from meta_variables import simulation_num, histogram_bins, error_messages_dictionary
-from meta_variables import popupWindow_wrapper
+from meta_variables import popupWindow_wrapper, DEBUG
 
 #Custom user interface
 from pyxll import xl_menu, create_ctp, CTPDockPositionFloating
@@ -37,7 +37,7 @@ Initializing the distribution sheet, where we have a hidden sheet containing inf
 
 
 
-def initSheetDistributionDict(control, id_location=id_location, screen_freeze_disabled=screen_freeze_disabled):
+def initSheetDistributionDict(control, id_location=id_location, screen_freeze_disabled=screen_freeze_disabled, DEBUG=DEBUG):
     """
     this initiates the hidden sheet with distribution info if it doesn't already exist.
 
@@ -81,6 +81,12 @@ def initSheetDistributionDict(control, id_location=id_location, screen_freeze_di
         #xl.ActiveSheet.Protect() this would prevent other changes
 
         xl.ScreenUpdating = True
+
+        #So we can identify the sheet as a distribution sheet
+        xl.Worksheets(name_for_sheet).Range(id_location).Value = "DISTRIBUTION SHEET"
+
+        xl.Worksheets(name_for_sheet).Visible = DEBUG["val"]
+
         return
 
 
@@ -136,6 +142,9 @@ def inputNormal(control, id_location = id_location):
 
     return 
 
+@distrInfoSheetInit
+def inputCauchy(control, id_location = id_location):
+    DistrInput(control = control, id_location=id_location, distr_id="C")
 
 @distrInfoSheetInit
 def inputExponential(control, id_location = id_location):

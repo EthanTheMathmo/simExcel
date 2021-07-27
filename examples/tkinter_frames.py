@@ -100,11 +100,20 @@ class DistributionData(tk.Frame):
             return True
         else:
             """
-            TO-DO. Implement tests for inputs (e.g.: standard deviation should be greater 
-            than zero)
-            """
-            pass
+            TO-DO. Implement tests for inputs. Ideally need these to be specific for
+            each distribution.
 
+            Currently we only implement a check that the second parameter is positive.
+            (the second parameter is normally the scaling parameter, but even this parameter 
+            can vary across distributions, e.g. for triangular distribution this is the left
+            point of the distribution
+            """
+            param_array_fl = [float(x) for x in param_array]
+            if param_array_fl[1]<=0 and self.distribution_id not in ["T"]:
+                self.xl.ActiveSheet.Range(self.user_selection).Value = "ScaleNegErr"
+                return True        
+            else:
+                pass      
         return
 
 
