@@ -29,7 +29,7 @@ distributions_dictionary = {"N":{"num_params":2, "scipy_handle":scipy.stats.norm
                             "Mielke": {"num_params":4, "scipy_handle":scipy.stats.mielke, "params": "k, s, loc, scale", "Name": "Mielke"}}
 
 
-id_location = "$A$1" #note the value of the id_location will
+id_location = "$A$30" #note the value of the id_location will
 #at some point need to be changed to a hidden location
 screen_freeze_disabled = True #for debugging, screen freezing often causes problems
 #set to false to freeze screen while function operations are carried out

@@ -77,16 +77,10 @@ class DistributionData(tk.Frame):
         if self.check_params(param_array=params):
             self.master.destroy() #ends the process if the wrong number of parameters are entered
         else:
-            self.xl.ScreenUpdating = self.screen_freeze_disabled #this ensures no screen flickering from switching the active sheet
 
-            self.xl.Worksheets(self.distrInfoPageName).Activate()
 
             #set the relevant values on the distrInfoSheet
-            self.xl.ActiveSheet.Range(self.user_selection).Value = self.entry_value.get() + "," + self.distribution_id
-
-            # "".join([self.form_result["Mean"],self.form_result["Standard deviation"], "N"])
-            #return the active sheet to the user's original page
-            self.xl.Worksheets(self.userCurrentPageName).Activate()
+            self.xl.Worksheets(self.distrInfoPageName).Range(self.user_selection).Value = self.entry_value.get() + "," + self.distribution_id
             
             #set the user's selected cells to have a numerical value equal to the mean
         #set the user's selected cells to have a numerical value equal to the mean
@@ -97,9 +91,6 @@ class DistributionData(tk.Frame):
             self.button1.config(relief=tk.SUNKEN)
             self.button1.after(150, lambda: self.button1.config(relief=tk.RAISED))
             
-
-            self.xl.ScreenUpdating = True #so that the screen updates once this operation is performed
-
             #shuts the tk window
             self.master.destroy()
     
