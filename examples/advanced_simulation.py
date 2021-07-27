@@ -16,7 +16,8 @@ import matplotlib.pyplot as plt
 
 
 
-def advanced_simulation_cell(control, current_sheet_name = None, cell_address=None, variable_dict={}):
+def advanced_simulation_cell(control, current_sheet_name = None, cell_address=None, variable_dict={},
+                                    simulation_num=simulation_num, first_call=False):
     """
     Given a complex formula this returns a simulation. Option to manually pass in the 
     cell address for recursive applications, and likewise for variable_dict
@@ -87,7 +88,7 @@ def advanced_simulation_cell(control, current_sheet_name = None, cell_address=No
             
             #the above just gets the sample from the right distribution as a numpy array
         else:
-            """Covers the case where the cell is another formula"""
+            """Covers the case where the cell is another formula, or a constant"""
             index = re.search(r'[0-9]', curr_cell_address).start() 
             excel_address = "$" + curr_cell_address[:index] + "$" + curr_cell_address[index:]
             #we need to convert the address of the form say, A1, into $A$1 for being read
@@ -96,35 +97,34 @@ def advanced_simulation_cell(control, current_sheet_name = None, cell_address=No
 
             """
             There's now three options. 
+            0. Both the cell and its distribution data is empty
             1. the cell contains a fixed number, not a distribution
             2. the cell contains another formula
             3. the cell has a mistake
             """
             cell_value = xl.Worksheets[sheet_name].Range(excel_address).Value
 
-            #case 1
-            if re.match("[0-9]+", cell_value).group() == cell_value:
-                variable_dict[sheet_cell_address] = cell_value
+            #case 0
+            if cell_value == None:
+                variable_dict[sheet_cell_address] = np.zeros(simulation_num)
+                explainError(control=control, error_id="FormulaError",
+                        custom_text=f"Cell {curr_cell_address}, sheet {sheet_cell_address} has no entry, default value of 0 used")
+            
+            #case 1 
+            elif type(cell_value) == float or type(cell_value) == int:
+                variable_dict[sheet_cell_address] = np.full((1, simulation_num), cell_value)
 
-            #case 2. This is incomplete -  a formula could be
-            elif cell_value != None:
+            #case 2. This is incomplete -  a formula could be wrong
+            else:
                 
                 variable_dict[sheet_cell_address] = advanced_simulation_cell(control=control,
                                                     cell_address=excel_address,
                                                     variable_dict=variable_dict,
                                                     current_sheet_name=sheet_name)
-            #case 3
-            else:
-                explainError(control=control, error_id="FormulaError",
-                        custom_text=f"- See cell {curr_cell_address}, sheet {sheet_cell_address}")
-                return
 
 
 
     parser = Parser()
-
-    variable_dict["test"] = 333 #for testing
-
 
     #this adjusts the formula so it can be read and matched with our dictionary
     
@@ -149,11 +149,17 @@ def advanced_simulation_cell(control, current_sheet_name = None, cell_address=No
 
     result = parser.parse(formula[1:]).evaluate(variable_dict)
 
+    if first_call:
+        #NEED TO LOOK INTO THIS
+        variable_dict.clear()
+    else:
+        pass
+
     return result
 
 
 def advanced_simulation_cell_wrapper(control, histogram_bins=histogram_bins):
-    hist_data = advanced_simulation_cell(control)
+    hist_data = advanced_simulation_cell(control=control, variable_dict={}), first_call=True
 
     fig, ax = plt.subplots(1, 1)
 

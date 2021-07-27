@@ -92,25 +92,20 @@ def cell_data(control, cell_location, id_location=id_location,
         return
     else:
         pass
-    
-
-    xl.ScreenUpdating = screen_freeze_disabled #this ensures no screen flickering from switching the active sheet
 
     userCurrentPageName = xl.ActiveSheet.Name
 
     #if a value for sheet_name has been passed in, we switch the activesheet to the one
     #specified
     if sheet_name == None:
-        pass
+        sheet_name = userCurrentPageName
     else:
-        xl.Worksheets(sheet_name).Activate()
+        sheet_name = sheet_name
 
-    distrInfoPageName = xl.ActiveSheet.Range(id_location).Value
-
-    xl.Worksheets(distrInfoPageName).Activate()
+    distrInfoPageName = xl.Worksheets(sheet_name).Range(id_location).Value
 
     #get the relevant values on the distrInfoSheet
-    values = xl.ActiveSheet.Range(cell_location).Value
+    values = xl.Worksheets(distrInfoPageName).Range(cell_location).Value
 
     if literal == True:
         pass
@@ -119,9 +114,6 @@ def cell_data(control, cell_location, id_location=id_location,
             """
             empty cell returns none. (i.e. cell with no distribution)
             """
-            xl.Worksheets(userCurrentPageName).Activate() #return to user's page
-            xl.ScreenUpdating = True
-
             return None
         else:
             values = values.split(",")
@@ -130,11 +122,6 @@ def cell_data(control, cell_location, id_location=id_location,
             return_dict["params"] = [float(val) for val in values[:-1]]
             return_dict["distribution_id"] = values[-1]
 
-    # "".join([form_result["Mean"],form_result["Standard deviation"], "N"])
-    #return the active sheet to the user's original page
-    xl.Worksheets(userCurrentPageName).Activate()
-
-    xl.ScreenUpdating = True
 
     if literal:
         return values
@@ -150,10 +137,11 @@ Implementing error tkinter window for use elsewhere
 """
 class ErrorFrame(tk.Frame):
 
-    def __init__(self, master, error_id, error_messages_dictionary=error_messages_dictionary):
+    def __init__(self, master, error_id, custom_text, error_messages_dictionary=error_messages_dictionary):
         super().__init__(master)
         self.error_id = error_id
         self.error_messages_dictionary = error_messages_dictionary
+        self.custom_text = custom_text
 
         self.initUI()
 
@@ -166,7 +154,7 @@ class ErrorFrame(tk.Frame):
         self.label_value = tk.StringVar()
         self.label = tk.Label(self, textvar=self.label_value)
         self.label.grid(column=0, row=1, sticky="w")
-        self.label_value.set(self.error_messages_dictionary[self.error_id])
+        self.label_value.set(self.error_messages_dictionary[self.error_id] +"\n" + self.custom_text)
 
 
         # Allow the first column in the grid to stretch horizontally
@@ -182,11 +170,11 @@ def explainError(control, error_id, error_messages_dictionary=error_messages_dic
     """
         # Create the top level Tk window and give it a title
     window = tk.Toplevel()
-    window.title("Error id: "+error_id + custom_text)
+    window.title("Error id: "+error_id)
 
     # Create our example frame from the code above and add
     # it to the top level window.
-    frame = ErrorFrame(master=window, error_id=error_id)
+    frame = ErrorFrame(master=window, error_id=error_id ,custom_text=custom_text)
 
     # Use PyXLL's 'create_ctp' function to create the custom task pane.
     # The width, height and position arguments are optional, but for this
@@ -197,3 +185,44 @@ def explainError(control, error_id, error_messages_dictionary=error_messages_dic
                height=400,
                position=CTPDockPositionFloating)
 
+#brings up a pop-up text window with title and body of our choosing
+class PopupWindow(tk.Frame):
+
+    def __init__(self, master, text):
+        super().__init__(master)
+        self.text = text
+
+        self.initUI()
+
+
+    def initUI(self):
+        # allow the widget to take the full space of the root window
+        self.pack(fill=tk.BOTH, expand=True)
+
+        # Create a tk.Label control and place it using the 'grid' method
+        self.label_value = tk.StringVar()
+        self.label = tk.Label(self, textvar=self.label_value)
+        self.label.grid(column=0, row=1, sticky="w")
+        self.label_value.set(self.text)
+
+
+        # Allow the first column in the grid to stretch horizontally
+        self.columnconfigure(0, weight=1)
+
+def popupWindow_wrapper(control, text, title):
+        # Create the top level Tk window and give it a title
+    window = tk.Toplevel()
+    window.title(title)
+
+    # Create our example frame from the code above and add
+    # it to the top level window.
+    frame = PopupWindow(master=window, text=text)
+
+    # Use PyXLL's 'create_ctp' function to create the custom task pane.
+    # The width, height and position arguments are optional, but for this
+    # example we'll create the CTP as a floating window rather than the
+    # default of having it docked to the right.
+    create_ctp(window,
+               width=800,
+               height=400,
+               position=CTPDockPositionFloating)

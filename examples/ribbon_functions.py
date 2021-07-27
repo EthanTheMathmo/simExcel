@@ -2,6 +2,7 @@
 Defines the functions used in custom.xml, for the 'Add 1' button and the 'plot distribution' button 
 """
 #general
+from examples.meta_variables import cell_data
 from pyxll import xl_app, xl_arg
 
 #for distribution plotting
@@ -23,7 +24,7 @@ import re
 #variables we will need
 from meta_variables import distributions_dictionary, id_location, screen_freeze_disabled
 from meta_variables import simulation_num, histogram_bins, error_messages_dictionary
-
+from meta_variables import popupWindow_wrapper
 
 #Custom user interface
 from pyxll import xl_menu, create_ctp, CTPDockPositionFloating
@@ -88,7 +89,7 @@ def initSheetDistributionDict(control, id_location=id_location):
 
 """
 
-This function is to extend the distribution functions so that the create a 
+This function is to extend the distribution functions so that it creates a 
 distribution info sheet if one doesn't exist
 
 """
@@ -301,10 +302,26 @@ DISTRIBUTION INFOR
 
 """
 
-def distribution_info(control):
+def distribution_info(control, distributions_dictionary=distributions_dictionary):
     """
     not done yet. So that if someone clicks on a distribution key they get relevant info
     """
+    xl = xl_app()
+    cell_info = cell_data(control=control, cell_location=xl.Selection.Address)
+
+    distr_id = cell_info["distribution_id"]
+
+    params = [str(y) for y in cell_info["params"]]
+
+    distr_name = distributions_dictionary[distr_id]["Name"]
+
+    distr_params = distributions_dictionary[distr_id]["params"]
+
+    title = "Distribution name: " + distr_name 
+
+    text = "Distribution parameters: " + distr_params + "\n" + "Input parameters: " + ", ".join(params)
+
+    popupWindow_wrapper(control=control, text=text, title=title)
     return
 
 

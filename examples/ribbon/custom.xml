@@ -15,10 +15,10 @@
                         onAction="ribbon_functions.distribution_info"/>
                 </group>
                 
-                <group id="Tools" label="Tools">
+                <group id="Tools" label="Developer Tools">
                     <button id="Reload"
                             size="large"
-                            label="Reload PyXLL"
+                            label="Reload code base"
                             onAction="pyxll.reload"
                             image="icons/reload.png"/>
                 </group>
