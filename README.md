@@ -11,19 +11,17 @@ This uses the PyXLL excel software to build monte carlo simulation capabilities 
 
 ## Advanced simulation
 ### Preprocessing
-* some page names break it, e.g. names with (,),+,-,* which appear in mathematical formulas confuse it
-* Either need to preprocess so that this doesn't break it (ideal option) or add a button which runs through pages and checks if they will work with suitable message
-* Some time needs to be spent thinking how the current solution could break (where we convert SheetName!A1 into SheetName__A1
+* Page names now all work with int encoding!! :) as of 28.07.21
 
 ### extra functionality
-* things like AVG, SUM, etc
+* things like AVG, SUM, etc TO-DO this is obviously useful for spreadsheets
 
 ### The dictionary mystery
 * why was the dictinoary retaining its previous values? (seemingly fixed now)
 
 
 ## General performance
-* see https://stackoverflow.com/questions/10714251/how-to-avoid-using-select-in-excel-vba/10718179#10718179 I think there are some places where I am using .Active, .Selection etc where I don't strictly need to
+* see https://stackoverflow.com/questions/10714251/how-to-avoid-using-select-in-excel-vba/10718179#10718179 I think there are some places where I am using .Active, .Selection etc where I don't strictly need to (I think this is now sorted as of 28.07.21, but it is possible I have a bad solution to the places I am still using these)
 
 ## Code maintainability
 * ribbon_functions.py is too long. Should split into several files based on functionality
