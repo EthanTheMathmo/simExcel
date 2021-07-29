@@ -12,6 +12,7 @@ This uses the PyXLL excel software to build monte carlo simulation capabilities 
 ## Advanced simulation
 ### Preprocessing
 * Page names now all work with int encoding!! :) as of 28.07.21
+* Empty cells cause problems. (e.g., if I have SUM(A1:B5) but B4 has no entries. 
 
 ### extra functionality
 * things like AVG, SUM, etc TO-DO this is obviously useful for spreadsheets
