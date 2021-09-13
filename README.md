@@ -3,6 +3,8 @@ For simulation in excel
 
 This uses the PyXLL excel software to build monte carlo simulation capabilities into excel. 
 
+UPDATE: this is now deprecated, as we switched to using the opensource alternatives (xlwings and openpyxl)
+
 # To-do
 
 
@@ -17,12 +19,11 @@ This uses the PyXLL excel software to build monte carlo simulation capabilities 
 ### extra functionality
 * things like AVG, SUM, etc TO-DO this is obviously useful for spreadsheets
 
-### The dictionary mystery
-* why was the dictinoary retaining its previous values? (seemingly fixed now)
+
 
 
 ## General performance
-* see https://stackoverflow.com/questions/10714251/how-to-avoid-using-select-in-excel-vba/10718179#10718179 I think there are some places where I am using .Active, .Selection etc where I don't strictly need to (I think this is now sorted as of 28.07.21, but it is possible I have a bad solution to the places I am still using these)
+* see https://stackoverflow.com/questions/10714251/how-to-avoid-using-select-in-excel-vba/10718179#10718179 I think there are some places where I am using .Active, .Selection etc where I don't strictly need to (I think this is now sorted as of 28.07.21)
 
 ## Code maintainability
 * ribbon_functions.py is too long. Should split into several files based on functionality
