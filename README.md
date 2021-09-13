@@ -1,5 +1,5 @@
 # simExcel
-For simulation in excel
+For simulation in excel. Implements recursive algorithm to parse mathematical formuli and perform markov chain monte carlo simulation across an Excel workbook. Currently works for elementary formuli built from +/-/exp/log/sin/cos/etc. Built as a demo replacement to the oracle crystal ball software. 
 
 This uses the PyXLL excel software to build monte carlo simulation capabilities into excel. 
 
